@@ -1,0 +1,42 @@
+.header {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+.main {
+  min-height: calc(100vh - 180px);
+  padding: 4rem 0;
+}
+
+.footer {
+  padding: 3rem 0;
+  border-top: 1px solid var(--card-border);
+  text-align: center;
+  font-size: 0.85rem;
+  color: #888;
+}

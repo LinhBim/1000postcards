@@ -1,0 +1,490 @@
+pages
+id,title
+493656409531067880,Blog
+836788057833246474,"About Me"
+894638052871654546,Home
+989305937871028463,Contact
+
+properties
+id,property,value
+493656409531067880,header_section_migrated,1
+493656409531067880,last_updated,1474333311
+493656409531067880,last_updated_by,89009628
+493656409531067880,layout,no-header
+493656409531067880,membership_required,
+493656409531067880,mobile_layout,
+493656409531067880,nonclickable,
+836788057833246474,header_section_migrated,1
+836788057833246474,last_updated,1474333286
+836788057833246474,last_updated_by,89009628
+836788057833246474,layout,no-header
+836788057833246474,membership_required,
+836788057833246474,mobile_layout,
+836788057833246474,nonclickable,
+894638052871654546,header_section_migrated,1
+894638052871654546,last_updated,1634237517
+894638052871654546,last_updated_by,108592985
+894638052871654546,layout,header
+894638052871654546,membership_required,
+894638052871654546,mobile_layout,
+989305937871028463,header_section_migrated,1
+989305937871028463,last_updated,1474333348
+989305937871028463,last_updated_by,89009628
+989305937871028463,layout,no-header
+989305937871028463,membership_required,
+989305937871028463,mobile_layout,
+
+field properties
+id,property
+,
+,
+10314575,2
+29468819,3
+30289318,20px
+31201649,5px
+43739154,20px
+47058006,0
+47549801,0
+61010244,"[{'url':'1/0/8/5/108592985/screenshot-2021-10-14-at-21-41-59.png','width':800,'height':552},{'url':'1/0/8/5/108592985/screenshot-2021-10-14-at-21-41-47.png','width':800,'height':552}]"
+71634142,none
+98846475,
+37565892,50px
+37565892,50px
+37565892,50px
+37565892,50px
+37565892,50px
+37565892,50px
+,
+,
+,
+,
+,
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+,
+2543436,auto
+10836851,center
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/screenshot-2021-10-14-at-21-41-47_orig.png
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/screenshot-2021-10-14-at-21-41-47_orig.png"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/screenshot-2021-10-14-at-21-41-47_orig.png"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/screenshot-2021-10-14-at-21-41-47_orig.png"",""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/screenshot-2021-10-14-at-21-41-47_orig.png""}}"
+73175671,10px
+81205082,
+87551154,
+14305398,paragraph
+74570653,1
+32329294,20px
+34433423,20px
+60108299,100%
+14305398,paragraph
+74570653,1
+,
+,
+37565892,50px
+37565892,50px
+37565892,50px
+37565892,50px
+37565892,50px
+37565892,29px
+37565892,50px
+37565892,50px
+37565892,50px
+37565892,50px
+37565892,43px
+37565892,50px
+37565892,50px
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/birdseye-icon_2_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/published/644625047.jpg?1632446750
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{""width"":1024,""height"":626},""operations"":[{""type"":""crop"",""options"":{""start"":{""x"":0.0928,""y"":0},""end"":{""x"":0.9072,""y"":1},""rotation"":0,""scale"":1}}]},""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/edited\/644625047.jpg"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/644625047_orig.jpg"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/editor\/644625047.jpg?1632446750"",""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/published\/644625047.jpg?1632446750""},""attributionUrl"":""http:\/\/www.flickr.com\/photos\/70285332@N00\/3479022644"",""attributionAuthor"":""\u2593\u2592\u2591 TORLEY \u2591\u2592\u2593""}"
+73175671,0px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/published/scan-bambou-3-2.jpg?1632349211
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{""width"":565,""height"":800},""operations"":[{""type"":""crop"",""options"":{""start"":{""x"":0,""y"":0.1626},""end"":{""x"":1,""y"":1},""rotation"":0,""scale"":1}}]},""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/edited\/scan-bambou-3-2.jpg"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/scan-bambou-3-2_orig.jpg"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/editor\/scan-bambou-3-2.jpg?1632349211"",""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/published\/scan-bambou-3-2.jpg?1632349211""}}"
+73175671,0px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/birdseye-icon_1_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/published/978564690.jpg?1632446732
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{""width"":799,""height"":533},""operations"":[{""type"":""crop"",""options"":{""start"":{""x"":0.0562,""y"":0},""end"":{""x"":0.9438,""y"":1},""rotation"":0,""scale"":1}}]},""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/edited\/978564690.jpg"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/978564690_orig.jpg"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/editor\/978564690.jpg?1632446732"",""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/published\/978564690.jpg?1632446732""},""attributionUrl"":""http:\/\/www.flickr.com\/photos\/129231073@N06\/26893917902"",""attributionAuthor"":""corno.fulgur75""}"
+73175671,0px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/birdseye-icon_3_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/published/669241051.jpg?1632518638
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{""width"":799,""height"":533},""operations"":[{""type"":""crop"",""options"":{""start"":{""x"":0.0562,""y"":0},""end"":{""x"":0.9438,""y"":1},""rotation"":0,""scale"":1}}]},""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/edited\/669241051.jpg"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/669241051_orig.jpg"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/editor\/669241051.jpg?1632518638"",""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/published\/669241051.jpg?1632518638""},""attributionUrl"":""http:\/\/www.flickr.com\/photos\/21130106@N07\/22109547769"",""attributionAuthor"":""Giacomo Carena""}"
+73175671,0px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/birdseye-icon_4_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-icon_4_orig.png"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-icon_4_orig.png"",""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-icon_4_orig.png"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-icon_4_orig.png""},""isLossy"":false}"
+73175671,10px
+81205082,
+87551154,
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+9413623,65px
+28982406,"{""widths"":[0.44220183486238535,0.5577981651376147]}"
+9413623,15px
+28982406,
+9413623,15px
+28982406,"{""widths"":[0.3333333333333333,0.3333333333333333,0.3333333333333333]}"
+2957986,10px
+23060085,normal
+33485451,http://weebly-blog-post-link/493656409531067880/304004150269180910/junkspace-jour-2-une-virtualite-reelle.html
+57909285,"Read More"
+62923320,small
+86732624,"target=""_blank"""
+88842095,center
+96228303,10px
+2957986,0px
+23060085,highlight
+33485451,http://weebly-link/493656409531067880
+57909285,"Continue to Blog"
+62923320,large
+86732624,"target=""_blank"""
+88842095,center
+96228303,20px
+2957986,10px
+23060085,normal
+33485451,http://weebly-blog-post-link/493656409531067880/101097685368856679/junkspace-jour-1-fuck-the-context.html
+57909285,"Read More"
+62923320,small
+86732624,"target=""_blank"""
+88842095,center
+96228303,10px
+2957986,10px
+23060085,normal
+33485451,http://weebly-blog-post-link/493656409531067880/607391739916883460/jour-3-junkspace.html
+57909285,"Read More"
+62923320,small
+86732624,"target=""_blank"""
+88842095,center
+96228303,10px
+,
+,
+,
+,
+,
+,
+,
+7189774,1.0.1
+49988231,"{""content:content"":{""page_element_id"":""431150252867608758""}}"
+73044932,848857247979793891
+75036833,"{""properties"":[{""properties"":[{""name"":""background_color"",""label"":""Color"",""default"":""#f4f7f8"",""type"":""color"",""hidden"":null,""private"":null,""errors"":null,""value"":""#FFFFFF""},{""min"":10,""max"":100,""step"":10,""name"":""opacity"",""label"":""Transparency"",""default"":100,""type"":""slider"",""hidden"":null,""private"":null,""errors"":null,""value"":100}],""name"":""background-setting"",""label"":""Background"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_left_radius"",""label"":""Top left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""top_right_radius"",""label"":""Top right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_left_radius"",""label"":""Bottom left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_right_radius"",""label"":""Bottom right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null}],""name"":""radius-setting"",""label"":""Rounded Corners"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_padding"",""label"":""Top"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""bottom_padding"",""label"":""Bottom"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""left_padding"",""label"":""Left"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""right_padding"",""label"":""Right"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20}],""name"":""padding-setting"",""label"":""Padding"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null}],""config"":[],""errors"":null}"
+91946021,272732369617293294
+7189774,1.0.1
+49988231,"{""content:content"":{""page_element_id"":""362405331276546229""}}"
+73044932,848857247979793891
+75036833,"{""properties"":[{""properties"":[{""name"":""background_color"",""label"":""Color"",""default"":""#f4f7f8"",""type"":""color"",""hidden"":null,""private"":null,""errors"":null,""value"":""#FFFFFF""},{""min"":10,""max"":100,""step"":10,""name"":""opacity"",""label"":""Transparency"",""default"":100,""type"":""slider"",""hidden"":null,""private"":null,""errors"":null,""value"":100}],""name"":""background-setting"",""label"":""Background"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_left_radius"",""label"":""Top left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""top_right_radius"",""label"":""Top right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_left_radius"",""label"":""Bottom left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_right_radius"",""label"":""Bottom right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null}],""name"":""radius-setting"",""label"":""Rounded Corners"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_padding"",""label"":""Top"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""bottom_padding"",""label"":""Bottom"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""left_padding"",""label"":""Left"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""right_padding"",""label"":""Right"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20}],""name"":""padding-setting"",""label"":""Padding"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null}],""config"":[],""errors"":null}"
+91946021,807262244120217987
+7189774,1.0.1
+49988231,"{""content:content"":{""page_element_id"":""745519392612402319""}}"
+73044932,848857247979793891
+75036833,"{""properties"":[{""properties"":[{""name"":""background_color"",""label"":""Color"",""default"":""#f4f7f8"",""type"":""color"",""hidden"":null,""private"":null,""errors"":null,""value"":""#FFFFFF""},{""min"":10,""max"":100,""step"":10,""name"":""opacity"",""label"":""Transparency"",""default"":100,""type"":""slider"",""hidden"":null,""private"":null,""errors"":null,""value"":100}],""name"":""background-setting"",""label"":""Background"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_left_radius"",""label"":""Top left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""top_right_radius"",""label"":""Top right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_left_radius"",""label"":""Bottom left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_right_radius"",""label"":""Bottom right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null}],""name"":""radius-setting"",""label"":""Rounded Corners"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_padding"",""label"":""Top"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""bottom_padding"",""label"":""Bottom"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""left_padding"",""label"":""Left"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""right_padding"",""label"":""Right"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20}],""name"":""padding-setting"",""label"":""Padding"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null}],""config"":[],""errors"":null}"
+91946021,171332150291926407
+82026558,
+82026558,
+82026558,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/birdseye-4_1_orig.jpg
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,20px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/birdseye-1_3_orig.jpg
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-1_3_orig.jpg"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-1_3_orig.jpg"",""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-1_3_orig.jpg"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-1_3_orig.jpg""},""isLossy"":false}"
+73175671,20px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/birdseye-2_3_orig.jpg
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,20px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/birdseye-3_1_orig.jpg
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,20px
+81205082,
+87551154,
+2543436,auto
+10836851,inherit
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/birdseye-header-text_1_orig.png
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-header-text_1_orig.png"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-header-text_1_orig.png"",""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-header-text_1_orig.png"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/birdseye-header-text_1_orig.png""},""isLossy"":false}"
+73175671,10px
+81205082,
+87551154,
+32329294,20px
+34433423,20px
+60108299,100%
+14305398,paragraph
+74570653,1
+,
+,
+field data
+id,data
+244381018404917263,Categories
+775022497576723797,Author
+115505114527949971,"Write something about yourself. No need to be fancy, just an overview."
+777341642142547443,Archives
+466652434327861258,"<span style=""color:rgb(3, 3, 3)"">BRUTALISM &ndash; Offends the feeling of pretty and decent, and celebrates the naked Reality, just as it is. YOU THINK THIS IS UGLY? THINK AGAIN! Mixing Radical Design and Insanity, it offends the Common Sense of Pretty and Decent. Facing the &ldquo;FEAR&rdquo; is becoming the NEW Fancy. The good side of this is that: Brutalism helps us to be more outgoing and we start living our best version of our Life. Make us Stronger, more Tolerant and more Honest and This HEARTLESS Design increases your SALES!&nbsp;</span>"
+276607466880021770,"<u><em><strong>VOCABULAIRE</strong></em></u><ol><li>Un seul contenant --&gt; des &eacute;v&eacute;nements multiples dans un seul contenant</li><li>Symbiose : c&#7897;ng sinh</li><li>S&eacute;r&eacute;nit&eacute; : thanh th&#7843;n&nbsp;</li><li>Fadeur : nh&#7841;t nh&#7869;o</li><li>Compulsif : &eacute;p bu&#7897;c</li><br /></ol>"
+632008591999150785,"<strong>&Eacute;QUIPE</strong><br />= les hommes qui font la Bigness.<br />""La Bigness ne peut &ecirc;tre accomplie qu'au moyen de l'abandon du contr&ocirc;le, de la m&eacute;tamorphose.&nbsp;<br />&Eacute;quipe --&gt; un r&eacute;alignement accompagn&eacute; de neutralit&eacute;.<br />&#8203;<br />"
+140147963457390139,http://arche-techne.over-blog.com/les-5-points-de-la-bigness&nbsp;
+941307879806375264,"Je commence aujourd'hui le livre Junkspace de Rem Koolhaas. J'ai d&ucirc; finir beaucoup plus avant, mais j'ai trop la flemme pour aller jusqu'au bout.&nbsp;Maintenant, dans 15 jours, j'ai une exposition &agrave; faire avec mon nouveau groupe sur ce livre. Il n'y a pas que le livre &agrave; lire et synth&eacute;tiser, mais aussi une nouvelle couverture &agrave; &eacute;laborer... haha...<br /><br />Ok, mais je vais arriver. On commence !"
+355445401507342477,"1.&nbsp;https://designaddict.com/the-italian-radical-design-mouvement/<br /><br />2. &#8203;https://www.youtube.com/watch?v=ekZ7PPrLrzg&nbsp;"
+931554270625183350,"Late 1970s :<br /><br />Studio Archymia : anti-Bauhaus --&gt; conceptural side of the idea<br /><br />1981 : Memphis : commercial side/manifestation of this idea - Tory Sotsass&nbsp;<br />&#8203;<br />"
+199952912498891223,"<strong>MAXIMUM</strong><br /><br />Bigness est aussi le probl&egrave;me de <u>r&eacute;organisation</u>, de <u>consolidation</u> et d'<u>expansion</u>. Une complexit&eacute; de la soci&eacute;t&eacute; &agrave; la fin du second mill&eacute;naire a caus&eacute; ""le Tout et le R&eacute;el cess&egrave;rent d'exister comme ambitions r&eacute;alisables pour l'architecte.""<br /><br /><strong>L'absense de la th&eacute;orie de la Bigness</strong>. --&gt; ""les construits sont partiellement r&eacute;ussie et par cons&eacute;quence, il sont discr&eacute;dit&eacute;s.""<br />--&gt; <em><u><strong>""Les Grosses erreurs sont notre seul lien &agrave; la Bigness.""</strong></u></em><br /><br /><strong>L'attraction de la Bigness</strong> : reconstruire le Tout, ressusciter le R&eacute;el, r&eacute;inventer le collectif, revendiquer la possibilit&eacute; maximale.<br /><br />Bigness est une manifeste avec laquelle, ""l'architecture (reconqu&eacute;rir) reconquiert sa fonction de v&eacute;hicule de la modernisation""&nbsp;<br /><br />Rem a affirm&eacute; qu'en compensant la difficult&eacute; de notre pauvre connaissons de la Bigness :<br /><em>""tout n'est plus architecture""</em><br /><br />"
+652282651710795523,"BIGNESS<br /><br />5 Th&eacute;or&egrave;mes de la Bigness :<ul><li>La masse qui ne peut plus &ecirc;tre contr&ocirc;l&eacute;e par un seul geste architectural provoque <strong>l'autonomie des parties</strong> (pas Fragmentation - les parties demeurent li&eacute;es au tout).&nbsp;</li></ul> &nbsp;<ul><li>l'ascenseur : <strong>connexions m&eacute;canique plut&ocirc;t qu'architectur</strong>e (rendent nul dans le r&eacute;pertoire classique de l'architecture&nbsp; --&gt; l'art de l'architecture est inutile dans la Bigness. (la question de composition, d'&eacute;chelle, de proportion, de d&eacute;tail)</li></ul> Je pense &agrave; une sc&eacute;nario d'une personne qui circule dans un gratte-ciel, avec une vitesse de quelques seconds. une circulation totalement verticale qui est anormal avec notre corps naturel.<ul><li><strong>Le coeur s'&eacute;loigne de l'enveloppe d'un b&acirc;timent</strong>. Architecture d'int&eacute;rieur sert aux besoins instables du programme et &agrave; l'iconographie ; l'Architecture d'ext&eacute;rieur offre la ville l'apparente stabilit&eacute; d'un objet - agent de d&eacute;sinsformation. --&gt; <u><em>""la Bigness transforme la ville d'une somme de certitudes en une accumulation de myst&egrave;res.""</em></u></li></ul> La communication du programme d'un b&acirc;timent et sa fa&ccedil;ade est presque nul.<ul><li>""<strong>amoral</strong>"" --&gt; ce qui ne consid&egrave;re pas le vrai ou le faux. ""Leur impact ne d&eacute;pend pas de leur qualit&eacute;.""</li><li>Toutes les ruptures, avec :&#8203;<ul><li>l'&eacute;chelle</li><li>la composition architecturale</li><li>la tradition</li><li>la transparence</li><li>l'&eacute;thique</li></ul></li></ul> -------------&gt;&gt;&gt;&gt;&gt; la rupture plus radicale : <em><strong>""La Bigness ne fait plus partie d'aucun tissu urbain.""</strong></em><br /><br /><br />"
+224843371858509518,"Liens :<br />1.&nbsp;https://www.oma.com/publications/junkspace<br />&#8203;"
+752827512147107662,"POURQUOI IL EXISTE CETTE PH&Eacute;NOM&Egrave;NE ?<br />- La modernisation&nbsp;<br />&#8203;<br />"
+564987237115291308,"https://www.ville-en-mouvement.com/fr/content/les-sens-du-mouvement-synthese<br /><br />https://loireforez.com/fr/tourisme/decouvrir-le-loire-forez/top-10/montbrison/<br /><br />&#8203;<br />"
+893845063805151047,"Sur le territoire de plus en plus &eacute;tendu et fragment&eacute;. notre mouvement et notre parcours, parfois pr&eacute;sente, parfois contraint, tise un r&eacute;seau social, &eacute;conomique et culturel, et redessine notre territoire.<br /><br />MOUVEMENT = Temps et Espaces<br />"
+569385853545544548,"R&eacute;f&eacute;rences :<br />1. New York D&eacute;lire : explicite le choc de la Bigness en Europe.<br />2. L'urbanisme spatial (Yona Friedman-1958)<br />&#8203;3. Beaubourg - 1972&nbsp;"
+960615113133144495,"<u><strong>VOCABULAIRE</strong></u><ol><li><strong>Fa&ccedil;onner un espace :</strong> (fa&ccedil;onner est utilis&eacute; quand on travaille sur la mati&egrave;re --&gt; donner la forme d'une mati&egrave;re / ou / former qu'un par l'&eacute;ducation --&gt; la vie l'a fa&ccedil;onner) -<span>-&gt; <em>""L'ascenseur, la climatisation, le placopl&acirc;tre ont aboli les rep&egrave;res traditionnels de l'architecture, pour fa&ccedil;onner un espace plus continu et plus instable &agrave; la fois - le Junkspace.""</em></span></li><li><strong>rendre explicite dans le travail :&nbsp;</strong>l&agrave;m r&otilde;</li><br /></ol><br /><br />"
+706055396761414122,"Lecture :&nbsp;https://www.youtube.com/watch?v=TkrV1BeUuaE&nbsp;<br /><br />Contexte : 1950s-1960s La Dolce Vita, Italie<br /><br />Architecture is the most popular major after WW2 --&gt; demand for new ways of living and burgeoning urban areas.<br /><br /><span>Characterisique : form, minimal, geometrical, portable, less expensive (?)</span><br /><br />1960s --&gt; plastic was introduced to the industry --&gt; era of Bel(?) Design<br />In this new environment, growing consumerism, architecture student protested consumerist tendancies. They concerned about public housing and housing for workers.<br />Influence of American Pop Art --&gt; exhibition in Italy of Arte Povera<br /><br />1966 : Superarchitectura : Super studio and Archizoom --&gt; prioritize color, texture, pattern, evisione new forms of living<br /><br />Archizoom : lighting symbol, ""collective"" (which is harmorny of all, not each person a collection)<br />--&gt; emphasis on function, in opposition with Bauhaus<br /><br />Super studio : Grid, strongly influenced by minimalism. --&gt; Utopia, monumental, where people can live together with the nature<br /><br />Radical designer : not using industrial material but hand-made --&gt; anti-commercialism and anti-capitalism ---&gt; but they still have to make a living --&gt; customize furniture&nbsp;<br /><br />""Design smaller scale was a daily exercise to practice the language of architecture"" -&nbsp;<br /><br />Italy (Milan) : intellectual activities and promotion of it&nbsp;<br /><br />(Torino) Studio 65 : influencer by utopian pop art vision of life --&gt; hand carved, hand-made --&gt; not successful<br /><br />Radical design : not just furniture but rather sculpture to help create atmospheres&nbsp;<br />"
+183333689127002840,"<strong>COMMENCEMENT</strong><br /><br />La Bigness d&eacute;truit l'existance, et elle construise l'impr&eacute;visible. ""Au lieu de renforcer la coexistence, la Bigness repose sur des r&eacute;gimes de libert&eacute;, sur <strong>l'assemblage d'un maximum de diff&eacute;rences</strong>."" Organiser leur <u><em>ind&eacute;pendance</em></u> et leur<em> <u>interd&eacute;pendance</u></em>.<br /><br />""Seule la Bigness peut faire vivre des relations authentiquement nouvelles entre des entit&eacute;s fonctionnelles qui &eacute;tendent leur identit&eacute; plut&ocirc;t que de la limiter.""<br />- Contamination &gt;&lt; Puret&eacute;<br />- Quantit&eacute; &gt;&lt; Qualit&eacute;<br /><br />L'artificialit&eacute; et la complexit&eacute; de la Bigness permettre une sorte de <u><strong><font size=""4"">liqu&eacute;faction</font></strong></u><font size=""3"">.</font><br />--&gt; un programme <strong><em>alchimique</em></strong><br /><br />""La Bigness r&eacute;gule l'intensit&eacute; de la coexistence et de ses diff&eacute;rents programmes.""<br /><br />""Sa vastitude &eacute;puise le d&eacute;sir compulsif qu'a l'architecture de d&eacute;cider et de d&eacute;terminer. <strong>Certaines zones seront oubli&eacute;es, lib&eacute;r&eacute;es de l'architecture.""</strong><br />"
+114788790477477183,"No-Stop city of archizoom : non-stop city, no boundaries, urbanism can come out of the city, work in harmonious nature. Mirror : sense of infinity<br /><br />Almost Studio<br />"
+271644907994443146,"<span style=""color:rgb(128, 128, 128)"">La ville de Montbrison, &eacute;tait destin&eacute;e &agrave; devenir un lieu d&rsquo;&eacute;changes, &agrave; commencer par les produits agricoles issus des monts et de la plaine, lors des march&eacute;s de plus en plus importants sous le r&egrave;gne des Comtes de Forez. Il semblerait que le march&eacute; du samedi &agrave; Montbrison existait d&eacute;j&agrave; depuis le 12&egrave;me si&egrave;cle, voire peut-&ecirc;tre avant&hellip; !</span><br /><br /><br /><em style=""color:rgb(0, 0, 0)"">Parce que les mobilit&eacute;s ne sont pas qu&rsquo;une question de transport&nbsp;mais un sujet de soci&eacute;t&eacute;,&nbsp;c&rsquo;est toute la soci&eacute;t&eacute; qu&rsquo;il faut observer pour innover&nbsp;</em>&#8203;<br /><br />"
+536824133703951719,"Click here to edit."
+536462990902888443,"1.&nbsp;https://www.youtube.com/watch?v=QB8lJy3Wz-M&amp;t=39s<br />2.&nbsp;https://www.youtube.com/watch?v=s1CLA2MgvrA<br /><br />&#8203;<br />"
+742011969535167281,"<strong>BASTION</strong><br /><br /><br />"
+898530235867763523,"MODERNISATION<br /><br />Il y a des paragraphes que je ne comprend presque rien dans l'introduction du texte ""modernisation"" :<br /><br />""La Bigness s'est inscrite dans <strong><em>une double pol&eacute;mique</em></strong>, affrontant &agrave; la fois les <u>pr&eacute;c&eacute;dentes tentatives d'int&eacute;gration</u> et <u>de concentration</u>, et les <u>doctrines contemporaines</u> qui mettent en question la viabilit&eacute; des cat&eacute;gories <strong>de Tout et de R&eacute;el</strong>, et se r&eacute;signent au d&eacute;sassemblage ou &agrave; la dissolution de l'architecture, suppos&eacute;s in&eacute;vitables.""<br /><br />""<strong>La m&eacute;gastructure</strong> - une sorte de soutien technique qui <u>embrasse tout</u> et qui <u>permet tout</u>, qui a de fa&ccedil;on d&eacute;finitive mis en question le statut du b&acirc;timent individuel : une Bigness tr&egrave;s prudente, dont <em>les v&eacute;ritables implications excluent l'application.""</em><br />--&gt; Cela r&eacute;sulte l'exag&eacute;ration sur la menace de la Bigness en Europe.<br /><br />&#8203;""La Bigness est comme une couverture m&eacute;tallique de nuages..."" <font size=""1"">(2)</font><br />""... des espaces o&ugrave; ""n'importe quoi"" &eacute;tait possible."" --&gt; <strong>L'entit&eacute; au prix de l'identit&eacute;</strong> <font size=""1"">(3)</font><br /><br />""Les emprunts aux autres disciplines"" ; ""ma g&eacute;n&eacute;ration a &eacute;t&eacute; marqu&eacute;e par l'&eacute;chec de ce mod&egrave;le de densit&eacute; et d'int&eacute;gration, et de ceux du m&ecirc;me genre - par <strong>leur insensibilit&eacute; <u>syst&eacute;matique</u></strong> au particulier"" --&gt; Je pense au mod&egrave;le des pavillonnaires hors de la p&eacute;riph&eacute;rie de la ville aux &Eacute;tat-Unis, qui sont para&icirc;ts comme les champignons par tout.<br /><br /><strong>Le d&eacute;mant&egrave;lement (= action de d&eacute;truire la structure)</strong><ul><li><strong>La d&eacute;composition du programme</strong> : ""en fractions &nbsp;d'unicit&eacute; incompatibles, chacune &eacute;tant un pr&eacute;texte pour d&eacute;sint&eacute;grer davantage le tout"". La vieille doctrine a &eacute;t&eacute; laiss&eacute; &agrave; c&ocirc;t&eacute; : ""<strong><em>la forme suit la fonction</em></strong>"". R&eacute;sultat : un diagramme de l'anti-climax. --&gt; ""son esth&eacute;tique conduit &agrave; <u>l'orchestration riche du chaos</u>. Dans ce <u>paysages de <em>d&eacute;membrement</em> et de faux d&eacute;sordre</u>, chaque activit&eacute; est <strong><em>mise &agrave; sa place</em>.</strong>""</li><li>Montage - l'appareil invent&eacute; au d&eacute;but du si&egrave;cle permet d'organiser les relations entre des parties ind&eacute;pendantes ---&gt; <u>en train d'&ecirc;tre d&eacute;faits par une section de l'avant-garde du moment????? T.T</u></li></ul><br /><strong>La disparition</strong><ul><li>&#8203;La simulation | La virtualit&eacute; | La non-existence ---&gt; transcende la question de la Bigness (massive).</li><li>""L'architecture sera le&nbsp;premier ""<strong>solide qui se dissout dans l'air.</strong>"""" ---&gt; gr&acirc;ce aux effets combin&eacute;s :<ul><li>tendances d&eacute;mographiques.</li><li>&eacute;lectronique</li><li>loisirs</li><li>la mort de&nbsp;Dieu</li><li>livre</li><li>t&eacute;l&eacute;phone</li><li>fax</li><li>opulence (riche, sang)</li><li>d&eacute;mocratie</li><li>fin du Grand R&eacute;cit</li><li>etc.</li></ul></li></ul><br />""Cette avant-garde fait des exp&eacute;riences dans <strong>une virtualit&eacute; r&eacute;elle...</strong>""<br /><br />""<strong>La r&eacute;alit&eacute; virtuelle</strong>""<br /><br /><em><strong><font size=""4"">Le d&eacute;mant&egrave;lement et la disparition &gt;&lt; Le Tout et le R&eacute;el</font></strong></em>"
+312985933741730554,
+425502275213815506,"keyword :&nbsp;"
+764385631362726199,"Choose this theme to customize and add content to this page.<br /><span></span>"
+107467831750749724,
+742371990622271856,"About Me"
+102063824537585796,"Click here to edit."
+261957271293542122,"Lecture quotidien"
+288501758314021967,"Lecture quotidien"
+806297131864269645,"Click here to edit."
+296525087493160712,"Lecture quotidien"
+869655972636837418,"Je m'appelle Linh, origine du Vietnam. Je suis une &eacute;tudiante d'architecture en France (L3).&nbsp;Apr&egrave;s quelques ann&eacute;e faire connaissance avec l'archi, je suis maintenant motiv&eacute;e &agrave; cr&eacute;er un espace pour archiver mes pens&eacute;es, mes perceptions, mes recherches sur le champ. J'ai beaucoup d'envie d'&eacute;crire en fran&ccedil;ais pour perfectionner la langue,&nbsp;&ccedil;a m'encourage aussi pour continuer ce looooongue carri&egrave;re.<br />"
+996722626907918133,"Click here to edit."
+164751340763196813,"<a href=""http://weebly-link/836788057833246474"">Learn More &gt;</a>"
+415846812864234642,"Click here to edit."
+599416103249635701,"<em>&Eacute;crire et apprendre</em>"
+561295377921376415,"Bonjour ! BeeArchive !"
+784019621387678000,"<font size=""6"">Junkspace - Jour 2</font>"
+924098167445783448,"<font size=""6"">Junkspace - Jour 3</font>"
+269527698695550546,"Popular Post"
+627701323174555036,"<font size=""6"">Junkspace - Jour 1</font>"
+164302346163163304,"<font color=""#dab844"" size=""7"">BEearchive</font>"
+654347470113647616,"Platform Wrapper. Click here to edit."
+244886568577946574,"Platform Wrapper. Click here to edit."
+532904698288133771,"Platform Wrapper. Click here to edit."
+205139141872529929,"Choose this theme to customize and add content to this page."
+762705697559586316,"Get in Touch"
+893528610115976244,
+areas
+id,type,name,data
+custom properties
+id,property
+headers
+id,description,keywords,footer,header

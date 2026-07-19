@@ -1,0 +1,465 @@
+pages
+id,title
+309268142666430030,Contact
+629141976559404553,About
+833382556372495662,Blog
+881342348367544551,Community
+923820070406290601,Home
+
+properties
+id,property,value
+309268142666430030,header_section_migrated,1
+309268142666430030,last_updated,1474333163
+309268142666430030,last_updated_by,89009628
+309268142666430030,layout,no-header
+309268142666430030,membership_required,
+309268142666430030,mobile_layout,
+629141976559404553,header_section_migrated,1
+629141976559404553,last_updated,1474333141
+629141976559404553,last_updated_by,89009628
+629141976559404553,layout,no-header
+629141976559404553,membership_required,
+629141976559404553,mobile_layout,
+833382556372495662,header_section_migrated,1
+833382556372495662,last_updated,1520104846
+833382556372495662,last_updated_by,108592985
+833382556372495662,layout,no-header
+833382556372495662,membership_required,
+833382556372495662,mobile_layout,
+881342348367544551,header_section_migrated,1
+881342348367544551,last_updated,1474333119
+881342348367544551,last_updated_by,89009628
+881342348367544551,layout,no-header
+881342348367544551,membership_required,
+881342348367544551,mobile_layout,
+881342348367544551,nonclickable,
+923820070406290601,header_section_migrated,1
+923820070406290601,last_updated,1514640560
+923820070406290601,last_updated_by,108592985
+923820070406290601,layout,no-header
+923820070406290601,membership_required,
+923820070406290601,mobile_layout,
+923820070406290601,pageLayoutId,29
+
+field properties
+id,property
+14305398,paragraph
+74570653,1
+,
+,
+14305398,paragraph
+74570653,1
+,
+,
+2543436,auto
+10836851,center
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/p268.png
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/p268_orig.png"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/p268_orig.png"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/p268_orig.png"",""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/p268.png""}}"
+73175671,10px
+81205082,
+87551154,
+934875,true
+34850590,20px
+39134191,false
+43092040,auto
+48118084,right
+60447688,thumbnails
+65016048,fade
+65846975,
+73944953,5
+78528272,1
+81368653,bottom
+84096888,"[{""url"":""1\/0\/8\/5\/108592985\/p272.png"",""width"":400,""height"":583,""fullHeight"":700,""fullWidth"":480},{""url"":""1\/0\/8\/5\/108592985\/p271.png"",""width"":400,""height"":709,""fullHeight"":901,""fullWidth"":508},{""url"":""1\/0\/8\/5\/108592985\/p273.png"",""width"":400,""height"":711,""fullHeight"":901,""fullWidth"":507},{""url"":""1\/0\/8\/5\/108592985\/p270.png"",""width"":400,""height"":533,""fullHeight"":900,""fullWidth"":675},{""url"":""1\/0\/8\/5\/108592985\/p274.png"",""width"":400,""height"":533,""fullHeight"":900,""fullWidth"":675},{""url"":""1\/0\/8\/5\/108592985\/p275.png"",""width"":400,""height"":533,""fullHeight"":900,""fullWidth"":675}]"
+98155419,20px
+,
+,
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+,
+,
+,
+,
+10314575,2
+29468819,3
+30289318,20px
+31201649,5px
+43739154,20px
+47058006,0
+47549801,0
+61010244,"[{""height"":800,""url"":""1/0/8/5/108592985/p269.png"",""width"":613}]"
+71634142,none
+98846475,
+,
+,
+,
+14305398,paragraph
+74570653,1
+,
+,
+37565892,50px
+37565892,50px
+37565892,41px
+37565892,10px
+37565892,82px
+37565892,35px
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+9413623,15px
+28982406,"{""widths"":[0.9545454545454546,0.045454545454545456]}"
+2957986,10px
+23060085,highlight
+33485451,javascript:;
+57909285,"Read More"
+62923320,small
+86732624,
+88842095,center
+96228303,10px
+2957986,10px
+23060085,normal
+33485451,javascript:;
+57909285,"About me"
+62923320,large
+86732624,
+88842095,center
+96228303,10px
+,
+,
+82026558,
+84821029283,0
+174930490547101,0
+214777547628611,"Newsletter Form"
+785459072261824,
+843640094264461,Subscribe
+970734017912988,linhnguyen1053@gmail.com
+993025767694809,center
+522855386869526692,10px
+693737017417606279,"Thank you. Your information has been submitted."
+989420314573706543,10px
+37565892,40px
+37565892,50px
+37565892,69px
+37565892,50px
+37565892,10px
+37565892,50px
+37565892,50px
+37565892,41px
+37565892,10px
+37565892,50px
+37565892,50px
+37565892,50px
+37565892,50px
+37565892,43px
+37565892,50px
+2543436,auto
+10836851,center
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/haberdasher-icon-1_1_orig.png
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-icon-1_1_orig.png"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-icon-1_1_orig.png"",""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-icon-1_1_orig.png"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-icon-1_1_orig.png""},""isLossy"":false}"
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/haberdasher-4_1_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,40px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/haberdasher-2_3_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,40px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/haberdasher-6_1_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-6_1_orig.png"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-6_1_orig.png"",""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-6_1_orig.png"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-6_1_orig.png""},""isLossy"":false}"
+73175671,0px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/haberdasher-icon-3_1_orig.png
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/haberdasher-5_1_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-5_1_orig.png"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-5_1_orig.png"",""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-5_1_orig.png"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-5_1_orig.png""},""isLossy"":false}"
+73175671,0px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/haberdasher-1_4_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-1_4_orig.png"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-1_4_orig.png"",""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-1_4_orig.png"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/haberdasher-1_4_orig.png""},""isLossy"":false}"
+73175671,40px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/haberdasher-icon-2_1_orig.png
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/haberdasher-3_2_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,40px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/haberdasher-7_1_orig.png
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,0px
+81205082,
+87551154,
+21619302,center
+34910879,20px
+45531778,10px
+48851403,"{""badges"":{""facebook"":{""url"":""facebook.com"",""active"":true},""twitter"":{""url"":""twitter.com"",""active"":true},""instagram"":{""url"":""instagram.com"",""active"":true},""linkedin"":{""url"":true,""active"":false},""mail"":{""url"":true,""active"":false},""flickr"":{""active"":false},""pinterest"":{""active"":false},""plus"":{""active"":false},""rss"":{""active"":false},""vimeo"":{""active"":false},""yahoo"":{""active"":false},""youtube"":{""active"":false},""dribbble"":{""url"":true,""active"":false}},""badge_order"":[""facebook"",""twitter"",""instagram"",""linkedin"",""mail"",""flickr"",""pinterest"",""plus"",""rss"",""vimeo"",""yahoo"",""youtube"",""dribbble""]}"
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+9413623,15px
+28982406,"{""widths"":[0.43636363636363634,0.5636363636363636]}"
+9413623,35px
+28982406,"{""widths"":[0.5,0.5]}"
+9413623,25px
+28982406,"{""widths"":[0.6663366336633664,0.3336633663366337]}"
+9413623,15px
+28982406,"{""widths"":[0.3333333333333333,0.6666666666666666]}"
+9413623,15px
+28982406,"{""widths"":[0.6666666666666666,0.3333333333333333]}"
+2957986,10px
+23060085,normal
+33485451,javascript:;
+57909285,"Read More"
+62923320,small
+86732624,
+88842095,center
+96228303,10px
+2957986,10px
+23060085,normal
+33485451,javascript:;
+57909285,"Read More"
+62923320,small
+86732624,
+88842095,center
+96228303,10px
+2957986,10px
+23060085,highlight
+33485451,javascript:;
+57909285,"Join the Community Now"
+62923320,large
+86732624,
+88842095,center
+96228303,10px
+,
+,
+,
+,
+,
+,
+,
+7189774,1.0.1
+49988231,"{""content:content"":{""page_element_id"":""245297511336948488""}}"
+73044932,848857247979793891
+75036833,"{""properties"":[{""properties"":[{""name"":""background_color"",""label"":""Color"",""default"":""#f4f7f8"",""type"":""color"",""hidden"":null,""private"":null,""errors"":null,""value"":""#FFFFFF""},{""min"":10,""max"":100,""step"":10,""name"":""opacity"",""label"":""Transparency"",""default"":100,""type"":""slider"",""hidden"":null,""private"":null,""errors"":null,""value"":100}],""name"":""background-setting"",""label"":""Background"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_left_radius"",""label"":""Top left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""top_right_radius"",""label"":""Top right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_left_radius"",""label"":""Bottom left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_right_radius"",""label"":""Bottom right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null}],""name"":""radius-setting"",""label"":""Rounded Corners"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_padding"",""label"":""Top"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""bottom_padding"",""label"":""Bottom"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""left_padding"",""label"":""Left"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""right_padding"",""label"":""Right"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20}],""name"":""padding-setting"",""label"":""Padding"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null}],""config"":[],""errors"":null}"
+91946021,412880951560667071
+7189774,1.0.1
+49988231,"{""content:content"":{""page_element_id"":""537896469179054311""}}"
+73044932,848857247979793891
+75036833,"{""properties"":[{""properties"":[{""name"":""background_color"",""label"":""Color"",""default"":""#f4f7f8"",""type"":""color"",""hidden"":null,""private"":null,""errors"":null,""value"":""#FFFFFF""},{""min"":10,""max"":100,""step"":10,""name"":""opacity"",""label"":""Transparency"",""default"":100,""type"":""slider"",""hidden"":null,""private"":null,""errors"":null,""value"":70}],""name"":""background-setting"",""label"":""Background"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_left_radius"",""label"":""Top left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""top_right_radius"",""label"":""Top right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_left_radius"",""label"":""Bottom left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_right_radius"",""label"":""Bottom right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null}],""name"":""radius-setting"",""label"":""Rounded Corners"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_padding"",""label"":""Top"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":50},{""min"":0,""max"":null,""step"":10,""name"":""bottom_padding"",""label"":""Bottom"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":40},{""min"":0,""max"":null,""step"":10,""name"":""left_padding"",""label"":""Left"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":40},{""min"":0,""max"":null,""step"":10,""name"":""right_padding"",""label"":""Right"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":40}],""name"":""padding-setting"",""label"":""Padding"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null}],""config"":[],""errors"":null}"
+91946021,337959619193412810
+7189774,1.0.1
+49988231,"{""content:content"":{""page_element_id"":""739583126265830197""}}"
+73044932,848857247979793891
+75036833,"{""properties"":[{""properties"":[{""name"":""background_color"",""label"":""Color"",""default"":""#f4f7f8"",""type"":""color"",""hidden"":null,""private"":null,""errors"":null,""value"":""#FFFFFF""},{""min"":10,""max"":100,""step"":10,""name"":""opacity"",""label"":""Transparency"",""default"":100,""type"":""slider"",""hidden"":null,""private"":null,""errors"":null,""value"":100}],""name"":""background-setting"",""label"":""Background"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_left_radius"",""label"":""Top left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""top_right_radius"",""label"":""Top right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_left_radius"",""label"":""Bottom left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_right_radius"",""label"":""Bottom right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null}],""name"":""radius-setting"",""label"":""Rounded Corners"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_padding"",""label"":""Top"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":50},{""min"":0,""max"":null,""step"":10,""name"":""bottom_padding"",""label"":""Bottom"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":30},{""min"":0,""max"":null,""step"":10,""name"":""left_padding"",""label"":""Left"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":35},{""min"":0,""max"":null,""step"":10,""name"":""right_padding"",""label"":""Right"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":35}],""name"":""padding-setting"",""label"":""Padding"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null}],""config"":[],""errors"":null}"
+91946021,798794575712160167
+7189774,1.0.1
+49988231,"{""content:content"":{""page_element_id"":""924415077128125373""}}"
+73044932,848857247979793891
+75036833,"{""properties"":[{""properties"":[{""name"":""background_color"",""label"":""Color"",""default"":""#f4f7f8"",""type"":""color"",""hidden"":null,""private"":null,""errors"":null,""value"":""#FFFFFF""},{""min"":10,""max"":100,""step"":10,""name"":""opacity"",""label"":""Transparency"",""default"":100,""type"":""slider"",""hidden"":null,""private"":null,""errors"":null,""value"":100}],""name"":""background-setting"",""label"":""Background"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_left_radius"",""label"":""Top left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""top_right_radius"",""label"":""Top right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_left_radius"",""label"":""Bottom left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_right_radius"",""label"":""Bottom right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null}],""name"":""radius-setting"",""label"":""Rounded Corners"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_padding"",""label"":""Top"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":50},{""min"":0,""max"":null,""step"":10,""name"":""bottom_padding"",""label"":""Bottom"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":30},{""min"":0,""max"":null,""step"":10,""name"":""left_padding"",""label"":""Left"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":35},{""min"":0,""max"":null,""step"":10,""name"":""right_padding"",""label"":""Right"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":35}],""name"":""padding-setting"",""label"":""Padding"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null}],""config"":[],""errors"":null}"
+91946021,149591147110972587
+7189774,1.0.1
+49988231,"{""content:content"":{""page_element_id"":""871857024795243413""}}"
+73044932,848857247979793891
+75036833,"{""properties"":[{""properties"":[{""name"":""background_color"",""label"":""Color"",""default"":""#f4f7f8"",""type"":""color"",""hidden"":null,""private"":null,""errors"":null,""value"":""#FFFFFF""},{""min"":10,""max"":100,""step"":10,""name"":""opacity"",""label"":""Transparency"",""default"":100,""type"":""slider"",""hidden"":null,""private"":null,""errors"":null,""value"":100}],""name"":""background-setting"",""label"":""Background"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_left_radius"",""label"":""Top left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""top_right_radius"",""label"":""Top right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_left_radius"",""label"":""Bottom left"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null},{""min"":0,""max"":null,""step"":10,""name"":""bottom_right_radius"",""label"":""Bottom right"",""default"":0,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":null}],""name"":""radius-setting"",""label"":""Rounded Corners"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null},{""properties"":[{""min"":0,""max"":null,""step"":10,""name"":""top_padding"",""label"":""Top"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""bottom_padding"",""label"":""Bottom"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":35},{""min"":0,""max"":null,""step"":10,""name"":""left_padding"",""label"":""Left"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20},{""min"":0,""max"":null,""step"":10,""name"":""right_padding"",""label"":""Right"",""default"":20,""type"":""int"",""hidden"":null,""private"":null,""errors"":null,""value"":20}],""name"":""padding-setting"",""label"":""Padding"",""default"":null,""type"":""group"",""hidden"":null,""private"":null,""errors"":null}],""config"":[],""errors"":null}"
+91946021,192783012513074095
+32329294,50px
+34433423,50px
+60108299,100%
+228589926391628,5px
+314018304905203,5px
+592875515125213,form-required
+681860015167930,Email
+805658271623056,
+975256544241817,370px
+82026558,
+82026558,
+82026558,
+82026558,
+field data
+id,data
+392115310554025846,"Choose this theme to customize and add content to this page.<br /><span></span>"
+423289345513690825,
+396765261556641617,"Get in Touch"
+703281559346660923,"Choose this theme to customize and add content to this page.<br /><span></span>"
+621721332495041725,
+452626278543226470,About
+413388370349767346,C&aacute;
+597410599432252291,"Th&iacute;ch &acirc;m nh&#7841;c, h&#7897;i h&#7885;a, &#273;&#7891; h&#7885;a v&agrave; ki&#7871;n tr&uacute;c. Th&iacute;ch &#273;i &#273;&acirc;y &#273;i &#273;&oacute; v&agrave; giao ti&#7871;p v&#7899;i nhi&#7873;u ng&#432;&#7901;i.&nbsp;"
+603620703127979505,"H&ocirc;m nay l&agrave; ng&agrave;y g&#7847;n cu&#7889;i c&ugrave;ng c&#7911;a n&#259;m 2017. T&#7845;t c&#7843; m&#7885;i ng&#432;&#7901;i &#273;&#7873;u &#273;ang &#7903; th&#7901;i &#273;i&#7875;m k&#7871;t th&uacute;c n&#259;m c&#361; v&agrave; chuy&#7875;n sang m&#7897;t giai &#273;o&#7841;n m&#7899;i c&#7911;a cu&#7897;c &#273;&#7901;i. Thi&#7871;t ngh&#297; n&#7871;u kh&ocirc;ng c&oacute; nh&#7919;ng quy &#432;&#7899;c v&#7873; th&#7901;i gian, c&oacute; l&#7869;, n&oacute; c&#361;ng nh&#432; bao ng&agrave;y kh&aacute;c, nh&#432; h&ocirc;m qua, h&ocirc;m kia,...&nbsp;v&agrave; m&#7885;i ng&#432;&#7901;i c&#361;ng s&#7869; kh&ocirc;ng &#273;i ch&#417;i, kh&ocirc;ng &#259;n t&#7845;t ni&ecirc;n, kh&ocirc;ng gi&#7843;i ng&acirc;n, kh&ocirc;ng ch&#7841;y &#273;&#7891; &aacute;n,... m&#7885;i ng&#432;&#7901;i c&#7913; d&#7853;y, l&agrave;m vi&#7879;c, &#259;n u&#7889;ng, &#273;&aacute;i &#7883; v&agrave; m&#7897;t v&ograve;ng s&aacute;ng t&#7889;i l&#7841;i tr&ocirc;i qua th&ocirc;i. Th&#7901;i gian qu&#7843; l&agrave; m&#7897;t th&#7913; th&uacute; v&#7883; ha.<br /><br />H&ocirc;m nay, t&#7899; c&#361;ng &#273;ang &#7903; trong tr&#7841;ng th&aacute;i chuy&#7875;n giao khi m&agrave; t&#7899; &#273;ang c&#7889; g&#7855;ng b&#7855;t &#273;&#7847;u vi&#7879;c vi&#7871;t l&aacute;ch t&#7917; t&#7871;, c&oacute; khoa h&#7885;c, c&oacute; k&#7871; ho&#7841;ch &#273;&#7875; khi&#7871;n b&#7843;n th&acirc;n c&oacute; &#273;&#7897;ng l&#7921;c h&#417;n cho m&#7897;t ch&#7863;ng &#273;&#432;&#7901;ng c&ograve;n d&agrave;i ph&iacute;a tr&#432;&#7899;c. &#272;i&#7873;u n&agrave;y b&#7855;t ngu&#7891;n ch&#7911; y&#7871;u l&agrave; t&#7915; c&#7843;m gi&aacute;c ""kh&ocirc;ng c&oacute; th&agrave;nh t&#7921;u l&#7855;m"" trong m&#7897;t n&#259;m qua. Th&#7871; n&ecirc;n l&agrave; sau khi ngh&#297; m&igrave;nh kh&ocirc;ng th&#7875; th&#7871; n&agrave;y &#273;&#432;&#7907;c n&#7919;a, t&#7899; quy&#7871;t &#273;&#7883;nh m&#7903; weebly &#273;&#7875; khai th&aacute;c b&#432;&#7899;c &#273;&#7847;u b&#7897; n&atilde;o ""l&#7855;m chuy&#7879;n"" c&#7911;a t&#7899;.<br /><br />Quan &#273;i&#7875;m c&#7911;a t&#7899; v&#7873; vi&#7879;c vi&#7871;t l&aacute;ch, &#273;&oacute; l&agrave; l&uacute;c c&#7853;u B&#7854;T &#272;&#7846;U t&#7893;ng&nbsp; h&#7907;p nh&#7919;ng g&igrave; c&#7853;u &#273;&atilde; ph&acirc;n t&iacute;ch v&agrave; nghi&ecirc;n c&#7913;u, t&#7913;c l&agrave; n&oacute; &#7903; b&#432;&#7899;c &#273;&#7847;u c&#7911;a vi&#7879;c th&#7875; hi&#7879;n &yacute; t&#432;&#7903;ng. M&#7897;t &yacute; t&#432;&#7903;ng &#273;&#432;&#7907;c g&#7885;i l&agrave; &yacute; t&#432;&#7903;ng, khi c&#7853;u c&oacute; th&#7875; khi&#7871;n n&oacute; chui ra kh&#7887;i n&atilde;o v&agrave; &#273;i ra &#273;&#7871;n b&agrave;n tay c&#7911;a c&#7853;u. V&agrave; vi&#7871;t l&aacute;ch, n&oacute; l&agrave; m&#7897;t b&#432;&#7899;c c&#259;n b&#7843;n ph&#7893; bi&#7871;n cho vi&#7879;c b&#7855;t &#273;&#7847;u th&#7875; hi&#7879;n (m&#7895;i ng&#432;&#7901;i m&#7895;i kh&aacute;c, v&#7869;, h&aacute;t, g&igrave; &#273;&oacute;, nh&#432;ng ch&#7919; vi&#7871;t l&agrave; c&aacute;ch th&#7913;c h&#7871;t s&#7913;c ph&#7893; bi&#7871;n). N&#7871;u ch&#7881; c&oacute; &yacute; t&#432;&#7903;ng v&agrave; kh&ocirc;ng th&#7875; hi&#7879;n &#273;&#432;&#7907;c, th&igrave; &#273;&oacute; l&agrave; &yacute; t&#432;&#7903;ng ch&#7871;t. Th&#7871; n&ecirc;n, n&#7871;u mu&#7889;n &yacute; t&#432;&#7903;ng m&igrave;nh s&#7889;ng th&igrave; h&atilde;y t&igrave;m c&aacute;ch &#273;&#7875; l&ocirc;i n&oacute; ra (n&oacute; s&#7869; c&oacute; nhi&#7873;u l&#7907;i &iacute;ch nh&#432; t&#7841;o &#273;&#7897;ng l&#7921;c v&igrave; c&#7853;u s&#7869; c&oacute; s&#7843;n ph&#7849;m t&#7915; &yacute; t&#432;&#7903;ng ngu&#7891;n, n&oacute; s&#7869; k&iacute;ch th&iacute;ch &#273;&#7875; th&#7921;c hi&#7879;n h&oacute;a c&aacute;c &yacute; t&#432;&#7903;ng kh&aacute;c).<br />T&aacute;c d&#7909;ng c&#7911;a b&#432;&#7899;c &#273;&#7847;u th&#7875; hi&#7879;n &#273;&oacute; l&agrave; khi&#7871;n c&#7853;u b&#7855;t &#273;&#7847;u nh&#7863;t nh&#7841;nh nh&#7919;ng th&#7913; t&#7889;t v&agrave; b&#7887; &#273;i nh&#7919;ng th&#7913; th&#7915;a th&atilde;i trong &#273;&#7847;u. Gi&#7889;ng nh&#432; c&#7853;u &#273;ang m&agrave;i gi&#361;a m&#7897;t vi&ecirc;n ng&#7885;c th&ocirc; hay t&igrave;m c&aacute;ch &#273;i&ecirc;u kh&#7855;c m&#7897;t t&#7843;ng &#273;&aacute;. Hi&#7879;n gi&#7901; t&#7899; &#273;ang &#7845;p &#7911; mu&#7889;n l&#7853;p m&#7897;t page facebook &#273;&#7875; post nh&#7919;ng b&agrave;i ng&#7855;n g&#7885;n nh&#432;ng truy&#7873;n c&#7843;m h&#7913;ng. T&#7899; kh&ocirc;ng mu&#7889;n n&oacute;i l&yacute; khi ngh&#297; &#273;&#7871;n vi&#7879;c post b&agrave;i, b&#7903;i n&#7871;u ch&#7881; l&agrave; l&yacute; thuy&#7871;t, n&oacute; c&#361;ng gi&#7889;ng nh&#432; &yacute; t&#432;&#7903;ng ch&#7871;t v&#7853;y. T&#7899; mu&#7889;n ph&#7843;i th&#7921;c s&#7921; t&igrave;m hi&#7875;u, cung c&#7845;p m&#7897;t lo&#7841;i th&ocirc;ng tin n&agrave;o &#273;&oacute; th&#7921;c ti&#7877;n, hay l&agrave;m m&#7897;t th&iacute; nghi&#7879;m nh&#7887;, m&#7897;t cu&#7897;c ph&#7887;ng v&#7845;n nh&#7887; v&#7873; m&#7897;t &#273;i&#7873;u m&#7885;i ng&#432;&#7901;i c&oacute; th&#7875; coi l&agrave; hi&#7875;n nhi&ecirc;n trong cu&#7897;c s&#7889;ng nh&#432;ng khi h&#7887;i &#273;&#7871;n l&#7841;i kh&ocirc;ng bi&#7871;t. &#272;i&#7873;u n&agrave;y v&#7915;a khi&#7871;n t&#7899; ph&#7843;i b&#7853;n r&#7897;n, &#273;&#7891;ng th&#7901;i c&#361;ng l&agrave; c&aacute;ch m&agrave; t&#7899; ch&#7885;n &#273;&#7875; luy&#7879;n t&#7853;p vi&#7879;c th&#7921;c hi&#7879;n h&oacute;a &yacute; t&#432;&#7903;ng m&agrave; t&#7899; n&oacute;i &#7903; tr&ecirc;n. &Agrave;, luy&#7879;n vi&#7871;t n&#7919;a, t&#7899; th&#7845;y m&igrave;nh m&#7845;t h&#417;i qu&aacute; nhi&#7873;u th&#7901;i gian &#273;&#7875; vi&#7871;t &#273;&#432;&#7907;c m&#7897;t b&agrave;i n&agrave;o &#273;&oacute;.<br /><br />V&#7845;n &#273;&#7873; t&#7899; v&#432;&#7899;ng ph&#7843;i ngay &#273;&#7847;u ti&ecirc;n (m&agrave; t&#7899; &#273;ang t&igrave;m c&aacute;ch gi&#7843;i quy&#7871;t &#273;&acirc;y) &#273;&oacute; ch&iacute;nh l&agrave; vi&#7879;c m&igrave;nh c&oacute; qu&aacute; nhi&#7873;u &yacute; l&#7897;n x&#7897;n trong &#273;&#7847;u v&agrave; kh&ocirc;ng t&#7921; s&#7855;p x&#7871;p &#273;&#432;&#7907;c. Vi&#7879;c mong mu&#7889;n m&#7885;i th&#7913; ph&#7843;i v&#7915;a &#273;&#7847;y &#273;&#7911;, l&#7841;i v&#7915;a ng&#7855;n g&#7885;n v&agrave; truy&#7873;n c&#7843;m h&#7913;ng th&#7921;c s&#7921; l&agrave; m&#7897;t &yacute; mu&#7889;n tham lam v&agrave; m&#7845;t th&#7901;i gian th&#7921;c hi&#7879;n &#273;&#7889;i v&#7899;i t&#7899; b&acirc;y gi&#7901;. T&#7899; c&#7843;m gi&aacute;c m&igrave;nh c&#7847;n ph&#7843;i ghi h&#7871;t ra m&#7909;c ti&ecirc;u v&agrave; c&aacute;ch th&#7913;c c&#7847;n l&agrave;m &#273;&#7875; ho&agrave;n thi&#7879;n t&#7915;ng kh&acirc;u m&#7897;t:<br /><br />1. &#272;&#7847;y &#273;&#7911;:<br />C&oacute; th&#7875; n&oacute;i t&#7899; l&agrave; ng&#432;&#7901;i c&#7847;u to&agrave;n, v&agrave; t&#7899; lu&ocirc;n mu&#7889;n c&aacute;c &yacute; t&#432;&#7903;ng ph&#7843;i &#273;&#432;&#7907;c nh&igrave;n t&#7915; c&agrave;ng nhi&#7873;u kh&iacute;a c&#7841;nh c&agrave;ng t&#7889;t. &#272;i&#7873;u n&agrave;y &#273;&ograve;i h&#7887;i ph&#7843;i &#273;&#7885;c nhi&#7873;u, trao &#273;&#7893;i nhi&#7873;u khi ti&#7871;p c&#7853;n m&#7897;t &#273;&#7873; t&agrave;i b&#7845;t k&igrave;. Ch&iacute;nh v&igrave; v&#7853;y m&agrave; t&#7899; th&#7845;y m&#7885;i th&#7913; &#273;&#7873;u r&#7845;t nhi&#7873;u, r&#7845;t l&#7899;n v&agrave; r&#7845;t m&#7845;t th&#7901;i gian &#273;&#7875; &#273;i &#273;&#432;&#7907;c &#273;&#7871;n s&#7921; th&#7887;a m&atilde;n v&#7873; &yacute; t&#7913;.&nbsp;<br />L&#7901;i nh&#7855;c nh&#7903;: H&atilde;y &#273;&#7885;c &#273;a d&#7841;ng m&#7897;t c&aacute;ch th&#432;&#7901;ng xuy&ecirc;n trong tr&#7841;ng th&aacute;i h&#259;ng say<br /><br />2. Ng&#7855;n g&#7885;n:<br />T&#7899; coi vi&#7879;c c&oacute; th&#7875; di&#7877;n &#273;&#7841;t ng&#7855;n g&#7885;n l&agrave; m&#7897;t b&#432;&#7899;c r&#7845;t cao si&ecirc;u trong vi&#7879;c th&#7875; hi&#7879;n &yacute; t&#432;&#7903;ng. &#272;i&#7873;u n&agrave;y c&oacute; ngh&#297;a l&agrave; t&#7899; &#273;&atilde; ph&#7843;i th&#7921;c s&#7921; hi&#7875;u s&acirc;u v&#7845;n &#273;&#7873; &#273;&#7875; c&oacute; th&#7875; ""&#273;&aacute;nh &#273;&acirc;u tr&uacute;ng &#273;&oacute;"". &#272;&acirc;y l&#7841;i l&agrave; m&#7897;t c&aacute;i t&#7853;t l&#7899;n c&#7911;a t&#7899;, &#273;&oacute; l&agrave; vi&#7871;t r&#7845;t d&agrave;i d&ograve;ng v&igrave; t&#7899; th&#7845;y c&#7847;n di&#7877;n gi&#7843;i &#273;&#7911; &#273;&#7875; &#273;&#7843;m b&#7843;o m&#7885;i ng&#432;&#7901;i hi&#7875;u h&#7871;t. V&agrave; th&ecirc;m m&#7897;t chuy&#7879;n n&#7919;a l&agrave; t&#7899; c&#361;ng kh&ocirc;ng ph&#7843;i chuy&ecirc;n gia trong c&aacute;ch s&#7917; d&#7909;ng t&#7915; ng&#7919; n&ecirc;n t&#7899; kh&ocirc;ng t&igrave;m &#273;&#432;&#7907;c nh&#7919;ng t&#7915; ""&#273;&#7855;t"" &#273;&#7875; di&#7877;n t&#7843; c&#7843; m&#7897;t &yacute; d&agrave;i.<br />Vi&#7879;c n&agrave;y c&#361;ng gi&#7889;ng nh&#432; quan &#273;i&#7875;m c&#7911;a ""minimalism"" (v&#7873; t&#7841;o h&igrave;nh th&ocirc;i nh&eacute;, t&#7841;i t&#7899; bi&#7871;t m&#7895;i m&#7863;t n&agrave;y). Th&igrave; qu&aacute; tr&igrave;nh &#273;i &#273;&#7871;n s&#7921; c&ocirc; &#273;&#7885;ng &#273;&#7855;t gi&aacute; &#273;&oacute; l&agrave; ph&#7843;i &#273;i t&#7915; c&aacute;i &#273;&#417;n gi&#7843;n, &#273;&#7871;n c&aacute;i ph&#7913;c t&#7841;p v&agrave; cu&#7889;i c&ugrave;ng m&#7899;i l&agrave; c&aacute;i t&#7889;i gi&#7843;n m&agrave; &yacute; ngh&#297;a kia.<br />L&#7901;i nh&#7855;c nh&#7903;: vi&#7871;t nhi&#7873;u v&agrave; m&#7899;i &#273;&#7847;u &#273;&#7915;ng c&#7889; g&#7855;ng trau tru&#7889;t lu&ocirc;n. H&atilde;y &#273;&#7875; d&ograve;ng suy ngh&#297; &#273;&#432;&#7907;c ch&#7843;y.<br /><br />3. Truy&#7873;n c&#7843;m h&#7913;ng:<br />C&aacute;i n&agrave;y h&#417;i ng&#432;&#7907;c, m&igrave;nh ph&#7843;i quay l&#7841;i n&oacute;i v&#7873; vi&#7879;c h&igrave;nh th&agrave;nh &yacute; t&#432;&#7903;ng. Vi&#7879;c c&oacute; th&#7875; t&#7841;o ra m&#7897;t s&#7843;n ph&#7849;m truy&#7873;n c&#7843;m h&#7913;ng c&#7847;n m&#7897;t qu&aacute; tr&igrave;nh d&agrave;i v&agrave; kh&ocirc;ng ng&#7915;ng ho&agrave;n thi&#7879;n t&#7915; nh&#7919;ng b&#432;&#7899;c &#273;&#7847;u ti&ecirc;n &#273;&#7871;n b&#432;&#7899;c cu&#7889;i c&ugrave;ng. Y&#7871;u t&#7889; n&agrave;y c&ograve;n c&oacute; th&#7875; &#273;&#7841;t &#273;&#432;&#7907;c b&#7857;ng nh&#7919;ng c&aacute;ch th&#7913;c h&#7871;t s&#7913;c &#273;a d&#7841;ng nh&#432; s&#7921; nhi&#7879;t huy&#7871;t c&#361;ng c&oacute; th&#7875; truy&#7873;n c&#7843;m h&#7913;ng, s&#7921; b&#7845;t ng&#7901;, s&#7921; m&#7899;i l&#7841;, s&#7921; d&#7883; h&#7907;m,... T&#7899;, th&igrave; c&ograve;n &#273;ang c&#7843;m th&#7845;y m&igrave;nh th&#7853;t non n&#7899;t trong v&#7845;n &#273;&#7873; n&agrave;y, th&#7871; n&ecirc;n c&#361;ng kh&ocirc;ng d&aacute;m n&oacute;i nhi&#7873;u.<br />L&#7901;i nh&#7855;c nh&#7903;: H&atilde;y gi&#7919; cho b&#7843;n th&acirc;n m&igrave;nh c&oacute; c&#7843;m h&#7913;ng tr&#432;&#7899;c ti&ecirc;n.<br /><br />Tr&#432;&#7899;c m&#7855;t l&agrave; v&#7853;y, giai &#273;o&#7841;n chuy&#7875;n giao lu&ocirc;n r&#7845;t kh&oacute; kh&#259;n, &#273;&#7863;c bi&#7879;t l&agrave; vi&#7879;c chuy&#7875;n t&#7915; c&aacute;i ch&#432;a c&oacute; g&igrave; &#273;&#7871;n c&aacute;i b&#7855;t &#273;&#7847;u c&oacute; g&igrave; &#273;&oacute;, n&oacute; kh&aacute;c v&#7899;i vi&#7879;c chuy&#7875;n t&#7915; b&#432;&#7899;c n&agrave;y sang b&#432;&#7899;c kia. T&#7899; nh&#7853;n ra r&#7857;ng, ch&uacute;ng ta b&#7855;t bu&#7897;c ph&#7843;i th&#7921;c hi&#7879;n b&#432;&#7899;c b&#7855;t &#273;&#7847;u m&#7897;t c&aacute;ch th&#7921;c ti&#7877;n ch&#7913; kh&ocirc;ng n&ecirc;n ch&#7881; d&#7915;ng &#7903; vi&#7879;c b&#7855;t &#273;&#7847;u n&oacute;i l&yacute;. Nhi&#7873;u ng&#432;&#7901;i c&oacute; th&#7875; c&oacute; &yacute; t&#432;&#7903;ng ti&#7873;m n&#259;ng, b&agrave;n lu&#7853;n r&#7845;t nhi&#7873;u v&#7873; m&#7863;t l&yacute; lu&#7853;n v&agrave; &yacute; t&#432;&#7903;ng, nh&#432;ng h&#7885; m&atilde;i b&#7883; t&#7855;c &#7903; m&#7897;t ch&#7895;, v&igrave; h&#7885; qu&ecirc;n m&#7845;t l&agrave; sau khi h&igrave;nh th&agrave;nh &yacute; t&#432;&#7903;ng h&#7885; n&ecirc;n b&#7855;t &#273;&#7847;u th&#7921;c hi&#7879;n h&oacute;a n&oacute;. N&oacute;i th&#7871; n&agrave;o nh&#7881;? N&#7871;u c&#7853;u &#273;ang &#7903; trong c&#259;n ph&ograve;ng &yacute; t&#432;&#7903;ng v&agrave; mu&#7889;n m&#7903; c&#7917;a &#273;&#7875; khi&#7871;n &yacute; t&#432;&#7903;ng &#273;&#432;&#7907;c ph&oacute;ng ra ngo&agrave;i, th&igrave; vi&#7879;c d&#7915;ng l&#7841;i l&yacute; lu&#7853;n n&oacute; gi&#7889;ng c&#7853;u &#273;ang g&otilde; c&#7917;a. Ch&#7881; cho &#273;&#7871;n khi c&#7853;u ngh&#297; &#273;&#7871;n ph&#7843;i l&agrave;m c&aacute;i g&igrave; &#273;&oacute; &#273;&#7875; th&#7875; hi&#7879;n &#273;&#432;&#7907;c &yacute; t&#432;&#7903;ng, l&uacute;c &#273;&oacute; c&#7853;u m&#7899;i b&#7855;t &#273;&#7847;u m&#7903; &#273;&#432;&#7907;c c&#7917;a.<br /><br />V&agrave;, c&#7853;u mu&#7889;n m&#7903; c&#7917;a kh&ocirc;ng?<br /><br />"
+999442028800602567,"M&#7897;t &#273;&#7913;a tr&#7867; 20 tu&#7893;i ch&#7907;t m&#7897;t ng&agrave;y nh&#7853;n ra &#273;i&#7873;u k&igrave; l&#7841;. R&#7857;ng, tr&ecirc;n th&#7871; gian n&agrave;y t&#7891;n t&#7841;i m&#7897;t lo&#7841;i t&igrave;nh c&#7843;m v&ocirc; &#273;i&#7873;u ki&#7879;n. Tr&#432;&#7899;c gi&#7901; t&#7899; c&#7913; ngh&#297; l&agrave; d&ugrave; l&agrave; th&#7913; g&igrave; &#273;i n&#7919;a tr&ecirc;n &#273;&#7901;i, th&igrave; n&oacute; &#273;&#7873;u c&oacute; gi&aacute; c&#7911;a n&oacute;. B&#7841;n ch&#259;m m&#7897;t b&ocirc;ng hoa, kh&ocirc;ng ph&#7843;i b&#7841;n v&ocirc; &#273;i&#7873;u ki&#7879;n t&#432;&#7899;i t&#7855;m cho n&oacute;, m&agrave; v&igrave; vi&#7879;c n&oacute; tr&#7903; n&ecirc;n &#273;&#7865;p &#273;&#7869; &#273;&#7893;i l&#7841;i cho b&#7841;n c&#7843;m gi&aacute;c b&igrave;nh y&ecirc;n, khoan kho&aacute;i. Nh&#432;ng li&#7879;u n&#7871;u c&#7913; ngh&#297; v&#7853;y, ni&#7873;m &ldquo;Y&Ecirc;U&rdquo; c&#7911;a b&#7841;n c&ograve;n tr&#7885;n v&#7865;n?"
+166116345515423465,"<em>&#7843;nh c&#7911;a m&#7897;t ng&#432;&#7901;i tuy&#7879;t v&#7901;i c&#7911;a t&#7899;</em>"
+890166010132934447,"T&#7899; c&oacute; m&#7897;t ng&#432;&#7901;i n&oacute;i v&#7899;i t&#7899; r&#7857;ng, s&#7869; y&ecirc;u t&#7899; kh&ocirc;ng &#273;i&#7873;u ki&#7879;n, v&agrave; v&igrave; ch&#7859;ng ai c&oacute; th&#7875; n&#7855;m gi&#7919; m&#7897;t th&#7913; kh&ocirc;ng &#273;i&#7873;u ki&#7879;n, th&#7871; n&ecirc;n t&igrave;nh c&#7843;m &#273;&oacute; s&#7869; v&#7851;n lu&ocirc;n &#7903; &#273;&oacute;, l&#7899;n lao v&agrave; &#273;&#7865;p &#273;&#7869;. V&agrave; v&igrave;, ng&#432;&#7901;i ta ch&#7881; bu&#7891;n khi kh&ocirc;ng &#273;&#432;&#7907;c n&#7855;m gi&#7919;, s&#7903; h&#7919;u, th&#7871; n&ecirc;n ng&#432;&#7901;i &#273;&oacute; s&#7869; kh&ocirc;ng bu&#7891;n khi d&agrave;nh cho t&#7899; th&#7913; t&igrave;nh c&#7843;m kia, d&ugrave; t&#7899; c&oacute; th&#7871; n&agrave;o."
+933177200496342241,
+896289055130494381,"Title Text. Click here to edit."
+206773396221849686,Categories
+209207116743169740,Archives
+192721960199047461,"Choose this theme to customize and add content to this page.<br /><span></span>"
+515902764806114901,Community
+835888982764360675,
+878342869321316964,"<font size=""2"">Personal Observation //&nbsp; 30.12.17</font>"
+174168409799236170,"Ghi ghi ch&eacute;p ch&eacute;p"
+355639152327512936,"<font size=""6"">How i appreciate my life</font>"
+996043707561318559,"<font size=""6"">i think - i live</font>"
+241321161716734176,"Exclusive discounts &amp; offers - for community members only!"
+354061683376519689,"Praesent et nisl sit amet risus lobortis fermentum. Duis eu nisl nisl. Curabitur tincidunt velit odio, in malesuada purus hendrerit in.&nbsp;"
+450247469731401794,"&#8203;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut tortor interdum, vulputate neque eu, finibus augue. In semper porta ipsum a placerat. Quisque laoreet efficitur metus, ut eleifend turpis porttitor non. Nullam pretium, leo a euismod semper, dolor purus efficitur mi, ut dapibus mauris metus at felis.&nbsp;"
+374878705676137978,"<font size=""5"">Join the <strong>Upstart Community</strong> &amp; connect with other savvy entrepreneurs</font>&nbsp;"
+120244287901025356,"<span>Connect with others and get great advice!</span>"
+857433505877228917,"<span>Need support? Need to rant? We're here for you!</span>"
+935179263891550011,"<span>&#8203;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut tortor interdum, vulputate neque eu, finibus augue. In semper porta ipsum a placerat. Quisque laoreet efficitur metus, ut eleifend turpis porttitor non. Nullam pretium, leo a euismod semper, dolor purus efficitur mi.</span>"
+986903644180898620,"<font color=""#818181""><font size=""3"">BUSINESS &nbsp;// &nbsp;SEPTEMBER 1, 2016</font></font>"
+180654269694709000,"<strong><font size=""4"">ABOUT ME</font></strong>"
+762155802626266641,"Ready to<br /><strong>ROCK&nbsp;&#8203;Your Business?</strong>"
+417666652714930668,"<strong>HOW TO AVOID BURNOUT</strong>"
+382679068744318484,"<font color=""#818181""><font size=""3"">BUSINESS &nbsp;// &nbsp;September 1, 2016</font></font>"
+701190711713601823,"<strong>5 Top resources: Bookkeeping</strong>"
+838350413164862620,"<strong><font size=""5"">STAY UPDATED!</font></strong>"
+600626007619466579,"Platform Wrapper. Click here to edit."
+357604512416467916,"Platform Wrapper. Click here to edit."
+814415597528409796,"Platform Wrapper. Click here to edit."
+956532106653750589,"Platform Wrapper. Click here to edit."
+105424883127398449,"Platform Wrapper. Click here to edit."
+areas
+id,type,name,data
+custom properties
+id,property
+headers
+id,description,keywords,footer,header

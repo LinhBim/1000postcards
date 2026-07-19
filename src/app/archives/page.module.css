@@ -1,0 +1,149 @@
+.fullWidthContainer {
+  width: 100%;
+  padding: 0 3vw;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.masonry {
+  column-count: 5;
+  column-gap: 3vw;
+}
+
+@media (max-width: 1400px) {
+  .masonry { column-count: 4; }
+}
+
+@media (max-width: 1024px) {
+  .masonry { column-count: 3; }
+}
+
+@media (max-width: 768px) {
+  .masonry { column-count: 2; }
+}
+
+@media (max-width: 480px) {
+  .masonry { column-count: 1; }
+}
+
+.itemWrapper {
+  break-inside: avoid;
+  margin-bottom: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  cursor: pointer;
+  background-color: var(--card-bg);
+  width: 100%;
+  display: block;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.item:hover .image {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item:hover .overlay {
+  opacity: 1;
+}
+
+.overlayText {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transform: translateY(20px);
+  transition: transform 0.4s ease;
+}
+
+.item:hover .overlayText {
+  transform: translateY(0);
+}
+
+.cardNumber {
+  margin-top: 1rem;
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  .subtitle {
+    color: #aaa;
+  }
+}
+
+.searchContainer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem 1.5rem;
+  border-radius: 30px;
+  border: 1px solid #eaeaea;
+  font-size: 1.1rem;
+  font-family: var(--font-body);
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.searchInput:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.noResults {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 3rem;
+}
+

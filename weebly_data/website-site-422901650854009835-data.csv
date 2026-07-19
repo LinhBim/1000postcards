@@ -1,0 +1,368 @@
+pages
+id,title
+146582078256908842,Blog
+506934049118554620,Home
+892070145509464911,About
+958021565494779501,101
+
+properties
+id,property,value
+146582078256908842,header_section_migrated,1
+146582078256908842,last_updated,1474333961
+146582078256908842,last_updated_by,89009628
+146582078256908842,layout,header
+146582078256908842,membership_required,
+146582078256908842,mobile_layout,
+146582078256908842,nonclickable,
+146582078256908842,search_hidden,0
+506934049118554620,header_section_migrated,1
+506934049118554620,last_updated,1473807948
+506934049118554620,last_updated_by,89009628
+506934049118554620,layout,header
+506934049118554620,membership_required,
+506934049118554620,mobile_layout,
+506934049118554620,pageLayoutId,388
+892070145509464911,header_section_migrated,1
+892070145509464911,last_updated,1474333978
+892070145509464911,last_updated_by,89009628
+892070145509464911,layout,header
+892070145509464911,membership_required,
+892070145509464911,mobile_layout,
+892070145509464911,nonclickable,
+958021565494779501,header_section_migrated,1
+958021565494779501,last_updated,1580557444
+958021565494779501,last_updated_by,108592985
+958021565494779501,layout,header
+958021565494779501,membership_required,
+958021565494779501,mobile_layout,
+958021565494779501,nonclickable,
+958021565494779501,search_hidden,0
+
+field properties
+id,property
+,
+,
+,
+,
+,
+,
+,
+84821029283,0
+174930490547101,0
+214777547628611,"Newsletter Form"
+255578132552810,0
+497536763714317,"I opt in to receive marketing and promotional materials"
+785459072261824,
+843640094264461,"Sign Me Up!"
+970734017912988,
+993025767694809,center
+522855386869526692,10px
+693737017417606279,"Thank you. Your information has been submitted."
+989420314573706543,10px
+10314575,1
+29468819,3
+30289318,20px
+31201649,10px
+43739154,20px
+47058006,0
+47549801,1
+61010244,"[{""url"":""1/0/8/5/108592985/photo-1454720503269-3a35c21bebc6_1.jpg"",""width"":""400"",""height"":""329"",""caption"":""FASHION""},{""url"":""1/0/8/5/108592985/photo-1462037629520-2a7c6feac7f4_2.jpg"",""width"":""400"",""height"":""254"",""caption"":""LIFESTYLE""},{""url"":""1/0/8/5/108592985/photo-1464880963754-5cb06fbff95f_1.jpg"",""width"":""400"",""height"":""266"",""caption"":""TRAVEL""}]"
+71634142,full
+98846475,"[object Object]"
+37565892,11px
+37565892,50px
+37565892,28px
+37565892,50px
+37565892,50px
+37565892,43px
+37565892,50px
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/paper-line_1_orig.jpg
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/paper-line_3_orig.jpg
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/photo-1471602514494-6b059b461fa0_1_orig.jpg
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/photo-1445633814773-e687a5de9baa_1_orig.jpg
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/paper-line_2_orig.jpg
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/photo-1458173127669-917921c1c662_1_orig.jpg
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0px
+20932658,/uploads/1/0/8/5/108592985/photo-1433643667043-663b34a5c052_1_orig.jpg
+25379631,none
+27716177,100%
+31943876,0px
+38267639,Picture
+38352628,0px
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/photo-1433643667043-663b34a5c052_1_orig.jpg"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/photo-1433643667043-663b34a5c052_1_orig.jpg"",""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/photo-1433643667043-663b34a5c052_1_orig.jpg"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/photo-1433643667043-663b34a5c052_1_orig.jpg""},""isLossy"":false}"
+73175671,10px
+81205082,
+87551154,
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+9413623,15px
+28982406,"{""widths"":[0.33333333333333,0.33333333333333,0.33333333333333]}"
+9413623,45px
+28982406,"{""widths"":[0.5,0.5]}"
+2957986,10px
+23060085,highlight
+33485451,javascript:;
+57909285,"Read More"
+62923320,small
+86732624,
+88842095,center
+96228303,10px
+2957986,10px
+23060085,normal
+33485451,javascript:;
+57909285,"Read More"
+62923320,large
+86732624,
+88842095,center
+96228303,40px
+2957986,10px
+23060085,highlight
+33485451,javascript:;
+57909285,"Read More"
+62923320,small
+86732624,
+88842095,center
+96228303,10px
+2957986,10px
+23060085,highlight
+33485451,javascript:;
+57909285,"Read More"
+62923320,small
+86732624,
+88842095,center
+96228303,10px
+2957986,10px
+23060085,highlight
+33485451,javascript:;
+57909285,"Read More"
+62923320,small
+86732624,
+88842095,center
+96228303,10px
+,
+,
+,
+,
+,
+,
+,
+,
+32329294,70px
+34433423,70px
+60108299,100%
+32329294,70px
+34433423,70px
+60108299,100%
+228589926391628,5px
+314018304905203,5px
+592875515125213,form-required
+681860015167930,Email
+805658271623056,
+975256544241817,370px
+391481919963370,5px
+555375845401292,370px
+743148793668156,form-required
+809144429512155,
+893999239827584,5px
+931904857560376,"Last Name"
+391481919963370,5px
+555375845401292,370px
+743148793668156,form-required
+809144429512155,
+893999239827584,5px
+931904857560376,"First Name"
+14305398,paragraph
+74570653,1
+,
+,
+37565892,36px
+37565892,46px
+37565892,44px
+2543436,auto
+10836851,center
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/3_5.jpg
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/3_5.jpg"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/3_5.jpg"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/3_5.jpg"",""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/3_5.jpg""}}"
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/2_5.jpg
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/2_5.jpg"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/2_5.jpg"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/2_5.jpg"",""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/2_5.jpg""}}"
+73175671,10px
+81205082,
+87551154,
+2543436,auto
+10836851,center
+13811846,
+16294178,0
+20932658,/uploads/1/0/8/5/108592985/1_5.jpg
+25379631,none
+27716177,100%
+31943876,10px
+38267639,Picture
+38352628,0
+59252592,<a>
+65890375,"{""type"":""image"",""image"":{""editorState"":{""version"":""1.0.1"",""inputImage"":{},""operations"":[]},""editedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/1_5.jpg"",""originalUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/1_5.jpg"",""editorUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/1_5.jpg"",""publishedUrl"":""\/uploads\/1\/0\/8\/5\/108592985\/1_5.jpg""}}"
+73175671,10px
+81205082,
+87551154,
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+14305398,paragraph
+74570653,1
+9413623,5px
+28982406,"{""widths"":[0.33333333333333337,0.33333333333333337,0.3333333333333333]}"
+,
+,
+,
+,
+field data
+id,data
+634348478471915325,Categories
+822584483292057841,Author
+714290385523807425,"Write something about yourself. No need to be fancy, just an overview."
+973477902456211174,Archives
+802496341218314290,"<span>Fusce id libero at dolor dignissim porttitor. Donec eu nisi ac purus vehicula sollicitudin ac vel est. Nunc maximus augue eu tortor efficitur ornare at at elit. Cras felis urna, ullamcorper in sollicitudin sed, tempus non ipsum.</span>"
+237452640620981768,"<span>Aenean ipsum est, ornare bibendum tempor vel, aliquet at nulla. Cras a nunc sed dolor maximus interdum.&nbsp;&#8203;Proin augue arcu, iaculis at lobortis id, feugiat id ex. Aliquam id urna justo. Fusce pretium mauris sem, et lacus lobortis ac.&nbsp;</span>"
+668643456256429284,"Fusce id libero at dolor dignissim porttitor. Donec eu nisi ac purus vehicula sollicitudin ac vel est. Nunc maximus augue eu tortor efficitur ornare at at elit. Cras felis urna, ullamcorper in sollicitudin sed, tempus non ipsum."
+738946065146830466,"Aenean ipsum est, ornare bibendum tempor vel, aliquet at nulla. Cras a nunc sed dolor maximus interdum.&nbsp;&#8203;Proin augue arcu, iaculis at lobortis id, feugiat id ex. Aliquam id urna justo. Fusce pretium mauris sem, et lacus lobortis ac.&nbsp;"
+865959102943694277,"<font size=""3"" color=""#f2f2f2"">FASHION // LIFESTYLE</font>"
+655414843448627391,"HOW TO FIND YOUR STYLE<br /><font color=""#818181""><font size=""4"">09.06.16</font></font>"
+701077711882349858,"<font color=""#ffffff"">OUR MUST HAVES:<br />SUMMER 2016</font>"
+150744544556467781,"OUR FAVES: PURSES &amp; BAGS<br /><font color=""#818181""><font size=""4"">09.06.16</font></font><font color=""#818181""></font>"
+985595893410651943,"<font size=""6"">Sign Up For Updates</font>"
+181005067211004869,"<font size=""6"">Featured categories</font>"
+719824840341982967,"OUR MUST HAVES: SUMMER 2016<br /><font color=""#818181""><font size=""4"">09.06.16</font></font>"
+275886892635525225,"EASY BREEZY DRESSES<br /><font color=""#818181""><font size=""4"">09.06.16</font></font>"
+341627605399913379,"<font size=""6"">LATEST ARTICLES</font>"
+415799407723170794,"Choose this theme to customize and add content to this page."
+722720919511484401,About
+294049778354606025,
+115572855387586869,"<span><font size=""4"">To edit, click on the text to start adding your own words.</font></span><span style=""color:rgb(42, 42, 42)""></span>"
+306804932139786443,"<span></span><span><font size=""4"">To edit, click on the text to start adding your own words.</font></span>"
+487105495810465307,"<span><font size=""4"">To edit, click on the text to start adding your own words.</font></span>"
+189587168117326495,"<font size=""4""><strong>Handmade</strong></font>"
+485103472236391538,"<font size=""6"">From Clay to Cup</font>"
+234969553555862044,"<strong><font size=""4"">Just Add Coffee</font></strong>"
+959857153986472626,"<strong><font size=""4"">Take Anywhere</font></strong>"
+areas
+id,type,name,data
+custom properties
+id,property
+headers
+id,description,keywords,footer,header

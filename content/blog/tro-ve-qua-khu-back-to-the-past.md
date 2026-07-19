@@ -1,0 +1,31 @@
+---
+title: Trở về quá khứ - Back to the past
+slug: tro-ve-qua-khu-back-to-the-past
+date: '2019-01-01'
+---
+_Khi ta nhìn thấy được sư hình thành của một cá thể khác ta, đó là lúc ta hiểu hoặc hiểu sâu sắc và đặc biệt tôn trọng sự khác biệt giữa ta và cá thể đó._   
+  
+Chưa bao giờ Cá gặp một người như anh. Dù đã gần một năm biết đến anh, và gần một tháng Cá gặp anh ngoài đời, nhưng đến giờ phút này, cái ngày mà anh dẫn Cá về với nơi anh lớn lên, Cá mới có thể thực sự xúc động để viết rõ ràng rằng Cá yêu anh.  
+  
+\---------------------------------  
+  
+Ngồi trong một quán, tại một tầng ngồi bệt, vắng không người, em lấy làm vui vẻ biết bao trong lòng khi mà anh cười nói nhiều (như mọi khi) và trải nghiệm chiếc ipad mới của mình. Em biết chứ, em luôn là đứa ít nói hơn trong mối quan hệ này. Em nghĩ rằng đâu phải em là đứa không nói không rằng gì, em chỉ đang rất sợ, nhỡ em nói ra điều gì đó phá vỡ mối quan hệ này. Khốn nạn thay, đây chính là những gì không bao giờ nên xuất hiện trong đầu của những người bạn chính nghĩa và những người thương nhau thật lòng. Tự hỏi vì sao các bạn con gái ở cái chốn Hà Nội này hay nghĩ vậy? Sợ này sợ kia, ở những nơi khác, con gái ơi, các cậu có vậy không?  
+  
+Anh vẫn luôn là một kẻ cá tính nổi bật trong cái xã hội đang dễ bị lôi kéo theo đám đông. Anh biết mình là ai, và thể hiện nó như một phản xạ bản năng mạnh mẽ sẵn có. Câu chuyện của một thế hệ trẻ đang vùng vẫy thoát ra khỏi sự kim cặp của thế hệ đi trước, cố gắng để làm những điều mà lớp người kiến tạo nên làm, lâu nay, là một đề tài cũ nhưng chưa bao giờ hết mới. Và với bản tính của mình, anh vẫn luôn ý thức rất rõ ràng việc đó. Tuy nhiên, sự mệt mỏi khi phải đấu tranh của anh, em chưa hoàn toàn hiểu hết. Đôi khi, thật đáng tiếc khi nhận ra rằng, người em gái này, vẫn còn rất non nớt và mới chỉ đang cố gắng lôi cái bản năng tự thân của chính mình ra, thế nên cô chẳng thể chia sẻ hết với anh. Anh à, có phải vì thế (cộng thêm việc đói bụng) mà anh thấy rất buồn trong những phút cuối ngồi cafe? Lắm lúc, sự hài hước của chúng ta không cùng tần số thì phải. (Haha đọc lại thấy cái kiểu ngắt câu này khó chịu ghê cơ)  
+  
+Món bánh mì chảo hôm nay, cũng ngon, nhưng hơi mặn với em. Anh thì thích lắm đúng không? Ăn cả phần của em cơ mà =)) Em đã khá đầy bụng lúc đó, và nhận ra rằng, về lâu về dài, việc cảm xúc lúc ăn uống sẽ quyết định rất nhiều đến mối quan hệ lứa đôi! Về vấn đề vô cùng trọng đại này, em thực sự, và rất thực sự mong muốn được học nấu ăn từ những người đã cho anh ăn ngon. Nếu chúng ta đi với nhau, em sẽ bằng được đòi hỏi anh giúp em đáp ứng được điều này! Vi quyền lợi đôi bên! Ồ và chết rồi Cá Con ơi, mày vừa tự nhận ra rằng mày vẫn còn để ý đến anh Meo rất nhiều khi cư xử đúng không? Nào, hãy tập trung vào chính mình đi, tự nhiên đi hỡi người!  
+  
+Điều khiến ngày hôm nay thật đặc biệt với em, đó là cơn mưa mùa hè dội xuống quá khứ của anh. Nơi anh đã ở, đã xếp lá, nơi có những người hàng xóm, nơi có những bậc cầu thang để ngồi của nhà thằng nào đó, nơi cái xe ô tô bên đường có đôi đang chim nhau mà anh và các bạn đã chạy vượt qua quấy nhiễu, nơi có khoảng sân và những người Công giáo đang cầu nguyện,... Khu vực đó, đều mới lạ với em, như chính con người anh vẫn không ngừng mới lạ với em. Tất cả đều đặc biệt, vì bỗng nhiên em nhìn thấy được những gì anh đã đi qua, tuổi thơ và những điều tạo nên con người anh.   
+  
+Có một cậu bé, đứng loanh quanh một chiếc cột và tò mò nhìn ngắm xung quanh. Có vài cậu khác, mặc quần đùi, như anh vẫn mặc, rủ nhau đi vòng quanh làm gì đó. Em tưởng tượng rằng, anh cũng đã từng bé, từng chạy, từng chơi đùa trong cái khuôn viên mở và quý giá đó, nơi những con người không quen, rất Việt Nam, lại rất gần gũi đang cầu nguyện, trò chuyện, làm việc, đang nghe... nghe cái âm thanh của tuổi thơ anh. Từ lúc anh chỉ cái hàng rào, và nói rằng: "Đây là chỗ anh đã xếp lá", em đã thấy thật sáng tạo! Điều anh vừa chỉ lúc đó đó, nó khác với những gì em tưởng tượng. Việc xếp lá của anh, gợi hình, và đầy cảm hứng. Em đã xúc động rất nhiều ngay khi đó, ồ, ra vậy, ra vậy, hóa ra là vậy, đó là anh, là anh đó.   
+  
+Việc được nhìn thấy những nơi đó, một cách thật sống động, thật anh, khiến em không ngừng được cảm giác muốn khóc òa lên, khóc cùng với cơn mưa đang đổ xuống, đổ xuống cái "đồn điền" tuổi thơ anh.  
+  
+Anh có biết em đang cảm nhận điều đó không? Chắc anh biết, nhưng không cảm nhận được em đâu nhỉ. Chắc là, em đành giữ cho riêng em rồi, à mà không, em muốn anh cũng biết, nếu không, em muốn con sẽ biết (tất nhiên kèm theo chữ "nếu" to đùng: Nếu chúng ta cưới!)  
+  
+Và anh ơi  
+Liệu anh có biết, em đã thật sự yêu con người anh rồi không? Giờ đây em lo lắng, liệu nếu, nếu một ngày anh đi, em sẽ không chạy đến nơi này, để mà khóc, để mà ôm lấy quá khứ với anh chứ? Em không biết, nhưng trước mắt, chúng ta hãy vui nào! Em sẽ cố gắng bộc lộ bản thân ra hơn nữa, để em sẽ không bao giờ hối hận từng giây phút bên anh!  
+  
+Kết thúc ngày, đẹp, thật đẹp. Một nơi vắng vẻ, vua Quang Trung và bài hát của Trúc Hồ. Em nên tìm cách để dẹp cái sự lo lắng sợ mất anh đi, và chúng ta sẽ đến với nhau một cách hài lòng nhất! Em đang cố gắng cày xới lại bản thân đây, anh, hãy chờ em nhé! Hãy tin tưởng em!  
+  
+Cảm ơn những điều trên cuộc đời này đã khiến em gặp anh, biết anh. Phần còn lại, cái đắt giá hơn, hiểu anh ấy, em sẽ phải tự nỗ lực việc này!

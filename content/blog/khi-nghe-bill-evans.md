@@ -1,0 +1,47 @@
+---
+title: Khi nghe Bill Evans
+slug: khi-nghe-bill-evans
+date: '2019-01-05'
+---
+ Gửi cậu,  
+  
+Thật kì lạ, rằng chúng mình đã dừng lại.  
+  
+Tớ nghĩ là không có một định nghĩa mối quan hệ nào trong xã hội này có thể miêu tả được cảm xúc của tớ dành cho cậu.   
+Có lẽ đó là sự biết ơn vì cậu đã xuất hiện. Và dù tớ đã nhận được sự đau đớn khi biết rằng cậu đã chọn không cố gắng vì chúng mình, thì tớ giờ cảm thấy thật yên bình.  
+  
+Cậu biết không, tớ vẫn tin là bọn mình hiểu nhau, không phải là hiểu cho những ứng xử xã hội hay những quan điểm tồn tại  và sống trong cộng đồng, mà là hiểu cho mọi cảm xúc bọn mình có thể trải qua.   
+  
+Mặc dù tớ vẫn nghĩ, cậu không có quyền được sử dụng nỗi đau và khó khăn của cậu, như một cái cớ để làm tổn thương tớ, nhưng tớ không hề cảm thấy ghét bỏ hay thù hằn cậu một chút nào. Và tớ cũng hiểu là, tớ cũng đã ép cậu phải xuất hiện theo cách khiến cậu phải sợ tớ. Thực sự, đây là lần đầu tớ đối mặt với một người có coping system là shut down đến mức như vậy. While all I need is proper communication, not much I think, just freely have your privacy but show the good will to the relationship, or barely minimum respect to another human being.  
+  
+Tớ xin lỗi cậu, vì tớ chưa bao giờ muốn tổn thương hay gây hại cho cậu, tuy nhiên tớ đã cần push cậu vậy, vì nếu không tớ sẽ không thể tự bảo vệ được bản thân mình. Chúng mình đều thật ích kỷ ha. Liệu cậu có thể hiểu được cho tớ không? Liệu cậu có thể hiểu được rằng cậu cần giúp đỡ không?  
+  
+Tớ nghĩ trải nghiệm đi cùng với cậu một đoạn đường, as lovers, đã dạy tớ nhiều hơn những gì tớ có thể tưởng tượng.  
+  
+Tớ dậy sớm, ngủ sớm.  
+Tớ không ăn cố khi đã no nữa.  
+Tớ chấp nhận và buông bỏ một cách thật nhẹ nhàng, vì tớ hiểu rằng tớ không sở hữu điều gì cả.  
+Tớ làm mọi thứ từ tốn hơn, không stress để tự làm tổn thương sức khoẻ tinh thần của bản thân nữa.  
+Tớ uống nước nhiều hơn.  
+Tớ không nghĩ cho người khác xấu.  
+Tớ đi ra ngoài nhiều hơn.  
+Tớ cởi mở với nhiều người hơn.  
+Tớ nghe nhạc lại một cách nhẹ nhàng hơn. Ý là, nghe nhạc và cho phép các cảm xúc chảy qua mình, chứ không, cất nó vào góc nữa.  
+Uhm, có lẽ, cậu sẽ khiến tớ chơi lại đàn chăng. Nếu vậy, thì tớ sẽ phải cảm ơn cậu lần nữa nhỉ.  
+  
+Tớ nghĩ là, khi cởi bỏ vũ khí và đồ nghề phòng vệ, khi bọn mình có thể đến với nhau naked soul, khi cậu sẵn sàng làm việc đó, my favorite human being, thì tớ ở đây. Chà, cậu cũng hiểu mà, điều đó cần rất nhiều dũng cảm và niềm tin.  
+Nếu điều đó mãi mãi không xảy ra, cũng không sao cả, tớ sẽ cầu nguyện những điều tốt đẹp xảy đến với cậu, và mong cậu không cô đơn.  
+  
+Vũ Trang à, đừng nghĩ là tớ bị ám ảnh bởi cậu nhé. Tớ đang viết trong trạng thái rất bình tĩnh và tỉnh táo, cũng đang rất chill nữa. Tớ viết và thể hiện những điều này, không phải để níu kéo một nhân duyên. Tớ viết cho sự trưởng thành tâm hồn của tớ, cho khoảnh khắc tớ nhận ra rằng, thế giới này thật đẹp đẽ và tâm hồn của tớ là một giọt nước trong đại dương.  
+Và tớ cảm ơn cậu vì đã giúp tớ nhận ra điều đó, một cách thật vô tình thôi, tớ hiểu là vậy.  
+  
+Tớ thực sự mong những điều tốt đẹp nhất trên thế gian này sẽ xảy đến với cậu. Cuộc sống sẽ đẹp đẽ lên thôi bạn yêu. Cậu muốn tin vào điều đó mà phải không.  
+  
+Tớ mong cậu an nhiên, Vũ Trang. Tớ yêu cậu. Tạm biệt cậu.  
+  
+Linh Bim  
+  
+P.S 1: vẫn lỗi font này haha  
+P.S 2: hmm, đọc các bài tớ viết về/cho cậu bằng cách nhấn vào archives của trang này nhé, nếu có bao giờ cậu lạc lại vào đây. Chắc là không đâu nhỉ.  
+P.S 3: hmm, not sure, but maybe you need to see this and thank me later babe.  
+https://fb.watch/nFoS4yiXkB/
