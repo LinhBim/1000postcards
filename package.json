@@ -11,13 +11,17 @@
     "import": "node import_postcards.mjs"
   },
   "dependencies": {
+    "@next/third-parties": "^16.2.11",
     "csv-parse": "^7.0.1",
     "framer-motion": "^12.42.2",
     "gray-matter": "^4.0.3",
+    "marked": "^18.0.7",
     "next": "16.2.10",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-markdown": "^10.1.0",
+    "react-quill-new": "^3.8.3",
+    "rehype-raw": "^7.0.0",
     "turndown": "^7.2.4"
   },
   "devDependencies": {

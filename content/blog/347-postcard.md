@@ -1,11 +1,13 @@
 ---
-title: "347 | Postcard"
-date: "2026-07-15"
+title: 347 - Postcard
+date: '2026-07-15'
+vibe:
+  - war
+  - boat
+  - sea
+language: auto
+titleFont: auto
+status: public
 isPostcard: true
-coverImage: "/images/postcards/347.jpg"
-vibe: "war, boat, sea"
 ---
-
-![Postcard 347](/images/postcards/347.jpg)
-
-*Nội dung cho Postcard số 347 đang chờ được viết...*
+<p><img src="/images/postcards/347.jpg" alt="Postcard 347"></p><p><em class="ql-font-gamja ql-size-medium">Postcard No. 347 is waiting to be written...</em></p>

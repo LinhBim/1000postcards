@@ -11,11 +11,18 @@ export type BlogPost = {
   content: string;
   isPostcard: boolean;
   coverImage: string | null;
+  backImage: string | null;
   number: string | null;
   vibe: string[];
+  language: string;
+  status: 'published' | 'ready-to-write' | 'draft';
+  titleFont: string;
+  isLocked: boolean;
+  updatedAt: string;
+  excerpt: string;
 };
 
-export function getBlogPosts(): BlogPost[] {
+export function getBlogPosts({ includeLocked = false }: { includeLocked?: boolean } = {}): BlogPost[] {
   if (!fs.existsSync(contentDir)) {
     return [];
   }
@@ -28,12 +35,22 @@ export function getBlogPosts(): BlogPost[] {
       const { data, content } = matter(fileContents);
       
       const title = data.title || 'Untitled';
-      const isPostcard = /^\d+\s*\|/.test(title);
+      const slug = data.slug || file.replace('.md', '');
+      const isPostcard = data.isPostcard !== undefined ? data.isPostcard : /^\d+\s*[|-]/.test(title);
       
-      const imgMatch = content.match(/!\[.*?\]\((.*?)\)/);
-      const coverImage = imgMatch ? imgMatch[1] : null;
+      if (slug.includes('252') || slug.includes('43')) {
+        console.log(`DEBUG POST: ${slug}`);
+        console.log(`- title: ${title}`);
+        console.log(`- data.isPostcard: ${data.isPostcard}`);
+        console.log(`- regex test: ${/^\d+\s*[|-]/.test(title)}`);
+        console.log(`- final isPostcard: ${isPostcard}`);
+      }
       
-      let number = null;
+      const mdImgMatch = content.match(/!\[.*?\]\((.*?)\)/);
+      const htmlImgMatch = content.match(/<img[^>]+src="([^">]+)"/);
+      const coverImage = mdImgMatch ? mdImgMatch[1] : (htmlImgMatch ? htmlImgMatch[1] : null);
+      
+      let number = data.number !== undefined ? String(data.number) : null;
       let vibe: string[] = [];
 
       if (data.vibe) {
@@ -45,9 +62,16 @@ export function getBlogPosts(): BlogPost[] {
       }
 
       if (isPostcard) {
-        const numMatch = title.match(/^(\d+)\s*\|/);
-        if (numMatch) {
-          number = numMatch[1];
+        if (!number) {
+          const numMatch = title.match(/^(\d+)\s*[|-]/);
+          if (numMatch) {
+            number = numMatch[1];
+          } else {
+            const numMatchSlug = slug.match(/^(\d+)-/);
+            if (numMatchSlug) {
+              number = numMatchSlug[1];
+            }
+          }
         }
         
         // Cấp tag mặc định nếu file chưa ghi tag
@@ -57,18 +81,63 @@ export function getBlogPosts(): BlogPost[] {
         }
       }
 
+      const fileStats = fs.statSync(fullPath);
+
+      let status: 'published' | 'ready-to-write' | 'draft' | 'public' = 'published' as any;
+      if (data.status) {
+        status = data.status;
+      } else if (data.isDraft) {
+        status = 'draft';
+      }
+
+      // Generate excerpt
+      let excerpt = '';
+      if (status === 'public') {
+        excerpt = 'Waiting to be written...';
+      } else {
+        const plainText = content
+          .replace(/!\[.*?\]\(.*?\)/g, '') // Remove images
+          .replace(/<[^>]*>?/gm, '') // Remove HTML
+          .replace(/[#*`_~>\[\]\(\)]/g, '') // Remove basic MD chars
+          .replace(/\s+/g, ' ')
+          .trim();
+        excerpt = plainText.length > 150 ? plainText.substring(0, 150) + '...' : plainText;
+      }
+
       return {
-        slug: data.slug || file.replace('.md', ''),
+        slug: slug,
         title: title,
         date: data.date || '2019-01-01',
         content,
         isPostcard,
         coverImage,
+        backImage: data.backImage || null,
         number,
         vibe,
+        language: data.language || 'auto',
+        status: status,
+        titleFont: data.titleFont || 'auto',
+        isLocked: data.isLocked === true,
+        updatedAt: fileStats.mtime.toISOString(),
+        excerpt,
       };
     })
-    .sort((a, b) => (a.date < b.date ? 1 : -1));
+    .filter(post => includeLocked || !post.isLocked)
+    .sort((a, b) => {
+      const numA = a.number ? parseInt(a.number, 10) : null;
+      const numB = b.number ? parseInt(b.number, 10) : null;
+      
+      if (numA !== null && numB !== null) {
+        if (numA !== numB) return numB - numA;
+      } else if (numA !== null) {
+        return -1;
+      } else if (numB !== null) {
+        return 1;
+      }
+      
+      // Fallback to date sorting if no numbers or numbers are equal
+      return a.date < b.date ? 1 : -1;
+    });
   return posts;
 }
 

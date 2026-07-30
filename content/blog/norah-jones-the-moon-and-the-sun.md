@@ -1,20 +1,10 @@
 ---
 title: "Norah Jones,\_ The Moon and The Sun"
-slug: norah-jones-the-moon-and-the-sun
 date: '2019-01-13'
+vibe: []
+language: vi
+titleFont: gamja
+status: published
+isPostcard: false
 ---
-Đêm qua là một đêm khó ngủ.  
-Những liều dopamine rẻ tiền có lẽ đang giết dần những tâm hồn vốn chất chứa ít nhiều tổn thương trong thế hệ này.  
-Sự buồn chán lẽ ra nên được ca ngợi theo đúng cách hơn, bởi có sự buồn chán này, một số người trong chúng ta mới sáng tạo. Mình nói một số vì có lẽ ngoài kia có những thiên tài thực sự mà mình không biết. Mình cũng chỉ biết có bản thân.  
-Và đấy, những liều dopamine nhỏ giọt, rẻ rúng đang giết đi những sự buồn chán tuyệt vời kia.  
-  
-Một đứa tự nghĩ rằng bản thân cũng thông minh như mình có lẽ là rất khó thừa nhận sự hèn nhát và sự thất bại, có lẽ là nhất thời, trong hành trình lớn lên của người lớn này. Mình hiểu, mình đang tự nhốt mình ở cái ranh giới giữa việc trở thành người thành công và việc trở thành một người hèn có chút IQ.  
-  
-Gần đây mợ L.A có nhắn tin cho mình hỏi thăm, bình thường chắc tầm 1 năm/lần, và gần như là mợ chủ động. Mợ nói rằng, mợ tin cháu sẽ thành công, vì cháu đã cố gắng rất nhiều. Mình nghĩ rằng điều đó thật tuyệt vời. Cháu cảm ơn mợ.  
-  
-Mình còn nhiều khiếm khuyết, và mình luôn cần phải cố gắng. Mình thấy mình cố gắng không đủ, vì mình đang làm cái gì đó không đúng cách. Và mình cảm ơn những người xung quanh đã nhắc nhở mình về điều đó, theo cách khiến mình thoải mái hoặc không.  
-Nãy mình xem story của Minh Hằng, thấy Minh Hằng share nhạc Norah Jones. Mình đã mở lại nhạc trên Spotify. Một loại cảm giác quen thuộc lâu ngày không gặp đã tìm lại mình. Hello my lovely, old acquaintance. Đêm qua mình cũng đã nói xin chào với ông bạn thân lâu ngày không gặp tên là Chopin. Hay thật đấy, các bạn vẫn thật hiểu mình.   
-  
-Mình vừa bị ngắt mạch cảm xúc vì có đứa em vừa gửi cho một trang web mà nó giúp mình tạo các nick mail ảo xong forward lại vào mail thật của mình để tránh lộ data mail thật của mình khi đăng ký các tài khoản online. Không liên quan nhưng khá hữu ích chứ ha, nhiều lúc mình cũng ngại nhập mail trực tiếp lên các trang yêu cầu đăng ký để dùng dịch vụ.  
-  
-QUay trở lại thì, mình nghĩ mình đã feel better. Title rất random, chỉ vì story của Minh Hằng, she is my Moon, khiến mình nhớ lại một cảm giác, và Hói pop up trong đầu mình, and she is my ultimate sunshine. They are both in Australia now. For no specific reason, I love them.
+<p>Đêm qua là một đêm khó ngủ.</p><p>Những liều dopamine rẻ tiền có lẽ đang giết dần những tâm hồn vốn chất chứa ít nhiều tổn thương trong thế hệ này.</p><p>Sự buồn chán lẽ ra nên được ca ngợi theo đúng cách hơn, bởi có sự buồn chán này, một số người trong chúng ta mới sáng tạo. Mình nói một số vì có lẽ ngoài kia có những thiên tài thực sự mà mình không biết. Mình cũng chỉ biết có bản thân.</p><p>Và đấy, những liều dopamine nhỏ giọt, rẻ rúng đang giết đi những sự buồn chán tuyệt vời kia.</p><p>Một đứa tự nghĩ rằng bản thân cũng thông minh như mình có lẽ là rất khó thừa nhận sự hèn nhát và sự thất bại, có lẽ là nhất thời, trong hành trình lớn lên của người lớn này. Mình hiểu, mình đang tự nhốt mình ở cái ranh giới giữa việc trở thành người thành công và việc trở thành một người hèn có chút IQ.</p><p>Gần đây mợ L.A có nhắn tin cho mình hỏi thăm, bình thường chắc tầm 1 năm/lần, và gần như là mợ chủ động. Mợ nói rằng, mợ tin cháu sẽ thành công, vì cháu đã cố gắng rất nhiều. Mình nghĩ rằng điều đó thật tuyệt vời. Cháu cảm ơn mợ.</p><p>Mình còn nhiều khiếm khuyết, và mình luôn cần phải cố gắng. Mình thấy mình cố gắng không đủ, vì mình đang làm cái gì đó không đúng cách. Và mình cảm ơn những người xung quanh đã nhắc nhở mình về điều đó, theo cách khiến mình thoải mái hoặc không.</p><p>Nãy mình xem story của Minh Hằng, thấy Minh Hằng share nhạc Norah Jones. Mình đã mở lại nhạc trên Spotify. Một loại cảm giác quen thuộc lâu ngày không gặp đã tìm lại mình. Hello my lovely, old acquaintance. Đêm qua mình cũng đã nói xin chào với ông bạn thân lâu ngày không gặp tên là Chopin. Hay thật đấy, các bạn vẫn thật hiểu mình. </p><p>Mình vừa bị ngắt mạch cảm xúc vì có đứa em vừa gửi cho một trang web mà nó giúp mình tạo các nick mail ảo xong forward lại vào mail thật của mình để tránh lộ data mail thật của mình khi đăng ký các tài khoản online. Không liên quan nhưng khá hữu ích chứ ha, nhiều lúc mình cũng ngại nhập mail trực tiếp lên các trang yêu cầu đăng ký để dùng dịch vụ.</p><p>QUay trở lại thì, mình nghĩ mình đã feel better. Title rất random, chỉ vì story của Minh Hằng, she is my Moon, khiến mình nhớ lại một cảm giác, và Hói pop up trong đầu mình, and she is my ultimate sunshine. They are both in Australia now. For no specific reason, I love them.</p>

@@ -2,12 +2,25 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getBlogPosts } from '@/lib/blog';
 import styles from './page.module.css';
+import { getLanguageFontClass, detectLanguage } from '@/lib/utils';
+import BlogTabs from './BlogTabs';
 
-export default function BlogIndex() {
-  const allPosts = getBlogPosts(); // Bỏ filter, gộp chung tất cả các bài viết
+export const dynamic = 'force-dynamic';
+
+export default async function BlogIndex() {
+  const allPosts = getBlogPosts();
   
-  // Lọc chỉ giữ lại những bài đã có nội dung (không chứa chuỗi mẫu đang chờ viết)
-  const posts = allPosts.filter(post => !post.content.includes('đang chờ được viết...'));
+  // Chỉ hiển thị các bài viết đã Published
+  const posts = allPosts.filter(post => post.status === 'published');
+
+  const getLang = (post: typeof posts[0]) => {
+    if (post.language && post.language !== 'auto') return post.language;
+    return detectLanguage((post.title || '') + ' ' + (post.content || ''));
+  };
+
+  const enPosts = posts.filter(post => getLang(post) === 'en');
+  const viPosts = posts.filter(post => getLang(post) === 'vi');
+  const frPosts = posts.filter(post => getLang(post) === 'fr');
 
   return (
     <div className={styles.fullWidthContainer}>
@@ -16,28 +29,7 @@ export default function BlogIndex() {
         <p className={styles.subtitle}>Thoughts, reflections, and stories behind the postcards.</p>
       </div>
 
-      <div className={styles.gridContainer}>
-        {posts.map(post => (
-          <div key={post.slug} className={styles.itemWrapper}>
-            <Link href={`/blog/${post.slug}`} className={styles.card}>
-              {post.coverImage && (
-                <div className={styles.cardBgImageWrapper}>
-                  <Image 
-                    src={post.coverImage} 
-                    alt={post.title} 
-                    fill
-                    className={styles.cardBgImage}
-                    unoptimized
-                  />
-                </div>
-              )}
-              <div className={styles.cardContent}>
-                <h2 className={styles.postTitle}>{post.title}</h2>
-              </div>
-            </Link>
-          </div>
-        ))}
-      </div>
+      <BlogTabs enPosts={enPosts} viPosts={viPosts} frPosts={frPosts} />
     </div>
   );
 }

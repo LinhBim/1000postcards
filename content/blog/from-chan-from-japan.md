@@ -1,7 +1,8 @@
 ---
-title: '43 | FROM CHAN, FROM JAPAN'
+title: '43 - FROM CHAN, FROM JAPAN'
 slug: from-chan-from-japan
 date: '2019-01-17'
+status: published
 ---
 ![Image](/images/postcards/0043_orig.jpeg)
 

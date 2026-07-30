@@ -1,26 +1,10 @@
 ---
 title: To Delusional Believe
-slug: to-delusional-believe
 date: '2019-01-14'
+vibe: []
+language: en
+titleFont: gamja
+status: published
+isPostcard: false
 ---
-At some point, I happen to find out that I've always been writing about my negative feelings on this blog, which is absolutely understandable because I should let them all out and not bottle up, don't you think? However, that makes me feel bitter, a bit, whenever I look back to the old posts. Shouldn't I jot down more about how amazing I am, as an ordinary human-being? Yeah, let do it today!  
-  
-Last week, I talked to MH on a random day. As always, I'm super happy happy to connect with her. Among those stories we updated, there is one thing that stuck on my mind. She said: "I realize that those successful people I met, in both financial and mental field, share one thing in common. That is THEY DELUSIONALLY BELIEVE IN THE BRIGHT FUTURE."  
-  
-Beautiful.  
-  
-Something started to revive in my whole body. I said to her I used to hypnotize myself that I can do whatever I want to do, over and over again. Sometimes, I feel like I'm hyper optimistically believe that I can make it without having any proper evidences to convince the outcomes. She said she also saw that in me as a nature born, and that I'm not being myself recently because I've been through some up and down.  
-  
-We have been friends for more than a decade.  
-We have been growing together and we deeply share our souls.  
-I gradually come to see that karma "Nhân-Quả" between us.  
-What I told her long time ago now come back to me through her.  
-She is here as a messenger to remind me of me.  
-Isn't it beautiful? Isn't it how best friends are supposed to be?  
-  
-I love her, and I love the bright future I should fight for.  
-I was born to be a fighter, and now I need to do it with grace and with my heart dwells in paradise.  
-Thank you for believing in me even when I'm not.  
-  
-Choose yourself, Linh  
-Choose your-best-self!
+<p>At some point, I happen to find out that I&#39;ve always been writing about my negative feelings on this blog, which is absolutely understandable because I should let them all out and not bottle up, don&#39;t you think? However, that makes me feel bitter, a bit, whenever I look back to the old posts. Shouldn&#39;t I jot down more about how amazing I am, as an ordinary human-being? Yeah, let do it today!</p><p>Last week, I talked to MH on a random day. As always, I&#39;m super happy happy to connect with her. Among those stories we updated, there is one thing that stuck on my mind. She said: &quot;I realize that those successful people I met, in both financial and mental field, share one thing in common. That is THEY DELUSIONALLY BELIEVE IN THE BRIGHT FUTURE.&quot;</p><p>Beautiful.</p><p>Something started to revive in my whole body. I said to her I used to hypnotize myself that I can do whatever I want to do, over and over again. Sometimes, I feel like I&#39;m hyper optimistically believe that I can make it without having any proper evidences to convince the outcomes. She said she also saw that in me as a nature born, and that I&#39;m not being myself recently because I&#39;ve been through some up and down.</p><p>We have been friends for more than a decade.</p><p>We have been growing together and we deeply share our souls.</p><p>I gradually come to see that karma &quot;Nhân-Quả&quot; between us.</p><p>What I told her long time ago now come back to me through her.</p><p>She is here as a messenger to remind me of me.</p><p>Isn&#39;t it beautiful? Isn&#39;t it how best friends are supposed to be?</p><p>I love her, and I love the bright future I should fight for.</p><p>I was born to be a fighter, and now I need to do it with grace and with my heart dwells in paradise.</p><p>Thank you for believing in me even when I&#39;m not.</p><p>Choose yourself, Linh</p><p>Choose your-best-self!</p>

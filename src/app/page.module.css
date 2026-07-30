@@ -1,8 +1,10 @@
 .homeWrapper {
+  position: relative;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: calc(100vh - 280px);
+  min-height: 120vh;
 }
 
 .vibeSection {
@@ -11,57 +13,71 @@
   align-items: center;
   justify-content: center;
   margin: 4rem 0 2rem 0;
-  min-height: 250px;
+  min-height: 100px;
 }
 
 .vibeButton {
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
+  max-width: 90vw;
+  max-height: 90vw;
   border-radius: 50%;
-  background: var(--bg-color);
-  border: 4px dashed var(--accent-color);
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
   color: var(--text-color);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  position: relative;
+  background: transparent;
 }
 
-.vibeButton:hover {
-  transform: scale(1.05);
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
-  background: var(--card-bg);
+.vibeButtonBorder {
+  position: absolute;
+  inset: 0;
+  background: url('/vibe-border.png') center/contain no-repeat;
+  animation: pulseBorder 3s infinite ease-in-out;
+  pointer-events: none;
+}
+
+@keyframes pulseBorder {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.vibeButton:hover .vibeButtonBorder {
+  transform: scale(1.08);
+  animation: none; /* stop pulsing on hover and just scale */
 }
 
 .vibeTextWrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: scale(1.6);
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .vibeTextWrapper {
+    transform: scale(1.2);
+  }
 }
 
 .vibeText {
   font-family: var(--font-heading);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
   text-align: center;
 }
 
 .spinning {
-  animation: spin 1.5s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
-  pointer-events: none;
-  background: var(--card-bg);
-  border-style: solid;
-  border-color: var(--text-color);
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg) scale(1); }
-  50% { transform: rotate(180deg) scale(1.1); }
-  100% { transform: rotate(360deg) scale(1); }
+  cursor: wait;
 }
 
 .vibeResultContainer {
@@ -72,16 +88,19 @@
 }
 
 .vibeResult {
-  font-size: 1.5rem;
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  color: var(--text-color);
   font-weight: 400;
+  margin: 0;
   animation: fadeIn 0.5s ease;
 }
 
 .vibeResult span {
-  font-family: var(--font-handwriting), cursive;
-  font-weight: 700;
+  font-family: var(--font-heading);
   color: var(--accent-color);
-  font-size: 2rem;
+  font-size: 3.5rem;
+  font-weight: 700;
   margin-left: 0.5rem;
 }
 
@@ -99,7 +118,8 @@
   border: 1px solid var(--card-border);
   background: var(--card-bg);
   color: var(--text-color);
-  font-size: 0.9rem;
+  font-size: 1.2rem;
+  font-family: var(--font-heading);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   cursor: pointer;
@@ -120,24 +140,24 @@
 
 /* Scattered Layout */
 .scatteredContainer {
-  position: relative;
-  width: 100vw;
-  height: 75vh;
+  position: absolute;
+  top: -4rem;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 8rem);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  pointer-events: none;
+  z-index: 10;
 }
 
 .scatteredItemWrapper {
   position: absolute;
   width: 250px; /* Fixed width when scattered */
   cursor: grab;
-  /* Add a vintage white border (polaroid effect) for scattered cards */
-  padding: 10px 10px 30px 10px;
-  background: white;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
-  border-radius: 2px;
+  pointer-events: auto;
 }
 
 .scatteredItemWrapper:active {
@@ -191,11 +211,11 @@
 
 .item {
   position: relative;
-  border-radius: 12px;
+  border-radius: 0;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  box-shadow: 2px 5px 8px rgba(0,0,0,0.25);
   cursor: pointer;
-  background-color: var(--card-bg);
+  background-color: transparent;
   width: 100%;
   display: block;
   -webkit-user-drag: none;
@@ -230,7 +250,7 @@
 
 .overlayText {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -256,4 +276,124 @@
   color: #888;
   margin-top: 2rem;
   font-style: italic;
+}
+
+/* PREVIEW POPUP MODAL */
+.modalBackdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.modalContent {
+  background: var(--bg-color);
+  width: 95vw;
+  max-width: 1400px;
+  max-height: 90vh;
+  height: 85vh; /* Force it to take up more vertical space */
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  position: relative;
+}
+
+.modalImageContainer {
+  flex: 1.8; /* Give the image significantly more width */
+  position: relative;
+  background: #f5f5f5;
+  min-height: 300px;
+  padding: 2rem;
+}
+
+.modalImage {
+  object-fit: contain;
+}
+
+.modalTextContainer {
+  flex: 1; /* Text gets the remaining space */
+  padding: 4rem 3rem; /* Increase padding for breathing room */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px dashed var(--card-border);
+}
+
+.modalTitle {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+
+.modalExcerpt {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 3rem;
+  white-space: pre-wrap;
+}
+
+.modalButton {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 40px;
+  font-family: var(--font-jost), sans-serif;
+  font-weight: 600;
+  font-size: 1.35rem;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  text-align: center;
+  align-self: flex-start;
+}
+
+.modalButton:hover {
+  transform: translateY(-2px);
+  background-color: #d14d25;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--text-color);
+  cursor: pointer;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .modalContent {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  .modalImageContainer {
+    min-height: 40vh;
+  }
+  .modalTextContainer {
+    border-left: none;
+    border-top: 1px dashed var(--card-border);
+    padding: 2rem;
+  }
 }

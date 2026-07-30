@@ -1,9 +1,12 @@
 import { getBlogPost, getBlogPosts } from '@/lib/blog';
 import { notFound } from 'next/navigation';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import styles from './page.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import { getLanguageFontClass, getBodyLanguageFontClass } from '@/lib/utils';
+import FlipImage from '@/components/FlipImage';
 
 export async function generateStaticParams() {
   const posts = getBlogPosts();
@@ -42,29 +45,42 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   }
 
   // Nếu là Postcard, loại bỏ hình ảnh đầu tiên khỏi nội dung (vì nó đã hiển thị to ở nửa trái)
-  const contentWithoutCover = post.isPostcard && post.coverImage 
-    ? post.content.replace(/!\[.*?\]\(.*?\)/, '') 
-    : post.content;
+  let contentWithoutCover = post.content;
+  if (post.isPostcard && post.coverImage) {
+    if (contentWithoutCover.includes('<img')) {
+      contentWithoutCover = contentWithoutCover.replace(/<p><img[^>]+><\/p>/, '');
+      contentWithoutCover = contentWithoutCover.replace(/<img[^>]+>/, '');
+    } else {
+      contentWithoutCover = contentWithoutCover.replace(/!\[.*?\]\(.*?\)/, '');
+    }
+  }
+
+  // Tự động detect xem bài viết có dấu không để gán font
+  const titleFontClass = getLanguageFontClass(post.title, post.titleFont);
+  const bodyFontClass = getBodyLanguageFontClass(post.content || '');
 
   if (post.isPostcard) {
     return (
-      <div className={styles.splitScreen}>
+      <div className={`${styles.splitScreen} ${bodyFontClass}`}>
         <div className={styles.leftPane}>
           {post.coverImage && (
             <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-              <Image 
-                src={post.coverImage} 
+              <FlipImage 
+                frontSrc={post.coverImage} 
+                backSrc={post.backImage}
                 alt={post.title} 
                 fill
                 className={styles.splitImage}
-                unoptimized
               />
             </div>
           )}
         </div>
         <div className={styles.rightPane}>
           <div className={styles.handwritingContent}>
-            <ReactMarkdown>{contentWithoutCover}</ReactMarkdown>
+            <h1 style={{ marginBottom: '1.5rem' }} className={titleFontClass}>
+              {post.title}
+            </h1>
+            <ReactMarkdown rehypePlugins={[rehypeRaw]}>{contentWithoutCover}</ReactMarkdown>
           </div>
 
           {suggestions.length > 0 && (
@@ -72,7 +88,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <h3 className={styles.suggestionsTitle}>More postcards to read</h3>
               <div className={styles.suggestionsGrid}>
                 {suggestions.map((s) => (
-                  <Link key={s.slug} href={`/blog/${s.slug}`} className={styles.suggestionCard}>
+                  <Link key={s.slug} href={`/blog/${s.slug}`} target="_blank" className={styles.suggestionCard}>
                     <Image 
                       src={s.coverImage} 
                       alt={s.title} 
@@ -99,14 +115,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   }
 
   return (
-    <div className={`container ${styles.postWrapper}`}>
+    <div className={`container ${styles.postWrapper} ${bodyFontClass}`}>
       <article className={styles.article}>
         <header className={styles.header}>
-          <h1 className={styles.title}>{post.title}</h1>
+          <h1 className={`${styles.title} ${titleFontClass}`}>{post.title}</h1>
           <p className={styles.date}>{post.date}</p>
         </header>
         <div className={styles.content}>
-          <ReactMarkdown>{post.content}</ReactMarkdown>
+          <ReactMarkdown rehypePlugins={[rehypeRaw]}>{post.content}</ReactMarkdown>
         </div>
       </article>
       <div className={styles.backAction} style={{ textAlign: 'center', marginTop: '3rem' }}>

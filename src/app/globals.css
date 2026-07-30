@@ -1,3 +1,95 @@
+@font-face {
+  font-family: 'CustomGamjaFlower';
+  src: url('/fonts/GamjaFlower-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font utils */
+.font-gamja, .font-gamja *, .ql-font-gamja {
+  font-family: 'CustomGamjaFlower', cursive !important;
+}
+
+.font-patrick, .font-patrick *, .ql-font-patrick {
+  font-family: var(--font-patrick-hand), cursive !important;
+}
+
+.font-playfair, .font-playfair *, .ql-font-playfair {
+  font-family: var(--font-playfair), serif !important;
+}
+
+.font-inter, .font-inter *, .ql-font-inter {
+  font-family: var(--font-inter), sans-serif !important;
+}
+
+.font-architects, .font-architects *, .ql-font-architects {
+  font-family: var(--font-handwriting), cursive !important;
+}
+
+.font-jost, .font-jost *, .ql-font-jost {
+  font-family: var(--font-jost), sans-serif !important;
+}
+
+.font-montserrat, .font-montserrat *, .ql-font-montserrat {
+  font-family: var(--font-montserrat), sans-serif !important;
+}
+
+.ql-size-small, .text-small, .text-small * {
+  font-size: 1rem !important;
+}
+
+.ql-size-medium, .text-medium, .text-medium * {
+  font-size: 1.35rem !important;
+}
+
+.ql-size-large, .text-large, .text-large * {
+  font-size: 1.75rem !important;
+}
+
+/* Quill Toolbar overrides */
+.ql-snow .ql-picker.ql-font {
+  width: 120px !important;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="gamja"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="gamja"]::before {
+  content: 'Gamja Flower' !important;
+  font-family: 'CustomGamjaFlower', cursive;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="patrick"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="patrick"]::before {
+  content: 'Patrick Hand' !important;
+  font-family: var(--font-patrick-hand), cursive;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value="sans-serif"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value="sans-serif"]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-label:not([data-value])::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item:not([data-value])::before {
+  content: 'Default' !important;
+  font-family: sans-serif;
+}
+
+/* Size overrides */
+.ql-snow .ql-picker.ql-size {
+  width: 90px !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="small"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="small"]::before {
+  content: 'Small' !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="medium"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="medium"]::before {
+  content: 'Medium' !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value="large"]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="large"]::before {
+  content: 'Large' !important;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label:not([data-value])::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item:not([data-value])::before {
+  content: 'Normal' !important;
+}
+
 :root {
   --bg-color: #fcfbf9; /* Cream/Beige */
   --text-color: #2c2c2c;
@@ -26,6 +118,8 @@
 }
 
 body {
+  --font-heading: 'CustomGamjaFlower', cursive;
+  --font-body: 'CustomGamjaFlower', cursive;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: var(--font-body);

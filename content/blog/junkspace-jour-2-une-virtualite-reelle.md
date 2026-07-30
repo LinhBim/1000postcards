@@ -1,60 +1,12 @@
 ---
 title: 2 - Bigness - Une virtualité réelle
-slug: junkspace-jour-2-une-virtualite-reelle
 date: '2019-01-27'
+vibe:
+  - colorful
+language: fr
+titleFont: patrick
+status: published
+isPostcard: false
+isLocked: false
 ---
-MODERNISATION  
-  
-Il y a des paragraphes que je ne comprend presque rien dans l'introduction du texte "modernisation" :  
-  
-"La Bigness s'est inscrite dans **_une double polémique_**, affrontant à la fois les précédentes tentatives d'intégration et de concentration, et les doctrines contemporaines qui mettent en question la viabilité des catégories **de Tout et de Réel**, et se résignent au désassemblage ou à la dissolution de l'architecture, supposés inévitables."  
-  
-"**La mégastructure** - une sorte de soutien technique qui embrasse tout et qui permet tout, qui a de façon définitive mis en question le statut du bâtiment individuel : une Bigness très prudente, dont _les véritables implications excluent l'application."_  
-\--> Cela résulte l'exagération sur la menace de la Bigness en Europe.  
-  
-​"La Bigness est comme une couverture métallique de nuages..." (2)  
-"... des espaces où "n'importe quoi" était possible." --> **L'entité au prix de l'identité** (3)  
-  
-"Les emprunts aux autres disciplines" ; "ma génération a été marquée par l'échec de ce modèle de densité et d'intégration, et de ceux du même genre - par **leur insensibilité systématique** au particulier" --> Je pense au modèle des pavillonnaires hors de la périphérie de la ville aux État-Unis, qui sont paraîts comme les champignons par tout.  
-  
-**Le démantèlement (= action de détruire la structure)**
-
-*   **La décomposition du programme** : "en fractions  d'unicité incompatibles, chacune étant un prétexte pour désintégrer davantage le tout". La vieille doctrine a été laissé à côté : "**_la forme suit la fonction_**". Résultat : un diagramme de l'anti-climax. --> "son esthétique conduit à l'orchestration riche du chaos. Dans ce paysages de _démembrement_ et de faux désordre, chaque activité est **_mise à sa place_.**"
-*   Montage - l'appareil inventé au début du siècle permet d'organiser les relations entre des parties indépendantes ---> en train d'être défaits par une section de l'avant-garde du moment????? T.T
-
-  
-**La disparition**
-
-*   ​La simulation | La virtualité | La non-existence ---> transcende la question de la Bigness (massive).
-*   "L'architecture sera le premier "**solide qui se dissout dans l'air.**"" ---> grâce aux effets combinés :
-    *   tendances démographiques.
-    *   électronique
-    *   loisirs
-    *   la mort de Dieu
-    *   livre
-    *   téléphone
-    *   fax
-    *   opulence (riche, sang)
-    *   démocratie
-    *   fin du Grand Récit
-    *   etc.
-
-  
-"Cette avant-garde fait des expériences dans **une virtualité réelle...**"  
-  
-"**La réalité virtuelle**"  
-  
-_**Le démantèlement et la disparition >< Le Tout et le Réel**_
-
-Références :  
-1\. New York Délire : explicite le choc de la Bigness en Europe.  
-2\. L'urbanisme spatial (Yona Friedman-1958)  
-​3. Beaubourg - 1972 
-
-Liens :  
-1. https://www.oma.com/publications/junkspace  
-​
-
-POURQUOI IL EXISTE CETTE PHÉNOMÈNE ?  
-\- La modernisation   
-​
+<p>MODERNISATION</p><p>Il y a des paragraphes que je ne comprend presque rien dans l&#39;introduction du texte &quot;modernisation&quot; :</p><p>&quot;La Bigness s&#39;est inscrite dans <strong><em>une double polémique</em></strong>, affrontant à la fois les précédentes tentatives d&#39;intégration et de concentration, et les doctrines contemporaines qui mettent en question la viabilité des catégories <strong>de Tout et de Réel</strong>, et se résignent au désassemblage ou à la dissolution de l&#39;architecture, supposés inévitables.&quot;</p><p>&quot;<strong>La mégastructure</strong> - une sorte de soutien technique qui embrasse tout et qui permet tout, qui a de façon définitive mis en question le statut du bâtiment individuel : une Bigness très prudente, dont <em>les véritables implications excluent l&#39;application.&quot;</em></p><p>--&gt; Cela résulte l&#39;exagération sur la menace de la Bigness en Europe.</p><p>​&quot;La Bigness est comme une couverture métallique de nuages...&quot; (2)</p><p>&quot;... des espaces où &quot;n&#39;importe quoi&quot; était possible.&quot; --&gt; <strong>L&#39;entité au prix de l&#39;identité</strong> (3)</p><p>&quot;Les emprunts aux autres disciplines&quot; ; &quot;ma génération a été marquée par l&#39;échec de ce modèle de densité et d&#39;intégration, et de ceux du même genre - par <strong>leur insensibilité systématique</strong> au particulier&quot; --&gt; Je pense au modèle des pavillonnaires hors de la périphérie de la ville aux État-Unis, qui sont paraîts comme les champignons par tout.</p><p><strong>Le démantèlement (= action de détruire la structure)</strong></p><ul><li><strong>La décomposition du programme</strong> : &quot;en fractions  d&#39;unicité incompatibles, chacune étant un prétexte pour désintégrer davantage le tout&quot;. La vieille doctrine a été laissé à côté : &quot;<strong><em>la forme suit la fonction</em></strong>&quot;. Résultat : un diagramme de l&#39;anti-climax. --&gt; &quot;son esthétique conduit à l&#39;orchestration riche du chaos. Dans ce paysages de <em>démembrement</em> et de faux désordre, chaque activité est <strong><em>mise à sa place</em>.</strong>&quot;</li><li>Montage - l&#39;appareil inventé au début du siècle permet d&#39;organiser les relations entre des parties indépendantes ---&gt; en train d&#39;être défaits par une section de l&#39;avant-garde du moment????? T.T</li></ul><p><strong>La disparition</strong></p><ul><li>​La simulation | La virtualité | La non-existence ---&gt; transcende la question de la Bigness (massive).</li><li>&quot;L&#39;architecture sera le premier &quot;<strong>solide qui se dissout dans l&#39;air.</strong>&quot;&quot; ---&gt; grâce aux effets combinés :<ul><li>tendances démographiques.</li><li>électronique</li><li>loisirs</li><li>la mort de Dieu</li><li>livre</li><li>téléphone</li><li>fax</li><li>opulence (riche, sang)</li><li>démocratie</li><li>fin du Grand Récit</li><li>etc.</li></ul></li></ul><p>&quot;Cette avant-garde fait des expériences dans <strong>une virtualité réelle...</strong>&quot;</p><p>&quot;<strong>La réalité virtuelle</strong>&quot;</p><p><strong><em>Le démantèlement et la disparition &gt;&lt; Le Tout et le Réel</em></strong></p><p>Références :</p><p>1. New York Délire : explicite le choc de la Bigness en Europe.</p><p>2. L&#39;urbanisme spatial (Yona Friedman-1958)</p><p>​3. Beaubourg - 1972 </p><p>Liens :</p><p>1. <a href="https://www.oma.com/publications/junkspace" rel="noopener noreferrer" target="_blank">https://www.oma.com/publications/junkspace</a></p><p>​</p><p>POURQUOI IL EXISTE CETTE PHÉNOMÈNE ?</p><p>- La modernisation </p><p>​</p>

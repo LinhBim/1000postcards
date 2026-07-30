@@ -1,47 +1,11 @@
 ---
 title: 1 - Bigness Fuck the context
-slug: junkspace-jour-1-fuck-the-context
 date: '2019-01-26'
+vibe: []
+language: fr
+titleFont: gamja
+status: published
+isPostcard: false
+isLocked: false
 ---
-Je commence aujourd'hui le livre Junkspace de Rem Koolhaas. J'ai dû finir beaucoup plus avant, mais j'ai trop la flemme pour aller jusqu'au bout. Maintenant, dans 15 jours, j'ai une exposition à faire avec mon nouveau groupe sur ce livre. Il n'y a pas que le livre à lire et synthétiser, mais aussi une nouvelle couverture à élaborer... haha...  
-  
-Ok, mais je vais arriver. On commence !
-
-BIGNESS  
-  
-5 Théorèmes de la Bigness :
-
-*   La masse qui ne peut plus être contrôlée par un seul geste architectural provoque **l'autonomie des parties** (pas Fragmentation - les parties demeurent liées au tout). 
-
- 
-
-*   l'ascenseur : **connexions mécanique plutôt qu'architectur**e (rendent nul dans le répertoire classique de l'architecture  --> l'art de l'architecture est inutile dans la Bigness. (la question de composition, d'échelle, de proportion, de détail)
-
-Je pense à une scénario d'une personne qui circule dans un gratte-ciel, avec une vitesse de quelques seconds. une circulation totalement verticale qui est anormal avec notre corps naturel.
-
-*   **Le coeur s'éloigne de l'enveloppe d'un bâtiment**. Architecture d'intérieur sert aux besoins instables du programme et à l'iconographie ; l'Architecture d'extérieur offre la ville l'apparente stabilité d'un objet - agent de désinsformation. --> _"la Bigness transforme la ville d'une somme de certitudes en une accumulation de mystères."_
-
-La communication du programme d'un bâtiment et sa façade est presque nul.
-
-*   "**amoral**" --> ce qui ne considère pas le vrai ou le faux. "Leur impact ne dépend pas de leur qualité."
-*   Toutes les ruptures, avec :​
-    *   l'échelle
-    *   la composition architecturale
-    *   la tradition
-    *   la transparence
-    *   l'éthique
-
-\------------->>>>> la rupture plus radicale : _**"La Bigness ne fait plus partie d'aucun tissu urbain."**_  
-  
-  
-
-**VOCABULAIRE**
-
-1.  **Façonner un espace :** (façonner est utilisé quand on travaille sur la matière --> donner la forme d'une matière / ou / former qu'un par l'éducation --> la vie l'a façonner) -\-> _"L'ascenseur, la climatisation, le placoplâtre ont aboli les repères traditionnels de l'architecture, pour façonner un espace plus continu et plus instable à la fois - le Junkspace."_
-2.  **rendre explicite dans le travail :** làm rõ
-  
-
-  
-  
-
-http://arche-techne.over-blog.com/les-5-points-de-la-bigness
+<p>Je commence aujourd&#39;hui le livre Junkspace de Rem Koolhaas. J&#39;ai dû finir beaucoup plus avant, mais j&#39;ai trop la flemme pour aller jusqu&#39;au bout. Maintenant, dans 15 jours, j&#39;ai une exposition à faire avec mon nouveau groupe sur ce livre. Il n&#39;y a pas que le livre à lire et synthétiser, mais aussi une nouvelle couverture à élaborer... haha...</p><p>Ok, mais je vais arriver. On commence !</p><p>BIGNESS</p><p>5 Théorèmes de la Bigness :</p><ul><li>La masse qui ne peut plus être contrôlée par un seul geste architectural provoque <strong>l&#39;autonomie des parties</strong> (pas Fragmentation - les parties demeurent liées au tout). </li><li>l&#39;ascenseur : <strong>connexions mécanique plutôt qu&#39;architectur</strong>e (rendent nul dans le répertoire classique de l&#39;architecture  --&gt; l&#39;art de l&#39;architecture est inutile dans la Bigness. (la question de composition, d&#39;échelle, de proportion, de détail)</li></ul><p>Je pense à une scénario d&#39;une personne qui circule dans un gratte-ciel, avec une vitesse de quelques seconds. une circulation totalement verticale qui est anormal avec notre corps naturel.</p><ul><li><strong>Le coeur s&#39;éloigne de l&#39;enveloppe d&#39;un bâtiment</strong>. Architecture d&#39;intérieur sert aux besoins instables du programme et à l&#39;iconographie ; l&#39;Architecture d&#39;extérieur offre la ville l&#39;apparente stabilité d&#39;un objet - agent de désinsformation. --&gt; <em>&quot;la Bigness transforme la ville d&#39;une somme de certitudes en une accumulation de mystères.&quot;</em></li></ul><p>La communication du programme d&#39;un bâtiment et sa façade est presque nul.</p><ul><li>&quot;<strong>amoral</strong>&quot; --&gt; ce qui ne considère pas le vrai ou le faux. &quot;Leur impact ne dépend pas de leur qualité.&quot;</li><li>Toutes les ruptures, avec :​<ul><li>l&#39;échelle</li><li>la composition architecturale</li><li>la tradition</li><li>la transparence</li><li>l&#39;éthique</li></ul></li></ul><p>-------------&gt;&gt;&gt;&gt;&gt; la rupture plus radicale : <strong><em>&quot;La Bigness ne fait plus partie d&#39;aucun tissu urbain.&quot;</em></strong></p><p><strong>VOCABULAIRE</strong></p><ol><li><strong>Façonner un espace :</strong> (façonner est utilisé quand on travaille sur la matière --&gt; donner la forme d&#39;une matière / ou / former qu&#39;un par l&#39;éducation --&gt; la vie l&#39;a façonner) --&gt; <em>&quot;L&#39;ascenseur, la climatisation, le placoplâtre ont aboli les repères traditionnels de l&#39;architecture, pour façonner un espace plus continu et plus instable à la fois - le Junkspace.&quot;</em></li><li><strong>rendre explicite dans le travail :</strong> làm rõ</li></ol><p><a href="http://arche-techne.over-blog.com/les-5-points-de-la-bigness" rel="noopener noreferrer" target="_blank">http://arche-techne.over-blog.com/les-5-points-de-la-bigness</a></p>

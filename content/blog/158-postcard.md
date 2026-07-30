@@ -1,11 +1,12 @@
 ---
-title: "158 | Postcard"
-date: "2026-07-15"
+title: 158 - Postcard
+date: '2026-07-15'
 isPostcard: true
-coverImage: "/images/postcards/0158.jpg"
-vibe: "colorful"
+coverImage: /images/postcards/0158.jpg
+vibe: colorful
+status: public
 ---
 
 ![Postcard 158](/images/postcards/0158.jpg)
 
-*Nội dung cho Postcard số 158 đang chờ được viết...*
+*Postcard No. 158 is waiting to be written...*

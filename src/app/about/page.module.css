@@ -1,0 +1,79 @@
+.splitScreen {
+  display: flex;
+  min-height: calc(100vh - 180px);
+  width: 100%;
+}
+
+.leftPane {
+  flex: 1;
+  border-right: 1px solid var(--card-border);
+  position: relative;
+  min-height: 50vh;
+}
+
+.rightPane {
+  flex: 1;
+  padding: 4rem 6vw;
+  background-color: var(--bg-color);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align bottom */
+  position: relative; /* For absolutely positioning the cat and path */
+}
+
+.content {
+  font-size: 2.5rem;
+  line-height: 2.2;
+  text-align: right;
+  position: relative;
+  z-index: 2;
+}
+
+.catStamp {
+  position: absolute;
+  top: -140px;
+  right: 0; /* Align exactly with right edge of .content */
+  width: 120px;
+  height: 120px;
+  background-image: url('/images/ui/_Image33.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.pathLine {
+  position: absolute;
+  bottom: -60px;
+  right: 0; /* Align exactly with right edge of .content */
+  width: 600px; /* Make the path much bigger */
+  height: 60px;
+  background-image: url('/images/ui/_Image32.png'); /* The barcode path */
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center right;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: 5rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .splitScreen {
+    flex-direction: column;
+  }
+  .leftPane {
+    border-right: none;
+    border-bottom: 1px solid var(--card-border);
+    min-height: 40vh;
+  }
+}

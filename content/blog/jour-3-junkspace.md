@@ -1,52 +1,12 @@
 ---
 title: 3 - Bigness
-slug: jour-3-junkspace
 date: '2019-01-28'
+vibe:
+  - fun
+language: fr
+titleFont: gamja
+status: published
+isPostcard: false
+isLocked: false
 ---
-**MAXIMUM**  
-  
-Bigness est aussi le problème de réorganisation, de consolidation et d'expansion. Une complexité de la société à la fin du second millénaire a causé "le Tout et le Réel cessèrent d'exister comme ambitions réalisables pour l'architecte."  
-  
-**L'absense de la théorie de la Bigness**. --> "les construits sont partiellement réussie et par conséquence, il sont discrédités."  
-\--> _**"Les Grosses erreurs sont notre seul lien à la Bigness."**_  
-  
-**L'attraction de la Bigness** : reconstruire le Tout, ressusciter le Réel, réinventer le collectif, revendiquer la possibilité maximale.  
-  
-Bigness est une manifeste avec laquelle, "l'architecture (reconquérir) reconquiert sa fonction de véhicule de la modernisation"   
-  
-Rem a affirmé qu'en compensant la difficulté de notre pauvre connaissons de la Bigness :  
-_"tout n'est plus architecture"_  
-  
-
-**COMMENCEMENT**  
-  
-La Bigness détruit l'existance, et elle construise l'imprévisible. "Au lieu de renforcer la coexistence, la Bigness repose sur des régimes de liberté, sur **l'assemblage d'un maximum de différences**." Organiser leur _indépendance_ et leur _interdépendance_.  
-  
-"Seule la Bigness peut faire vivre des relations authentiquement nouvelles entre des entités fonctionnelles qui étendent leur identité plutôt que de la limiter."  
-\- Contamination >< Pureté  
-\- Quantité >< Qualité  
-  
-L'artificialité et la complexité de la Bigness permettre une sorte de **liquéfaction**.  
-\--> un programme **_alchimique_**  
-  
-"La Bigness régule l'intensité de la coexistence et de ses différents programmes."  
-  
-"Sa vastitude épuise le désir compulsif qu'a l'architecture de décider et de déterminer. **Certaines zones seront oubliées, libérées de l'architecture."**  
-
-**ÉQUIPE**  
-\= les hommes qui font la Bigness.  
-"La Bigness ne peut être accomplie qu'au moyen de l'abandon du contrôle, de la métamorphose.   
-Équipe --> un réalignement accompagné de neutralité.  
-​  
-
-**BASTION**  
-  
-  
-
-_**VOCABULAIRE**_
-
-1.  Un seul contenant --> des événements multiples dans un seul contenant
-2.  Symbiose : cộng sinh
-3.  Sérénité : thanh thản 
-4.  Fadeur : nhạt nhẽo
-5.  Compulsif : ép buộc
+<p><strong>MAXIMUM</strong></p><p>Bigness est aussi le problème de réorganisation, de consolidation et d&#39;expansion. Une complexité de la société à la fin du second millénaire a causé &quot;le Tout et le Réel cessèrent d&#39;exister comme ambitions réalisables pour l&#39;architecte.&quot;</p><p><strong>L&#39;absense de la théorie de la Bigness</strong>. --&gt; &quot;les construits sont partiellement réussie et par conséquence, il sont discrédités.&quot;</p><p>--&gt; <strong><em>&quot;Les Grosses erreurs sont notre seul lien à la Bigness.&quot;</em></strong></p><p><strong>L&#39;attraction de la Bigness</strong> : reconstruire le Tout, ressusciter le Réel, réinventer le collectif, revendiquer la possibilité maximale.</p><p>Bigness est une manifeste avec laquelle, &quot;l&#39;architecture (reconquérir) reconquiert sa fonction de véhicule de la modernisation&quot; </p><p>Rem a affirmé qu&#39;en compensant la difficulté de notre pauvre connaissons de la Bigness :</p><p><em>&quot;tout n&#39;est plus architecture&quot;</em></p><p><strong>COMMENCEMENT</strong></p><p>La Bigness détruit l&#39;existance, et elle construise l&#39;imprévisible. &quot;Au lieu de renforcer la coexistence, la Bigness repose sur des régimes de liberté, sur <strong>l&#39;assemblage d&#39;un maximum de différences</strong>.&quot; Organiser leur <em>indépendance</em> et leur <em>interdépendance</em>.</p><p>&quot;Seule la Bigness peut faire vivre des relations authentiquement nouvelles entre des entités fonctionnelles qui étendent leur identité plutôt que de la limiter.&quot;</p><p>- Contamination &gt;&lt; Pureté</p><p>- Quantité &gt;&lt; Qualité</p><p>L&#39;artificialité et la complexité de la Bigness permettre une sorte de <strong>liquéfaction</strong>.</p><p>--&gt; un programme <strong><em>alchimique</em></strong></p><p>&quot;La Bigness régule l&#39;intensité de la coexistence et de ses différents programmes.&quot;</p><p>&quot;Sa vastitude épuise le désir compulsif qu&#39;a l&#39;architecture de décider et de déterminer. <strong>Certaines zones seront oubliées, libérées de l&#39;architecture.&quot;</strong></p><p><strong>ÉQUIPE</strong></p><p>= les hommes qui font la Bigness.</p><p>&quot;La Bigness ne peut être accomplie qu&#39;au moyen de l&#39;abandon du contrôle, de la métamorphose. </p><p>Équipe --&gt; un réalignement accompagné de neutralité.</p><p>​</p><p><strong>BASTION</strong></p><p><strong><em>VOCABULAIRE</em></strong></p><ol><li>Un seul contenant --&gt; des événements multiples dans un seul contenant</li><li>Symbiose : cộng sinh</li><li>Sérénité : thanh thản </li><li>Fadeur : nhạt nhẽo</li><li>Compulsif : ép buộc</li></ol>

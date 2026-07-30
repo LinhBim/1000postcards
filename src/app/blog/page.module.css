@@ -11,13 +11,13 @@
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 5rem;
   margin-bottom: 0.5rem;
 }
 
 .subtitle {
   color: #666;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
 }
 
 .gridContainer {
@@ -34,6 +34,20 @@
   .gridContainer { grid-template-columns: 1fr; }
 }
 
+.languageSection {
+  margin-bottom: 5rem;
+}
+
+.languageTitle {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+  text-align: left;
+  border-bottom: 2px solid var(--card-border);
+  padding-bottom: 0.5rem;
+}
+
 .itemWrapper {
   display: flex;
   flex-direction: column;
@@ -44,17 +58,23 @@
   display: flex;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  border-radius: 8px;
+  border-radius: 8px; 
   overflow: hidden;
   transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
   width: 100%;
-  aspect-ratio: 1 / 1; /* Cố định frame thành hình vuông */
+  aspect-ratio: 1 / 1; /* Cố định frame thành hình vuông (như cũ) */
   box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: #1e1e1e;
+  }
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 /* Hover mờ ảnh */
@@ -76,22 +96,37 @@
 
 .cardContent {
   position: relative;
-  z-index: 1; /* Nổi lên trên ảnh mờ */
-  padding: 2.5rem 1.5rem;
+  z-index: 2; /* Nổi lên trên ảnh nền và stamp */
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: flex-end; /* Align to bottom */
+  align-items: flex-end; /* Align to right */
+  text-align: right; /* Text right aligned */
   width: 100%;
   height: 100%;
 }
 
 .postTitle {
-  font-size: 1.6rem;
-  line-height: 1.4;
+  font-size: 2.8rem;
+  line-height: 1.3;
   font-family: var(--font-heading);
-  text-shadow: 0 2px 4px rgba(255,255,255,0.5); /* Giúp chữ dễ đọc hơn nếu ảnh hơi đậm */
+  text-shadow: 0 1px 2px rgba(255,255,255,0.8);
+  color: #333;
+}
+
+.stampOverlay {
+  position: absolute;
+  top: 15px;
+  right: 15px; /* Góc trên bên phải */
+  width: 40%; /* Tăng chiều rộng để vừa các path ngang */
+  height: 30%;
+  z-index: 1;
+  opacity: 0.7;
+  pointer-events: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -102,3 +137,36 @@
     text-shadow: 0 2px 4px rgba(0,0,0,0.8);
   }
 }
+
+.tabsContainer {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid var(--card-border);
+  margin-bottom: 3rem;
+  padding-left: 0.5rem;
+}
+
+.tab {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  padding: 0.5rem 2rem;
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom: none;
+  cursor: pointer;
+  color: #888;
+  border-radius: 8px 8px 0 0;
+  transform: translateY(1px);
+  transition: all 0.2s ease;
+}
+
+.tab:hover {
+  color: var(--text-color);
+}
+
+.tab.activeTab {
+  color: var(--text-color);
+  border-color: var(--card-border);
+  background: var(--bg-color);
+}
+

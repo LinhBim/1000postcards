@@ -1,5 +1,5 @@
 .postWrapper {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -29,8 +29,11 @@
 }
 
 .content {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   line-height: 1.8;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .content p {
@@ -87,10 +90,24 @@
 }
 
 .handwritingContent {
-  font-family: var(--font-handwriting), cursive;
-  font-size: 1.25rem;
-  line-height: 2.2;
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  line-height: 1.8;
   color: #4a4a4a;
+  font-style: normal !important;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+.handwritingContent h1 {
+  font-size: 4.5rem;
+}
+
+.handwritingContent p,
+.handwritingContent em,
+.handwritingContent i {
+  font-style: normal !important;
 }
 
 .handwritingContent p {
