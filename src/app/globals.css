@@ -90,7 +90,7 @@
   content: 'Normal' !important;
 }
 
-:root {
+:root, [data-theme='light'] {
   --bg-color: #fcfbf9; /* Cream/Beige */
   --text-color: #2c2c2c;
   --accent-color: #8b7355;
@@ -102,13 +102,21 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme='light']) {
     --bg-color: #1a1a1a;
-    --text-color: #e6e6e6;
+    --text-color: #d4b58e; /* Use accent color for text */
     --accent-color: #d4b58e;
-    --card-bg: #242424;
-    --card-border: #333333;
+    --card-bg: #3a3a3a;
+    --card-border: #505050;
   }
+}
+
+[data-theme='dark'] {
+  --bg-color: #1a1a1a;
+  --text-color: #d4b58e; /* Use accent color for text */
+  --accent-color: #d4b58e;
+  --card-bg: #3a3a3a;
+  --card-border: #505050;
 }
 
 * {

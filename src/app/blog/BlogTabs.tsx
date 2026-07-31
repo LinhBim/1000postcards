@@ -24,9 +24,9 @@ export default function BlogTabs({ enPosts, viPosts, frPosts }: Props) {
   const [activeTab, setActiveTab] = useState<'en' | 'vi' | 'fr'>('en');
 
   const tabs = [
-    { id: 'en', label: 'English', posts: enPosts },
-    { id: 'vi', label: 'Vietnamese', posts: viPosts },
-    { id: 'fr', label: 'French', posts: frPosts },
+    { id: 'en', label: 'English', shortLabel: 'Eng.', posts: enPosts },
+    { id: 'vi', label: 'Vietnamese', shortLabel: 'Vie.', posts: viPosts },
+    { id: 'fr', label: 'French', shortLabel: 'Fr.', posts: frPosts },
   ].filter(tab => tab.posts.length > 0);
 
   // If active tab has no posts, switch to the first available tab
@@ -45,7 +45,8 @@ export default function BlogTabs({ enPosts, viPosts, frPosts }: Props) {
             className={`${styles.tab} ${activeTab === tab.id ? styles.activeTab : ''}`}
             onClick={() => setActiveTab(tab.id as any)}
           >
-            {tab.label}
+            <span className={styles.desktopLabel}>{tab.label}</span>
+            <span className={styles.mobileLabel}>{tab.shortLabel}</span>
           </button>
         ))}
       </div>

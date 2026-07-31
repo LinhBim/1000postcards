@@ -33,9 +33,9 @@ export default function AboutPage() {
   return (
     <div className={`${styles.splitScreen} ${fontClass}`}>
       <div className={styles.leftPane}>
-        <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '40vh' }}>
           {coverImage ? (
-             <div style={{ width: '100%', height: '100%', backgroundImage: `url(${coverImage})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}></div>
+             <div style={{ width: '100%', height: '100%', minHeight: '40vh', backgroundImage: `url(${coverImage})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}></div>
           ) : (
             <div style={{ 
               width: '100%', height: '100%', backgroundColor: '#eee', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#999', fontSize: '1.2rem', fontFamily: 'sans-serif'
@@ -49,7 +49,7 @@ export default function AboutPage() {
         <div className={styles.content}>
           <div className={styles.catStamp}></div>
           <div className={styles.pathLine}></div>
-          <ReactMarkdown rehypePlugins={[rehypeRaw]}>{contentWithoutCover}</ReactMarkdown>
+          <ReactMarkdown rehypePlugins={[rehypeRaw]}>{contentWithoutCover.replace(/&nbsp;/g, ' ')}</ReactMarkdown>
         </div>
       </div>
     </div>

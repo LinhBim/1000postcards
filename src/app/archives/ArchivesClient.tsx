@@ -97,7 +97,7 @@ export default function ArchivesClient({ postcards, allVibes = [] }: { postcards
   });
 
   return (
-    <div className={styles.fullWidthContainer}>
+    <>
       <div className={styles.header}>
         <div className={styles.titleWrapper}>
           <div className={styles.archivesPathWrapper}>
@@ -120,24 +120,24 @@ export default function ArchivesClient({ postcards, allVibes = [] }: { postcards
               </text>
             </svg>
           </div>
-          <div className={styles.blobWrapper} onClick={handleBlobClick} style={{ cursor: 'pointer', position: 'absolute' }}>
-            <Image 
-              src="/images/ui/_Image4.png" 
-              alt="Background Blob"
-              fill
-              className={styles.blobImage}
-              unoptimized
-            />
-            <svg viewBox="0 0 120 120" className={styles.blobSvg} style={{ overflow: 'visible' }}>
-              <path id="blobCurve" d="M -15 60 A 75 75 0 0 1 135 60" fill="transparent" />
-              <text fill="#e45d35" fontSize="32" fontWeight="800" letterSpacing="6" fontFamily="var(--font-heading)">
-                <textPath href="#blobCurve" startOffset="50%" textAnchor="middle">
-                  V i b e
-                </textPath>
-              </text>
-            </svg>
-          </div>
           <h1 className={styles.title}>Archives</h1>
+        </div>
+        <div className={styles.blobWrapper} onClick={handleBlobClick} style={{ cursor: 'pointer', position: 'absolute' }}>
+          <Image 
+            src="/images/ui/_Image4.png" 
+            alt="Background Blob"
+            fill
+            className={styles.blobImage}
+            unoptimized
+          />
+          <svg viewBox="0 0 120 120" className={styles.blobSvg} style={{ overflow: 'visible' }}>
+            <path id="blobCurve" d="M -15 60 A 75 75 0 0 1 135 60" fill="transparent" />
+            <text fill="#e45d35" fontSize="32" fontWeight="800" letterSpacing="6" fontFamily="var(--font-heading)">
+              <textPath href="#blobCurve" startOffset="50%" textAnchor="middle">
+                V i b e
+              </textPath>
+            </text>
+          </svg>
         </div>
         <p className={styles.subtitle}>Click on a postcard to read its hidden story.</p>
         
@@ -152,7 +152,8 @@ export default function ArchivesClient({ postcards, allVibes = [] }: { postcards
         </div>
       </div>
 
-      <div className={styles.masonry}>
+      <div className={styles.fullWidthContainer}>
+        <div className={styles.masonry}>
         <AnimatePresence>
           {filteredPostcards.map(post => (
             <motion.div 
@@ -211,6 +212,7 @@ export default function ArchivesClient({ postcards, allVibes = [] }: { postcards
             </motion.div>
           ))}
         </AnimatePresence>
+        </div>
       </div>
       
       {filteredPostcards.length === 0 && (
@@ -287,6 +289,6 @@ export default function ArchivesClient({ postcards, allVibes = [] }: { postcards
           </motion.button>
         )}
       </AnimatePresence>
-    </div>
+    </>
   );
 }

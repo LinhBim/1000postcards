@@ -370,6 +370,7 @@ export default function HomeClient({ postcards, allVibes }: { postcards: any[], 
           ) : (
             <motion.div 
               className={styles.fullWidthContainer}
+              style={{ pointerEvents: 'auto' }}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}

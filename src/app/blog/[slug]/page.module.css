@@ -31,7 +31,7 @@
 .content {
   font-size: 1.15rem;
   line-height: 1.8;
-  word-break: keep-all;
+  word-break: break-word;
   overflow-wrap: break-word;
   max-width: 100%;
 }
@@ -58,13 +58,16 @@
   display: flex;
   align-items: flex-start; /* Bắt buộc để sticky hoạt động */
   min-height: calc(100vh - 180px);
-  width: 100%;
+  width: 98vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: -4rem;
   margin-bottom: -4rem;
 }
 
 .leftPane {
-  flex: 1;
+  flex: 1.5;
   position: sticky;
   top: 0;
   height: 100vh; /* Chiếm trọn chiều cao màn hình khi dính */
@@ -95,13 +98,13 @@
   line-height: 1.8;
   color: #4a4a4a;
   font-style: normal !important;
-  word-break: keep-all;
+  word-break: break-word;
   overflow-wrap: break-word;
   max-width: 100%;
 }
 
 .handwritingContent h1 {
-  font-size: 4.5rem;
+  font-size: 2.8rem;
 }
 
 .handwritingContent p,
@@ -132,14 +135,20 @@
   opacity: 0.7;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .splitScreen {
     flex-direction: column;
     margin-top: 0;
     margin-bottom: 0;
+    width: 100%;
+    left: auto;
+    transform: none;
   }
   .leftPane {
-    min-height: 50vh;
+    position: relative;
+    flex: none;
+    height: 50vh;
+    width: 100%;
   }
   .rightPane {
     padding: 3rem 2rem;

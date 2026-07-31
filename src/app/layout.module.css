@@ -37,11 +37,31 @@
   transition: all 0.2s ease;
   text-decoration: none;
   color: var(--text-color);
+  opacity: 0.6; /* Faded by default */
+}
+
+.desktopNav a:hover, .mobileDropdown a:hover {
+  opacity: 1; /* Solid on hover, just like the language tabs */
 }
 
 .desktopNav a.active, .mobileDropdown a.active {
   font-weight: 900;
   color: var(--accent-color);
+  opacity: 1;
+}
+
+:global([data-theme='dark']) .desktopNav a,
+:global([data-theme='dark']) .mobileDropdown a,
+:global([data-theme='dark']) .logo {
+  color: var(--accent-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :global(:root:not([data-theme='light'])) .desktopNav a,
+  :global(:root:not([data-theme='light'])) .mobileDropdown a,
+  :global(:root:not([data-theme='light'])) .logo {
+    color: var(--accent-color);
+  }
 }
 
 .mobileVibeButton {

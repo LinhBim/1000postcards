@@ -5,6 +5,7 @@ import './globals.css';
 import Link from 'next/link';
 import layoutStyles from './layout.module.css';
 import Navigation from '@/components/Navigation';
+import ThemeToggle from '@/components/ThemeToggle';
 import AnalyticsWrapper from '@/components/AnalyticsWrapper';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
@@ -47,14 +48,19 @@ export default function RootLayout({
       <body className={`${inter.variable} ${playfair.variable} ${architectsDaughter.variable} ${patrickHand.variable} ${jost.variable} ${montserrat.variable}`}>
         <header className={layoutStyles.header}>
           <div className={`container ${layoutStyles.headerContent}`}>
-            <Link href="/" className={layoutStyles.logo}>
-              Postcards.
-            </Link>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <Link href="/" className={layoutStyles.logo}>
+                Postcards.
+              </Link>
+              <ThemeToggle />
+            </div>
             <Navigation />
           </div>
         </header>
         <main className={layoutStyles.main}>
-          {children}
+          <div className="container">
+            {children}
+          </div>
         </main>
         <footer className={layoutStyles.footer}>
           <div className="container">

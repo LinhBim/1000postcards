@@ -1,7 +1,12 @@
 .splitScreen {
   display: flex;
   min-height: calc(100vh - 180px);
-  width: 100%;
+  width: 98vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -2rem; /* Reduce top/bottom gaps slightly */
+  margin-bottom: -2rem;
 }
 
 .leftPane {
@@ -15,7 +20,6 @@
   flex: 1;
   padding: 4rem 6vw;
   background-color: var(--bg-color);
-  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end; /* Align bottom */
@@ -23,16 +27,17 @@
 }
 
 .content {
-  font-size: 2.5rem;
-  line-height: 2.2;
+  font-size: 1.6rem;
+  line-height: 1.8;
   text-align: right;
   position: relative;
   z-index: 2;
+  margin-bottom: 4rem;
 }
 
 .catStamp {
   position: absolute;
-  top: -140px;
+  top: -150px;
   right: 0; /* Align exactly with right edge of .content */
   width: 120px;
   height: 120px;
@@ -46,9 +51,10 @@
 
 .pathLine {
   position: absolute;
-  bottom: -60px;
+  bottom: -90px;
   right: 0; /* Align exactly with right edge of .content */
   width: 600px; /* Make the path much bigger */
+  max-width: 100%;
   height: 60px;
   background-image: url('/images/ui/_Image32.png'); /* The barcode path */
   background-size: contain; 
@@ -70,10 +76,39 @@
 @media (max-width: 900px) {
   .splitScreen {
     flex-direction: column;
+    width: 100%;
+    left: auto;
+    transform: none;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .leftPane {
     border-right: none;
     border-bottom: 1px solid var(--card-border);
     min-height: 40vh;
+  }
+  .rightPane {
+    justify-content: flex-start;
+    padding-top: 13rem;
+  }
+  .content {
+    margin-bottom: 2rem;
+  }
+  .catStamp {
+    top: -11rem;
+    right: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .rightPane {
+    padding: 13rem 1.5rem 3rem 1.5rem;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+  .pathLine {
+    max-width: 100%;
+    width: 100vw;
   }
 }

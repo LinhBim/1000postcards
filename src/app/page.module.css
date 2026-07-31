@@ -1,10 +1,20 @@
 .homeWrapper {
   position: relative;
-  width: 100%;
+  width: 98vw;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 120vh;
+}
+
+@media (max-width: 900px) {
+  .homeWrapper {
+    width: 100%;
+    left: auto;
+    transform: none;
+  }
 }
 
 .vibeSection {
@@ -296,8 +306,8 @@
   width: 95vw;
   max-width: 1400px;
   max-height: 90vh;
-  height: 85vh; /* Force it to take up more vertical space */
-  border-radius: 12px;
+  height: 85vh;
+  border-radius: 0;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -311,10 +321,12 @@
   background: #f5f5f5;
   min-height: 300px;
   padding: 2rem;
+  min-width: 0;
 }
 
 .modalImage {
   object-fit: contain;
+  padding: 2rem;
 }
 
 .modalTextContainer {
@@ -324,6 +336,9 @@
   flex-direction: column;
   justify-content: center;
   border-left: 1px dashed var(--card-border);
+  min-width: 0;
+  overflow-y: auto;
+  word-break: break-word;
 }
 
 .modalTitle {
@@ -383,7 +398,7 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .modalContent {
     flex-direction: column;
     overflow-y: auto;
