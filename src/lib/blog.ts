@@ -15,8 +15,8 @@ export type BlogPost = {
   number: string | null;
   vibe: string[];
   language: string;
-  status: 'published' | 'ready-to-write' | 'draft';
-  titleFont: string;
+  status: 'published' | 'draft' | 'ready-to-write' | 'public';
+  titleFont?: string;
   isLocked: boolean;
   updatedAt: string;
   excerpt: string;

@@ -89,7 +89,7 @@ const ClickAnotherVibe = () => (
   </div>
 );
 
-const DraggablePostcard = ({ post, t, i, containerRef, vibeButtonRef, isDragging, setIsDragging, setPreviewPost }) => {
+const DraggablePostcard = ({ post, t, i, containerRef, vibeButtonRef, isDragging, setIsDragging, setPreviewPost }: { post: any, t: any, i: number, containerRef: any, vibeButtonRef: any, isDragging: boolean, setIsDragging: any, setPreviewPost: any }) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const [win, setWin] = useState({ w: 1000, h: 800 });
@@ -171,7 +171,7 @@ const DraggablePostcard = ({ post, t, i, containerRef, vibeButtonRef, isDragging
   );
 };
 
-export default function HomeClient({ postcards }: { postcards: any[] }) {
+export default function HomeClient({ postcards, allVibes }: { postcards: any[], allVibes?: string[] }) {
   const VIBES = Array.from(new Set(postcards.flatMap(p => {
     if (Array.isArray(p.vibe)) return p.vibe;
     if (typeof p.vibe === 'string') return [p.vibe];

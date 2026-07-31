@@ -11,12 +11,12 @@ const ReactQuill = dynamic(
     // Register custom fonts and sizes inside the dynamic import to ensure document/window exists
     const Quill = (await import('react-quill-new')).Quill;
     
-    const Font = Quill.import('formats/font');
+    const Font = Quill.import('formats/font') as any;
     Font.whitelist = ['sans-serif', 'gamja', 'patrick'];
     Quill.register(Font, true);
 
-    const Size = Quill.import('formats/size');
-    Size.whitelist = ['small', 'medium', 'large'];
+    const Size = Quill.import('formats/size') as any;
+    Size.whitelist = ['small', false, 'large', 'huge'];
     Quill.register(Size, true);
 
     return RQ;
@@ -84,9 +84,11 @@ export default function RichTextEditor({ value, onChange }: Props) {
     }
   }), []);
 
+  const ReactQuillAny = ReactQuill as any;
+
   return (
     <div style={{ background: '#fff', color: '#000' }}>
-      <ReactQuill 
+      <ReactQuillAny 
         ref={reactQuillRef}
         theme="snow"
         value={value}

@@ -9,7 +9,7 @@ import { getLanguageFontClass } from '@/lib/utils';
 type Post = {
   slug: string;
   title: string;
-  coverImage?: string;
+  coverImage?: string | null;
   titleFont?: string;
   [key: string]: any;
 };
