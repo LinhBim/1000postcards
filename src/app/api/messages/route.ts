@@ -30,7 +30,11 @@ export async function POST(req: Request) {
     };
 
     messages.unshift(newMessage); // Prepend to show newest first
-    fs.writeFileSync(messagesFilePath, JSON.stringify(messages, null, 2));
+    try {
+      fs.writeFileSync(messagesFilePath, JSON.stringify(messages, null, 2));
+    } catch (fsError) {
+      console.warn('Could not write to local file (likely on Vercel read-only filesystem):', fsError);
+    }
 
     // 2. Try to send email via Web3Forms (fail gracefully if not configured)
     const web3formsAccessKey = process.env.WEB3FORMS_ACCESS_KEY;
