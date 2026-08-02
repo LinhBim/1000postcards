@@ -46,13 +46,11 @@ export default async function AboutPage() {
   return (
     <div className={`${styles.splitScreen} ${fontClass}`}>
       <div className={styles.leftPane}>
-        <div style={{ position: 'relative', width: '100%', height: '100%', minHeight: '40vh' }}>
+        <div className={styles.imageContainer}>
           {coverImage ? (
-             <div style={{ width: '100%', height: '100%', minHeight: '40vh', backgroundImage: `url(${coverImage})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}></div>
+             <div className={styles.image} style={{ backgroundImage: `url(${coverImage})` }}></div>
           ) : (
-            <div style={{ 
-              width: '100%', height: '100%', backgroundColor: '#eee', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#999', fontSize: '1.2rem', fontFamily: 'sans-serif'
-            }}>
+            <div className={styles.placeholder}>
               [Ảnh giới thiệu bản thân - Tải lên sau]
             </div>
           )}
