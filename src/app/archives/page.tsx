@@ -36,6 +36,3 @@ export default async function ArchivesPage() {
     <ArchivesClient postcards={safePostcards} allVibes={allVibes} />
   );
 }
-
-export const dynamic = 'force-dynamic';
-
