@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import connectToDatabase from '@/lib/db';
+import Message from '@/models/Message';
+
+export const dynamic = 'force-dynamic';
 
 export async function POST(req: Request) {
   try {
@@ -10,31 +12,13 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'Message is required' }, { status: 400 });
     }
 
-    // 1. Save to local JSON file
-    const messagesFilePath = path.join(process.cwd(), 'content', 'messages.json');
-    let messages = [];
-    if (fs.existsSync(messagesFilePath)) {
-      const fileData = fs.readFileSync(messagesFilePath, 'utf8');
-      try {
-        messages = JSON.parse(fileData);
-      } catch (e) {
-        messages = [];
-      }
-    }
+    await connectToDatabase();
 
-    const newMessage = {
-      id: Date.now().toString(),
+    // 1. Save to MongoDB
+    const newMessage = await Message.create({
       message,
       email: email || 'Anonymous',
-      createdAt: new Date().toISOString()
-    };
-
-    messages.unshift(newMessage); // Prepend to show newest first
-    try {
-      fs.writeFileSync(messagesFilePath, JSON.stringify(messages, null, 2));
-    } catch (fsError) {
-      console.warn('Could not write to local file (likely on Vercel read-only filesystem):', fsError);
-    }
+    });
 
     // 2. Try to send email via Web3Forms (fail gracefully if not configured)
     const web3formsAccessKey = process.env.WEB3FORMS_ACCESS_KEY;
@@ -61,7 +45,6 @@ export async function POST(req: Request) {
         }
       } catch (emailError) {
         console.error('Failed to send email via Web3Forms:', emailError);
-        // Continue even if email fails, since we saved it locally
       }
     } else {
       console.warn('WEB3FORMS_ACCESS_KEY not set. Skipping email notification.');
@@ -75,14 +58,9 @@ export async function POST(req: Request) {
 }
 
 export async function GET() {
-  // Allow admin to fetch messages
   try {
-    const messagesFilePath = path.join(process.cwd(), 'content', 'messages.json');
-    if (!fs.existsSync(messagesFilePath)) {
-      return NextResponse.json([]);
-    }
-    const fileData = fs.readFileSync(messagesFilePath, 'utf8');
-    const messages = JSON.parse(fileData);
+    await connectToDatabase();
+    const messages = await Message.find().sort({ createdAt: -1 }).lean();
     return NextResponse.json(messages);
   } catch (error) {
     console.error('API /messages GET error:', error);
