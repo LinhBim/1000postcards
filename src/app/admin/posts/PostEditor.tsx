@@ -159,7 +159,7 @@ export default function PostEditor({ initialData, isNew }: Props) {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-      <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '2rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: '3fr 1fr', gap: '2rem' }}>
         
         {/* Left Column: Content */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>

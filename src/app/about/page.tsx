@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
+import WriteMeWidget from '@/components/WriteMeWidget';
 
 export default function AboutPage() {
   const aboutFilePath = path.join(process.cwd(), 'content', 'about.md');
@@ -49,7 +50,10 @@ export default function AboutPage() {
         <div className={styles.content}>
           <div className={styles.catStamp}></div>
           <div className={styles.pathLine}></div>
-          <ReactMarkdown rehypePlugins={[rehypeRaw]}>{contentWithoutCover.replace(/&nbsp;/g, ' ')}</ReactMarkdown>
+          <ReactMarkdown rehypePlugins={[rehypeRaw]}>
+            {contentWithoutCover.replace(/&nbsp;/g, ' ')}
+          </ReactMarkdown>
+          <WriteMeWidget />
         </div>
       </div>
     </div>

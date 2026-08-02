@@ -256,7 +256,7 @@
 .modalImageContainer {
   flex: 1;
   position: relative;
-  background: var(--card-bg);
+  background: var(--postcard-bg);
   min-height: 300px;
   min-width: 0;
 }

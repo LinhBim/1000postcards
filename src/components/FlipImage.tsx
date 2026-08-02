@@ -68,7 +68,7 @@ export default function FlipImage({ frontSrc, backSrc, alt = 'Postcard Image', c
               backfaceVisibility: 'hidden',
               WebkitBackfaceVisibility: 'hidden',
               transform: 'rotateY(180deg)',
-              backgroundColor: '#f5f5f5', // Default background for blank back
+              backgroundColor: 'var(--postcard-bg)', // Default background for blank back
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',

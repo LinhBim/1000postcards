@@ -253,7 +253,7 @@ export default function ArchivesClient({ postcards, allVibes = [] }: { postcards
                 <h2 className={`${styles.modalTitle} ${getLanguageFontClass(previewPost.title, previewPost.titleFont)}`}>{previewPost.title}</h2>
                 <p className={`${styles.modalExcerpt} ${getBodyLanguageFontClass(previewPost.content || '')}`}>{previewPost.excerpt || "Waiting to be written..."}</p>
                 
-                {previewPost.status === 'published' ? (
+                {previewPost.status === 'published' && previewPost.excerpt && previewPost.excerpt !== 'Waiting to be written...' ? (
                   <Link href={`/blog/${previewPost.slug}`} target="_blank" className={styles.modalButton}>
                     Read more
                   </Link>

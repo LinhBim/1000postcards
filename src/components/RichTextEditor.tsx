@@ -94,7 +94,7 @@ export default function RichTextEditor({ value, onChange }: Props) {
         value={value}
         onChange={onChange}
         modules={modules}
-        style={{ height: '400px', marginBottom: '40px' }}
+        style={{ height: '800px', marginBottom: '40px' }}
       />
     </div>
   );

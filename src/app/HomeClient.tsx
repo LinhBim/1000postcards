@@ -442,7 +442,7 @@ export default function HomeClient({ postcards, allVibes }: { postcards: any[], 
                 <div className={`${styles.modalExcerpt} ${getBodyLanguageFontClass(previewPost.excerpt || '')}`}>
                   {previewPost.excerpt || `*Postcard No. ${previewPost.number} is waiting to be written...*`}
                 </div>
-                {previewPost.status !== 'public' ? (
+                {previewPost.status !== 'public' && previewPost.excerpt && previewPost.excerpt !== 'Waiting to be written...' && !previewPost.excerpt.includes('waiting to be written') ? (
                   <Link 
                     href={`/blog/${previewPost.slug}`} 
                     className={styles.modalButton}

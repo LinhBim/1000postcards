@@ -318,7 +318,7 @@
 .modalImageContainer {
   flex: 1.8; /* Give the image significantly more width */
   position: relative;
-  background: #f5f5f5;
+  background: var(--postcard-bg);
   min-height: 300px;
   padding: 2rem;
   min-width: 0;

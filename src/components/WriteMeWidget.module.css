@@ -1,0 +1,20 @@
+.widgetButton {
+  display: block;
+  width: fit-content;
+  background: var(--accent-color);
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 8px;
+  font-size: 1.35rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s;
+  margin-top: 2rem;
+  margin-left: auto;
+  font-family: var(--font-jost), sans-serif;
+}
+.widgetButton:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}

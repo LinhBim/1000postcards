@@ -71,7 +71,7 @@
   position: sticky;
   top: 0;
   height: 100vh; /* Chiếm trọn chiều cao màn hình khi dính */
-  background-color: #e5e0d8;
+  background-color: var(--postcard-bg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,7 +96,7 @@
   font-family: var(--font-heading);
   font-size: 1.15rem;
   line-height: 1.8;
-  color: #4a4a4a;
+  color: var(--text-color);
   font-style: normal !important;
   word-break: break-word;
   overflow-wrap: break-word;

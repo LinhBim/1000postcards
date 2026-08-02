@@ -88,6 +88,7 @@
   --accent-color: #8b7355;
   --card-bg: #ffffff;
   --card-border: #e0dcd3;
+  --postcard-bg: #e5e0d8;
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Inter', sans-serif;
   --transition-speed: 0.3s;
@@ -100,6 +101,7 @@
     --accent-color: #d4b58e;
     --card-bg: #3a3a3a;
     --card-border: #505050;
+    --postcard-bg: #2a2520;
   }
 }
 
@@ -109,6 +111,7 @@
   --accent-color: #d4b58e;
   --card-bg: #3a3a3a;
   --card-border: #505050;
+  --postcard-bg: #2a2520;
 }
 
 * {

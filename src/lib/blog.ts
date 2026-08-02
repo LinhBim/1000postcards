@@ -92,15 +92,21 @@ export function getBlogPosts({ includeLocked = false }: { includeLocked?: boolea
 
       // Generate excerpt
       let excerpt = '';
-      if (status === 'public') {
+      const plainText = content
+        .replace(/!\[.*?\]\(.*?\)/g, '') // Remove images
+        .replace(/<[^>]*>?/gm, '') // Remove HTML
+        .replace(/&#39;/g, "'")
+        .replace(/&quot;/g, '"')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/[#*`_~>\[\]\(\)]/g, '') // Remove basic MD chars
+        .replace(/\s+/g, ' ')
+        .trim();
+      
+      if (status === 'public' || plainText === '') {
         excerpt = 'Waiting to be written...';
       } else {
-        const plainText = content
-          .replace(/!\[.*?\]\(.*?\)/g, '') // Remove images
-          .replace(/<[^>]*>?/gm, '') // Remove HTML
-          .replace(/[#*`_~>\[\]\(\)]/g, '') // Remove basic MD chars
-          .replace(/\s+/g, ' ')
-          .trim();
         excerpt = plainText.length > 150 ? plainText.substring(0, 150) + '...' : plainText;
       }
 
