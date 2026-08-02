@@ -3,6 +3,21 @@ import { revalidatePath } from 'next/cache';
 import connectToDatabase from '@/lib/db';
 import Post from '@/models/Post';
 
+export async function GET(request: Request, { params }: { params: Promise<{ slug: string }> }) {
+  try {
+    const { slug } = await params;
+    await connectToDatabase();
+    const post = await Post.findOne({ slug }).lean();
+    if (!post) {
+      return NextResponse.json({ error: 'Post not found' }, { status: 404 });
+    }
+    return NextResponse.json({ success: true, post });
+  } catch (error) {
+    console.error('Error fetching post:', error);
+    return NextResponse.json({ error: 'Failed to fetch post' }, { status: 500 });
+  }
+}
+
 export async function PUT(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   try {
     const { slug } = await params;

@@ -10,12 +10,11 @@ export default function EditPostPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/posts')
+    fetch(`/api/posts/${slug}`)
       .then(res => res.json())
       .then(data => {
         if (data.success) {
-          const post = data.posts.find((p: any) => p.slug === slug);
-          setPostData(post);
+          setPostData(data.post);
         }
         setLoading(false);
       });
