@@ -1,5 +1,8 @@
 import { getBlogPosts } from '@/lib/blog';
 import HomeClient from './HomeClient';
+
+export const dynamic = 'force-dynamic';
+
 export default async function Home() {
   const allPosts = await getBlogPosts();
   let postcards = allPosts.filter(post => post.isPostcard && post.coverImage);

@@ -8,12 +8,7 @@ import Link from 'next/link';
 import { getLanguageFontClass, getBodyLanguageFontClass } from '@/lib/utils';
 import FlipImage from '@/components/FlipImage';
 
-export async function generateStaticParams() {
-  const posts = await getBlogPosts();
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
-}
+export const dynamic = 'force-dynamic';
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

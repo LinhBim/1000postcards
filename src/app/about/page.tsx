@@ -7,6 +7,8 @@ import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import WriteMeWidget from '@/components/WriteMeWidget';
 
+export const dynamic = 'force-dynamic';
+
 export default async function AboutPage() {
   await connectToDatabase();
   const aboutSetting = await Setting.findOne({ key: 'about_content' });

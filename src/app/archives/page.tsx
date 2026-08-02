@@ -3,6 +3,8 @@ import ArchivesClient from './ArchivesClient';
 
 import { cookies } from 'next/headers';
 
+export const dynamic = 'force-dynamic';
+
 export default async function ArchivesPage() {
   const allPosts = await getBlogPosts();
   let postcards = allPosts.filter(post => post.isPostcard && post.coverImage && post.status !== 'draft');
