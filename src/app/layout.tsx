@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display, Architects_Daughter, Patrick_Hand, Jost, Montserrat } from 'next/font/google';
+import { Inter, Playfair_Display, Architects_Daughter, Patrick_Hand, Jost, Montserrat, Gamja_Flower } from 'next/font/google';
 import localFont from 'next/font/local';
 import './globals.css';
 import Link from 'next/link';
@@ -10,6 +10,11 @@ import AnalyticsWrapper from '@/components/AnalyticsWrapper';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
+const gamjaFlower = Gamja_Flower({ 
+  weight: '400',
+  subsets: ['latin'], 
+  variable: '--font-gamja-flower' 
+});
 const architectsDaughter = Architects_Daughter({ 
   weight: '400',
   subsets: ['latin'], 
@@ -45,7 +50,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${playfair.variable} ${architectsDaughter.variable} ${patrickHand.variable} ${jost.variable} ${montserrat.variable}`}>
+      <body className={`${inter.variable} ${playfair.variable} ${architectsDaughter.variable} ${patrickHand.variable} ${jost.variable} ${montserrat.variable} ${gamjaFlower.variable}`}>
         <header className={layoutStyles.header}>
           <div className={`container ${layoutStyles.headerContent}`}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>

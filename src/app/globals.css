@@ -1,14 +1,6 @@
-@font-face {
-  font-family: 'CustomGamjaFlower';
-  src: url('/fonts/GamjaFlower-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* Font utils */
 .font-gamja, .font-gamja *, .ql-font-gamja {
-  font-family: 'CustomGamjaFlower', cursive !important;
+  font-family: var(--font-gamja-flower), cursive !important;
 }
 
 .font-patrick, .font-patrick *, .ql-font-patrick {
@@ -54,7 +46,7 @@
 .ql-snow .ql-picker.ql-font .ql-picker-label[data-value="gamja"]::before,
 .ql-snow .ql-picker.ql-font .ql-picker-item[data-value="gamja"]::before {
   content: 'Gamja Flower' !important;
-  font-family: 'CustomGamjaFlower', cursive;
+  font-family: var(--font-gamja-flower), cursive;
 }
 .ql-snow .ql-picker.ql-font .ql-picker-label[data-value="patrick"]::before,
 .ql-snow .ql-picker.ql-font .ql-picker-item[data-value="patrick"]::before {
@@ -126,8 +118,8 @@
 }
 
 body {
-  --font-heading: 'CustomGamjaFlower', cursive;
-  --font-body: 'CustomGamjaFlower', cursive;
+  --font-heading: var(--font-gamja-flower), cursive;
+  --font-body: var(--font-gamja-flower), cursive;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: var(--font-body);
