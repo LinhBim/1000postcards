@@ -1,6 +1,11 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { v2 as cloudinary } from 'cloudinary';
+
+// Configure Cloudinary automatically uses CLOUDINARY_URL env var
+// cloudinary.config(); // Not strictly needed if CLOUDINARY_URL is present, but good practice
+if (process.env.CLOUDINARY_URL) {
+  // It automatically picks up the URL
+}
 
 export async function POST(request: Request) {
   try {
@@ -14,31 +19,23 @@ export async function POST(request: Request) {
 
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
+    
+    // Convert buffer to base64
+    const base64String = `data:${file.type};base64,${buffer.toString('base64')}`;
 
-    // Determine target directory
-    const targetDir = type === 'blog' 
-      ? path.join(process.cwd(), 'public', 'images', 'blog')
-      : path.join(process.cwd(), 'public', 'images', 'postcards');
-      
-    // Ensure directory exists
-    if (!fs.existsSync(targetDir)) {
-      fs.mkdirSync(targetDir, { recursive: true });
-    }
+    const folderName = type === 'blog' ? 'postcards-blog/blog' : 'postcards-blog/postcards';
+    const sanitizedName = file.name.replace(/[^a-zA-Z0-9.\-_]/g, '').split('.')[0].toLowerCase();
 
-    // Sanitize filename to avoid issues
-    const sanitizedName = file.name.replace(/[^a-zA-Z0-9.\-_]/g, '').toLowerCase();
-    const uniqueName = `${Date.now()}-${sanitizedName}`;
-    const filePath = path.join(targetDir, uniqueName);
+    // Upload to Cloudinary
+    const uploadResponse = await cloudinary.uploader.upload(base64String, {
+      folder: folderName,
+      public_id: `${Date.now()}-${sanitizedName}`,
+      resource_type: 'auto',
+    });
 
-    fs.writeFileSync(filePath, buffer);
-
-    const publicUrl = type === 'blog'
-      ? `/images/blog/${uniqueName}`
-      : `/images/postcards/${uniqueName}`;
-
-    return NextResponse.json({ success: true, url: publicUrl });
+    return NextResponse.json({ success: true, url: uploadResponse.secure_url });
   } catch (error) {
-    console.error('Upload error:', error);
-    return NextResponse.json({ error: 'Failed to upload file' }, { status: 500 });
+    console.error('Cloudinary Upload error:', error);
+    return NextResponse.json({ error: 'Failed to upload file to Cloudinary' }, { status: 500 });
   }
 }

@@ -7,8 +7,8 @@ import BlogTabs from './BlogTabs';
 
 export const dynamic = 'force-dynamic';
 
-export default async function BlogIndex() {
-  const allPosts = getBlogPosts();
+export default async function BlogIndexPage() {
+  const allPosts = await getBlogPosts();
   
   // Chỉ hiển thị các bài viết đã Published
   const posts = allPosts.filter(post => post.status === 'published');

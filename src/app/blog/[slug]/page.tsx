@@ -9,7 +9,7 @@ import { getLanguageFontClass, getBodyLanguageFontClass } from '@/lib/utils';
 import FlipImage from '@/components/FlipImage';
 
 export async function generateStaticParams() {
-  const posts = getBlogPosts();
+  const posts = await getBlogPosts();
   return posts.map((post) => ({
     slug: post.slug,
   }));
@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const posts = getBlogPosts();
+  const posts = await getBlogPosts();
   const post = posts.find((p) => p.slug === slug);
 
   if (!post) {

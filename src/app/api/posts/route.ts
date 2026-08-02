@@ -1,15 +1,14 @@
 import { NextResponse } from 'next/server';
 import { getBlogPosts } from '@/lib/blog';
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
 import { revalidatePath } from 'next/cache';
+import connectToDatabase from '@/lib/db';
+import Post from '@/models/Post';
 
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
   try {
-    const posts = getBlogPosts({ includeLocked: true });
+    const posts = await getBlogPosts({ includeLocked: true });
     return NextResponse.json({ success: true, posts });
   } catch (error) {
     return NextResponse.json({ error: 'Failed to fetch posts' }, { status: 500 });
@@ -25,19 +24,20 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Missing slug or title' }, { status: 400 });
     }
 
-    const contentDir = path.join(process.cwd(), 'content', 'blog');
-    if (!fs.existsSync(contentDir)) {
-      fs.mkdirSync(contentDir, { recursive: true });
-    }
+    await connectToDatabase();
 
-    const filePath = path.join(contentDir, `${slug}.md`);
-
-    if (fs.existsSync(filePath)) {
+    const existingPost = await Post.findOne({ slug });
+    if (existingPost) {
       return NextResponse.json({ error: 'Post with this slug already exists' }, { status: 400 });
     }
 
-    const frontmatter = {
+    // Clean content
+    let finalContent = content.replace(/&nbsp;/g, ' ').replace(/\xA0/g, ' ');
+
+    const newPost = new Post({
+      slug,
       title,
+      content: finalContent,
       date: date || new Date().toISOString().split('T')[0],
       vibe: vibe || [],
       language: language || 'auto',
@@ -45,19 +45,11 @@ export async function POST(request: Request) {
       status: status || 'published',
       isPostcard: isPostcard !== undefined ? isPostcard : true,
       isLocked: isLocked === true,
-      ...(backImage && { backImage })
-    };
+      coverImage: coverImage || null,
+      backImage: backImage || null
+    });
 
-    // Construct markdown string
-    // If it's a postcard, the coverImage must be embedded in the content as the first thing (current design)
-    // Actually, our blog logic extracts coverImage from the first `![...](url)` tag.
-    let fullContent = content.replace(/&nbsp;/g, ' ').replace(/\xA0/g, ' ');
-    if (coverImage) {
-      fullContent = `![Cover Image](${coverImage})\n\n${fullContent}`;
-    }
-
-    const fileContent = matter.stringify(fullContent, frontmatter);
-    fs.writeFileSync(filePath, fileContent, 'utf8');
+    await newPost.save();
 
     revalidatePath('/', 'layout');
 

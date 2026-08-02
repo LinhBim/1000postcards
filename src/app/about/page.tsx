@@ -1,18 +1,28 @@
 import styles from './page.module.css';
 import { getLanguageFontClass } from '@/lib/utils';
-import fs from 'fs';
+import connectToDatabase from '@/lib/db';
+import Setting from '@/models/Setting';
 import path from 'path';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 import WriteMeWidget from '@/components/WriteMeWidget';
 
-export default function AboutPage() {
-  const aboutFilePath = path.join(process.cwd(), 'content', 'about.md');
-  let rawContent = '';
-  if (fs.existsSync(aboutFilePath)) {
-    rawContent = fs.readFileSync(aboutFilePath, 'utf8');
+export default async function AboutPage() {
+  await connectToDatabase();
+  const aboutSetting = await Setting.findOne({ key: 'about_content' });
+  
+  let rawContent = "Xin chào, đây là không gian lưu giữ những tấm bưu thiếp và kỷ niệm của mình. Mình sẽ cập nhật thêm thông tin chi tiết ở đây sau nhé!";
+  
+  if (aboutSetting) {
+    rawContent = aboutSetting.value;
   } else {
-    rawContent = "Xin chào, đây là không gian lưu giữ những tấm bưu thiếp và kỷ niệm của mình. Mình sẽ cập nhật thêm thông tin chi tiết ở đây sau nhé!";
+    // We could fallback to FS here if we wanted to, but we already have a default.
+    // However, during local dev before they edit it, the fallback is nice.
+    const fs = require('fs');
+    const aboutFilePath = path.join(process.cwd(), 'content', 'about.md');
+    if (fs.existsSync(aboutFilePath)) {
+      rawContent = fs.readFileSync(aboutFilePath, 'utf8');
+    }
   }
 
   // Use language detection for the overall page font fallback

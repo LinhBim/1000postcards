@@ -1,8 +1,7 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
 import { revalidatePath } from 'next/cache';
+import connectToDatabase from '@/lib/db';
+import Post from '@/models/Post';
 
 export async function PUT(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   try {
@@ -10,33 +9,28 @@ export async function PUT(request: Request, { params }: { params: Promise<{ slug
     const body = await request.json();
     const { title, content, date, coverImage, backImage, vibe, language, titleFont, status, isPostcard, isLocked } = body;
 
-    const filePath = path.join(process.cwd(), 'content', 'blog', `${slug}.md`);
+    await connectToDatabase();
 
-    if (!fs.existsSync(filePath)) {
+    const existingPost = await Post.findOne({ slug });
+    if (!existingPost) {
       return NextResponse.json({ error: 'Post not found' }, { status: 404 });
     }
 
-    const frontmatter = {
-      title,
-      date: date || new Date().toISOString().split('T')[0],
-      vibe: vibe || [],
-      language: language || 'auto',
-      titleFont: titleFont || 'auto',
-      status: status || 'published',
-      isPostcard: isPostcard !== undefined ? isPostcard : true,
-      isLocked: isLocked === true,
-      ...(backImage && { backImage })
-    };
+    let finalContent = content.replace(/&nbsp;/g, ' ').replace(/\xA0/g, ' ');
 
-    let fullContent = content.replace(/&nbsp;/g, ' ').replace(/\xA0/g, ' ');
-    if (coverImage) {
-      // Remove any existing cover image pattern at the top
-      fullContent = fullContent.replace(/^!\[.*?\]\(.*?\)\n\n?/, '');
-      fullContent = `![Cover Image](${coverImage})\n\n${fullContent}`;
-    }
+    existingPost.title = title;
+    existingPost.content = finalContent;
+    if (date) existingPost.date = date;
+    if (vibe) existingPost.vibe = vibe;
+    if (language) existingPost.language = language;
+    if (titleFont) existingPost.titleFont = titleFont;
+    if (status) existingPost.status = status;
+    if (isPostcard !== undefined) existingPost.isPostcard = isPostcard;
+    if (isLocked !== undefined) existingPost.isLocked = isLocked;
+    if (coverImage !== undefined) existingPost.coverImage = coverImage;
+    if (backImage !== undefined) existingPost.backImage = backImage;
 
-    const fileContent = matter.stringify(fullContent, frontmatter);
-    fs.writeFileSync(filePath, fileContent, 'utf8');
+    await existingPost.save();
 
     revalidatePath('/', 'layout');
 
@@ -50,16 +44,18 @@ export async function PUT(request: Request, { params }: { params: Promise<{ slug
 export async function DELETE(request: Request, { params }: { params: Promise<{ slug: string }> }) {
   try {
     const { slug } = await params;
-    const filePath = path.join(process.cwd(), 'content', 'blog', `${slug}.md`);
-
-    if (!fs.existsSync(filePath)) {
+    
+    await connectToDatabase();
+    
+    const result = await Post.findOneAndDelete({ slug });
+    if (!result) {
       return NextResponse.json({ error: 'Post not found' }, { status: 404 });
     }
 
-    fs.unlinkSync(filePath);
     revalidatePath('/', 'layout');
     return NextResponse.json({ success: true });
   } catch (error) {
+    console.error('Error deleting post:', error);
     return NextResponse.json({ error: 'Failed to delete post' }, { status: 500 });
   }
 }

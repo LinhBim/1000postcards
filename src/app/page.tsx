@@ -1,7 +1,7 @@
 import { getBlogPosts } from '@/lib/blog';
 import HomeClient from './HomeClient';
 export default async function Home() {
-  const allPosts = getBlogPosts();
+  const allPosts = await getBlogPosts();
   let postcards = allPosts.filter(post => post.isPostcard && post.coverImage);
   
   // Unconditionally filter out drafts

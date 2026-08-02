@@ -1,11 +1,10 @@
-
 import { getBlogPosts } from '@/lib/blog';
 import ArchivesClient from './ArchivesClient';
 
 import { cookies } from 'next/headers';
 
-export default async function Archives() {
-  const allPosts = getBlogPosts();
+export default async function ArchivesPage() {
+  const allPosts = await getBlogPosts();
   let postcards = allPosts.filter(post => post.isPostcard && post.coverImage && post.status !== 'draft');
   
   postcards.sort((a, b) => {
