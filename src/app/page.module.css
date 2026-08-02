@@ -163,6 +163,14 @@
   z-index: 10;
 }
 
+@media (max-width: 768px) {
+  .scatteredContainer {
+    position: relative;
+    top: 0;
+    height: 80vh;
+  }
+}
+
 .scatteredItemWrapper {
   position: absolute;
   width: 250px; /* Fixed width when scattered */
