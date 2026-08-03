@@ -140,9 +140,9 @@
     flex-direction: column;
     margin-top: 0;
     margin-bottom: 0;
-    width: 100%;
-    left: auto;
-    transform: none;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .leftPane {
     position: relative;
@@ -164,6 +164,21 @@
   }
   .handwritingContent h1 {
     font-size: 2.2rem;
+  }
+  .postWrapper {
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+  }
+  .article {
+    padding: 2rem 1rem;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+  .title {
+    font-size: 2rem;
   }
 }
 
