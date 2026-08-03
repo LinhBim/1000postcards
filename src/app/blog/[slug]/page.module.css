@@ -158,6 +158,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .rightPane {
+    padding: 2rem 1rem;
+  }
+  .handwritingContent h1 {
+    font-size: 2.2rem;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .leftPane {
     background-color: #2a2520;
