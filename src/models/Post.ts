@@ -13,7 +13,7 @@ const PostSchema = new mongoose.Schema(
     },
     content: {
       type: String,
-      required: true,
+      default: '',
     },
     date: {
       type: String,
