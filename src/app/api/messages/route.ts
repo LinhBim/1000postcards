@@ -35,7 +35,7 @@ export async function POST(req: Request) {
             access_key: web3formsAccessKey,
             subject: 'New Message from Postcards Web',
             from_name: 'Postcards Web System',
-            email: newMessage.email,
+            email: newMessage.email === 'Anonymous' ? 'noreply@example.com' : newMessage.email,
             message: `You have received a new message!\n\nFrom: ${newMessage.email}\n\nMessage:\n${newMessage.message}`
           })
         });
