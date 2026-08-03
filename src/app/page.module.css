@@ -11,9 +11,9 @@
 
 @media (max-width: 900px) {
   .homeWrapper {
-    width: 100%;
-    left: auto;
-    transform: none;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
