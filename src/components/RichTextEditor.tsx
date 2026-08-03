@@ -73,7 +73,7 @@ export default function RichTextEditor({ value, onChange }: Props) {
         ['bold', 'italic', 'underline', 'strike'],
         [{ 'header': [1, 2, 3, false] }],
         [{ 'font': ['sans-serif', 'gamja', 'patrick'] }],
-        [{ 'size': ['small', 'medium', 'large'] }],
+        [{ 'size': ['small', false, 'large', 'huge'] }],
         [{ 'list': 'ordered'}, { 'list': 'bullet' }],
         ['link', 'image'],
         ['clean']

@@ -151,3 +151,8 @@ a:hover {
   margin: 0 auto;
   padding: 0 2rem;
 }
+
+/* Quill Font Sizes */
+.ql-size-small { font-size: 0.75em !important; }
+.ql-size-large { font-size: 1.5em !important; }
+.ql-size-huge { font-size: 2.5em !important; }
