@@ -72,7 +72,7 @@ export default function FlipImage({ frontSrc, backSrc, alt = 'Postcard Image', c
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              border: '1px solid #eaeaea',
+              border: backSrc ? 'none' : '1px solid #eaeaea',
               borderRadius: '4px'
             }}
             className={imageClassName}
