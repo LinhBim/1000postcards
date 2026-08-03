@@ -6,9 +6,10 @@ import styles from './MessageModal.module.css';
 
 interface MessageModalProps {
   onClose: () => void;
+  web3FormsKey?: string;
 }
 
-export default function MessageModal({ onClose }: MessageModalProps) {
+export default function MessageModal({ onClose, web3FormsKey }: MessageModalProps) {
   const [message, setMessage] = useState('');
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
@@ -20,6 +21,7 @@ export default function MessageModal({ onClose }: MessageModalProps) {
 
     setStatus('loading');
     try {
+      // 1. Save to database via our API
       const res = await fetch('/api/messages', {
         method: 'POST',
         headers: {
@@ -29,7 +31,26 @@ export default function MessageModal({ onClose }: MessageModalProps) {
       });
 
       if (!res.ok) {
-        throw new Error('Failed to send message');
+        throw new Error('Failed to save message');
+      }
+
+      // 2. Send email via Web3Forms directly from the browser
+      if (web3FormsKey) {
+        const fallbackEmail = email.trim() ? email : 'noreply@1000postcards.vercel.app';
+        await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json'
+          },
+          body: JSON.stringify({
+            access_key: web3FormsKey,
+            subject: 'New Message from Postcards Web',
+            from_name: 'Postcards Web System',
+            email: fallbackEmail,
+            message: `You have received a new message!\n\nFrom: ${fallbackEmail}\n\nMessage:\n${message}`
+          })
+        }).catch(err => console.error('Web3Forms email error:', err));
       }
 
       setStatus('success');

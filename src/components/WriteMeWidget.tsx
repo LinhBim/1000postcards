@@ -4,7 +4,7 @@ import { useState } from 'react';
 import MessageModal from './MessageModal';
 import styles from './WriteMeWidget.module.css';
 
-export default function WriteMeWidget() {
+export default function WriteMeWidget({ web3FormsKey }: { web3FormsKey?: string }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
@@ -17,7 +17,7 @@ export default function WriteMeWidget() {
       </button>
 
       {isModalOpen && (
-        <MessageModal onClose={() => setIsModalOpen(false)} />
+        <MessageModal onClose={() => setIsModalOpen(false)} web3FormsKey={web3FormsKey} />
       )}
     </>
   );

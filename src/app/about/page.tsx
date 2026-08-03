@@ -63,7 +63,7 @@ export default async function AboutPage() {
           <ReactMarkdown rehypePlugins={[rehypeRaw]}>
             {contentWithoutCover.replace(/&nbsp;/g, ' ')}
           </ReactMarkdown>
-          <WriteMeWidget />
+          <WriteMeWidget web3FormsKey={process.env.WEB3FORMS_ACCESS_KEY || ''} />
         </div>
       </div>
     </div>
