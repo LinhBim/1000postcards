@@ -295,7 +295,8 @@ export default function HomeClient({ postcards, allVibes }: { postcards: any[], 
   const [isDragging, setIsDragging] = useState(false);
 
   return (
-    <div className={styles.homeWrapper} style={{ pointerEvents: 'none' }}>
+    <>
+      <div className={styles.homeWrapper} style={{ pointerEvents: 'none' }}>
       <motion.div 
         className={styles.vibeSection}
         style={{ position: 'relative', zIndex: 100, pointerEvents: 'none' }}
@@ -408,6 +409,7 @@ export default function HomeClient({ postcards, allVibes }: { postcards: any[], 
       {displayedCards.length === 0 && currentVibe && !isSpinning && (
         <p className={styles.noResults}>No postcards found for this vibe yet.</p>
       )}
+      </div>
 
       {/* Preview Popup Modal */}
       <AnimatePresence>
@@ -461,6 +463,6 @@ export default function HomeClient({ postcards, allVibes }: { postcards: any[], 
           </motion.div>
         )}
       </AnimatePresence>
-    </div>
+    </>
   );
 }
