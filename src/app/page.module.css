@@ -1,6 +1,8 @@
 .homeWrapper {
   position: relative;
-  width: 100%;
+  width: 98vw;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +11,9 @@
 
 @media (max-width: 900px) {
   .homeWrapper {
-    width: 100%;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
@@ -307,7 +311,7 @@
 
 .modalContent {
   background: var(--bg-color);
-  width: 95%;
+  width: 95vw;
   max-width: 1400px;
   max-height: 90vh;
   height: 85vh;

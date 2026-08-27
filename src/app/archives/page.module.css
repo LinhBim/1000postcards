@@ -1,6 +1,8 @@
 .fullWidthContainer {
-  width: 100%;
+  width: 92vw;
   position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   overflow-x: hidden;
   padding: 0;
   margin-top: 0;
@@ -57,9 +59,8 @@
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -45%);
-  width: 100vw;
-  max-width: 100%;
+  transform: translate(-48%, -45%);
+  width: 110vw;
   height: 15vw;
   min-height: 150px;
   z-index: -1;
