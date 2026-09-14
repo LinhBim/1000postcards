@@ -203,19 +203,29 @@ export default function HomeClient({ postcards, allVibes }: { postcards: any[], 
   }, []);
 
   const handleLike = async (slug: string) => {
-    if (likedPosts.has(slug)) return;
+    const isLiked = likedPosts.has(slug);
+    const newLiked = new Set(likedPosts);
     
-    const newLiked = new Set(likedPosts).add(slug);
+    if (isLiked) {
+      newLiked.delete(slug);
+    } else {
+      newLiked.add(slug);
+    }
+    
     setLikedPosts(newLiked);
     localStorage.setItem('likedPosts', JSON.stringify(Array.from(newLiked)));
     
     setLocalLikes(prev => ({
       ...prev,
-      [slug]: (prev[slug] ?? previewPost?.likes ?? 0) + 1
+      [slug]: Math.max(0, (prev[slug] ?? previewPost?.likes ?? 0) + (isLiked ? -1 : 1))
     }));
     
     try {
-      await fetch(`/api/posts/${slug}/like`, { method: 'POST' });
+      await fetch(`/api/posts/${slug}/like`, { 
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: isLiked ? 'unlike' : 'like' })
+      });
     } catch (e) {
       console.error(e);
     }
@@ -493,7 +503,6 @@ export default function HomeClient({ postcards, allVibes }: { postcards: any[], 
                   <button 
                     className={`${styles.likeButton} ${likedPosts.has(previewPost.slug) ? styles.liked : ''}`}
                     onClick={() => handleLike(previewPost.slug)}
-                    disabled={likedPosts.has(previewPost.slug)}
                   >
                     <svg viewBox="0 0 24 24" fill={likedPosts.has(previewPost.slug) ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />

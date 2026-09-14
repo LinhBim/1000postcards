@@ -417,7 +417,7 @@
 .likeContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.5rem;
   margin-top: 1.5rem;
 }
@@ -435,8 +435,8 @@
 }
 
 .likeButton svg {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   transition: fill 0.2s ease, stroke 0.2s ease, transform 0.2s ease;
 }
 
@@ -453,7 +453,8 @@
 
 .likeCount {
   font-family: var(--font-body);
-  font-size: 0.9rem;
+  font-size: 1.15rem;
+  font-weight: 500;
   opacity: 0.6;
   color: var(--text-color);
 }

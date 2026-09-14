@@ -21,13 +21,30 @@ export async function POST(
 ) {
   try {
     const { slug } = await params;
+    
+    let action = 'like';
+    try {
+      const body = await request.json();
+      if (body.action) action = body.action;
+    } catch (e) {}
+
     await connectToDatabase();
     
-    const post = await Post.findOneAndUpdate(
+    const increment = action === 'unlike' ? -1 : 1;
+    
+    let post = await Post.findOneAndUpdate(
       { slug: slug },
-      { $inc: { likes: 1 } },
+      { $inc: { likes: increment } },
       { new: true }
     );
+    
+    if (post && post.likes < 0) {
+      post = await Post.findOneAndUpdate(
+        { slug: slug },
+        { $set: { likes: 0 } },
+        { new: true }
+      );
+    }
     
     if (!post) {
       return NextResponse.json({ error: 'Post not found' }, { status: 404 });
