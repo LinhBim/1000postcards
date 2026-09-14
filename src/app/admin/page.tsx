@@ -12,6 +12,10 @@ export default function AdminDashboard() {
   const [filterType, setFilterType] = useState('all'); // all, blog, postcard, draft, published, written
   const [sortType, setSortType] = useState('number_desc'); // updated_desc, updated_asc, created_desc, created_asc, number_desc
 
+  const [totalLikes, setTotalLikes] = useState(0);
+  const [newLikesCount, setNewLikesCount] = useState(0);
+  const [topLiked, setTopLiked] = useState<any[]>([]);
+
   useEffect(() => {
     fetchPosts();
   }, []);
@@ -21,8 +25,27 @@ export default function AdminDashboard() {
     if (res.ok) {
       const data = await res.json();
       setPosts(data.posts);
+      
+      const allLikes = data.posts.reduce((sum: number, p: any) => sum + (p.likes || 0), 0);
+      setTotalLikes(allLikes);
+      
+      const lastViewed = parseInt(localStorage.getItem('adminLastViewedLikes') || '0');
+      if (allLikes > lastViewed) {
+        setNewLikesCount(allLikes - lastViewed);
+      }
+      
+      const sortedByLikes = [...data.posts]
+        .filter(p => p.likes > 0)
+        .sort((a, b) => b.likes - a.likes)
+        .slice(0, 3);
+      setTopLiked(sortedByLikes);
     }
     setLoading(false);
+  };
+
+  const markLikesAsRead = () => {
+    localStorage.setItem('adminLastViewedLikes', totalLikes.toString());
+    setNewLikesCount(0);
   };
 
   const deletePost = async (slug: string) => {
@@ -74,6 +97,9 @@ export default function AdminDashboard() {
       // If same number or both are not postcards, sort alphabetically by title
       return a.title.localeCompare(b.title);
     }
+    if (sortType === 'likes_desc') {
+      return (b.likes || 0) - (a.likes || 0);
+    }
     return 0;
   });
 
@@ -81,6 +107,39 @@ export default function AdminDashboard() {
 
   return (
     <div>
+      {newLikesCount > 0 && (
+        <div style={{ background: 'var(--accent-color)', color: '#fff', padding: '1rem', borderRadius: '8px', marginBottom: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <div>
+            <strong>❤️ Great news!</strong> You received {newLikesCount} new {newLikesCount === 1 ? 'like' : 'likes'} on your postcards!
+          </div>
+          <button onClick={markLikesAsRead} style={{ background: '#fff', color: 'var(--accent-color)', border: 'none', padding: '0.5rem 1rem', borderRadius: '4px', fontWeight: 'bold', cursor: 'pointer' }}>
+            Mark as Read
+          </button>
+        </div>
+      )}
+
+      {/* Like Statistics */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
+        <div style={{ background: '#fff', border: '1px solid #ddd', padding: '1.5rem', borderRadius: '8px' }}>
+          <h3 style={{ margin: '0 0 1rem 0', color: '#555' }}>Total Likes ❤️</h3>
+          <div style={{ fontSize: '2.5rem', fontWeight: 'bold', color: 'var(--accent-color)' }}>{totalLikes}</div>
+        </div>
+        
+        {topLiked.length > 0 && (
+          <div style={{ background: '#fff', border: '1px solid #ddd', padding: '1.5rem', borderRadius: '8px' }}>
+            <h3 style={{ margin: '0 0 1rem 0', color: '#555' }}>Top Liked Postcards 🏆</h3>
+            <ul style={{ margin: 0, padding: 0, listStyle: 'none' }}>
+              {topLiked.map(p => (
+                <li key={p.slug} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem', borderBottom: '1px solid #eee', paddingBottom: '0.5rem' }}>
+                  <Link href={`/admin/posts/${p.slug}`} style={{ textDecoration: 'none', color: 'inherit', fontWeight: 'bold' }}>{p.title}</Link>
+                  <span style={{ color: 'var(--accent-color)', fontWeight: 'bold' }}>❤️ {p.likes}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
         <h2>All Posts ({filteredPosts.length})</h2>
         <Link 
@@ -124,6 +183,7 @@ export default function AdminDashboard() {
           <option value="created_desc">Sort: Recently Created</option>
           <option value="created_asc">Sort: Oldest Created</option>
           <option value="number_desc">Sort: Number (High to Low) + Alphabet</option>
+          <option value="likes_desc">Sort: Most Liked</option>
         </select>
       </div>
 
@@ -133,6 +193,7 @@ export default function AdminDashboard() {
             <th style={{ padding: '1rem', borderBottom: '2px solid #ddd' }}>Title</th>
             <th style={{ padding: '1rem', borderBottom: '2px solid #ddd' }}>Status</th>
             <th style={{ padding: '1rem', borderBottom: '2px solid #ddd' }}>Type</th>
+            <th style={{ padding: '1rem', borderBottom: '2px solid #ddd' }}>Likes</th>
             <th style={{ padding: '1rem', borderBottom: '2px solid #ddd' }}>Language</th>
             <th style={{ padding: '1rem', borderBottom: '2px solid #ddd' }}>Date</th>
             <th style={{ padding: '1rem', borderBottom: '2px solid #ddd' }}>Actions</th>
@@ -171,6 +232,9 @@ export default function AdminDashboard() {
               <td style={{ padding: '1rem' }}>
                 {post.isPostcard ? <span style={{ background: '#e3f2fd', color: '#1565c0', padding: '0.2rem 0.5rem', borderRadius: '4px', fontSize: '0.8rem' }}>Postcard (No. {post.number})</span> : <span style={{ background: '#f5f5f5', padding: '0.2rem 0.5rem', borderRadius: '4px', fontSize: '0.8rem' }}>Standard Blog</span>}
               </td>
+              <td style={{ padding: '1rem', fontWeight: 'bold', color: 'var(--accent-color)' }}>
+                {post.likes > 0 ? `❤️ ${post.likes}` : '-'}
+              </td>
               <td style={{ padding: '1rem' }}>
                 {post.language === 'auto' ? 'Auto' : post.language.toUpperCase()}
               </td>
@@ -186,7 +250,7 @@ export default function AdminDashboard() {
           ))}
           {filteredPosts.length === 0 && (
             <tr>
-              <td colSpan={6} style={{ padding: '2rem', textAlign: 'center', color: '#888' }}>No posts found.</td>
+              <td colSpan={7} style={{ padding: '2rem', textAlign: 'center', color: '#888' }}>No posts found.</td>
             </tr>
           )}
         </tbody>
