@@ -17,6 +17,7 @@ export type BlogPost = {
   isLocked: boolean;
   updatedAt: string;
   excerpt: string;
+  likes: number;
 };
 
 export async function getBlogPosts({ includeLocked = false }: { includeLocked?: boolean } = {}): Promise<BlogPost[]> {
@@ -82,6 +83,7 @@ export async function getBlogPosts({ includeLocked = false }: { includeLocked?: 
         isLocked: post.isLocked || false,
         updatedAt: post.updatedAt ? post.updatedAt.toISOString() : new Date().toISOString(),
         excerpt,
+        likes: post.likes || 0,
       } as BlogPost;
     });
 

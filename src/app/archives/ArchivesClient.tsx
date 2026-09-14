@@ -14,6 +14,37 @@ export default function ArchivesClient({ postcards, allVibes = [] }: { postcards
   const [consecutivePicks, setConsecutivePicks] = useState(0);
   const [shuffledVibes, setShuffledVibes] = useState([...allVibes]);
   const [showScrollTop, setShowScrollTop] = useState(false);
+  
+  const [likedPosts, setLikedPosts] = useState<Set<string>>(new Set());
+  const [localLikes, setLocalLikes] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    const saved = localStorage.getItem('likedPosts');
+    if (saved) {
+      try {
+        setLikedPosts(new Set(JSON.parse(saved)));
+      } catch (e) {}
+    }
+  }, []);
+
+  const handleLike = async (slug: string) => {
+    if (likedPosts.has(slug)) return;
+    
+    const newLiked = new Set(likedPosts).add(slug);
+    setLikedPosts(newLiked);
+    localStorage.setItem('likedPosts', JSON.stringify(Array.from(newLiked)));
+    
+    setLocalLikes(prev => ({
+      ...prev,
+      [slug]: (prev[slug] ?? previewPost?.likes ?? 0) + 1
+    }));
+    
+    try {
+      await fetch(`/api/posts/${slug}/like`, { method: 'POST' });
+    } catch (e) {
+      console.error(e);
+    }
+  };
 
   const handleBlobClick = () => {
     const newShuffled = [...allVibes].sort(() => Math.random() - 0.5);
@@ -262,6 +293,20 @@ export default function ArchivesClient({ postcards, allVibes = [] }: { postcards
                     Pick another one
                   </button>
                 )}
+                <div className={styles.likeContainer}>
+                  <button 
+                    className={`${styles.likeButton} ${likedPosts.has(previewPost.slug) ? styles.liked : ''}`}
+                    onClick={() => handleLike(previewPost.slug)}
+                    disabled={likedPosts.has(previewPost.slug)}
+                  >
+                    <svg viewBox="0 0 24 24" fill={likedPosts.has(previewPost.slug) ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                    </svg>
+                  </button>
+                  <span className={styles.likeCount}>
+                    {localLikes[previewPost.slug] ?? previewPost.likes ?? 0} likes
+                  </span>
+                </div>
               </div>
             </motion.div>
           </motion.div>

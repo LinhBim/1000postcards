@@ -23,7 +23,8 @@ export default async function ArchivesPage() {
     number: p.number,
     vibe: p.vibe,
     status: p.status,
-    excerpt: p.excerpt
+    excerpt: p.excerpt,
+    likes: p.likes
   }));
 
   const allVibes = Array.from(new Set(safePostcards.flatMap(p => {

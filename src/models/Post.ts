@@ -50,6 +50,10 @@ const PostSchema = new mongoose.Schema(
     backImage: {
       type: String,
     },
+    likes: {
+      type: Number,
+      default: 0,
+    },
   },
   {
     timestamps: true,

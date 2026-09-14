@@ -26,7 +26,8 @@ export default async function Home() {
     vibe: p.vibe,
     status: p.status,
     excerpt: p.excerpt,
-    backImage: p.backImage
+    backImage: p.backImage,
+    likes: p.likes
   }));
 
   return <HomeClient postcards={safePostcards} allVibes={allVibes} />;
