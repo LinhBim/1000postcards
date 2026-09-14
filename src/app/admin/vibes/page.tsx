@@ -96,13 +96,37 @@ export default function AdminVibesStatistics() {
     return <div>Loading vibe statistics...</div>;
   }
 
+  const paginationControls = totalPages > 1 ? (
+    <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '0.5rem', marginBottom: '1rem', marginTop: '1rem' }}>
+      <button 
+        onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+        disabled={currentPage === 1}
+        style={{ padding: '0.3rem 0.8rem', fontSize: '0.9rem', border: '1px solid #ddd', background: currentPage === 1 ? '#f5f5f5' : '#fff', color: currentPage === 1 ? '#aaa' : '#333', cursor: currentPage === 1 ? 'not-allowed' : 'pointer', borderRadius: '4px' }}
+      >
+        Previous
+      </button>
+      
+      <span style={{ padding: '0.3rem 0.8rem', fontSize: '0.9rem', display: 'flex', alignItems: 'center' }}>
+        Page {currentPage} of {totalPages}
+      </span>
+      
+      <button 
+        onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+        disabled={currentPage === totalPages}
+        style={{ padding: '0.3rem 0.8rem', fontSize: '0.9rem', border: '1px solid #ddd', background: currentPage === totalPages ? '#f5f5f5' : '#fff', color: currentPage === totalPages ? '#aaa' : '#333', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', borderRadius: '4px' }}
+      >
+        Next
+      </button>
+    </div>
+  ) : null;
+
   return (
     <div>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
         <h2>Vibe Statistics ({vibeList.length} Unique Vibes)</h2>
       </div>
 
-      <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', flexWrap: 'wrap', background: '#f9f9f9', padding: '1rem', borderRadius: '8px' }}>
+      <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', flexWrap: 'wrap', background: '#f9f9f9', padding: '1rem', borderRadius: '8px' }}>
         <input 
           type="text" 
           placeholder="Search vibes..." 
@@ -123,7 +147,9 @@ export default function AdminVibesStatistics() {
         </select>
       </div>
 
-      <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: '#fff', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', borderRadius: '8px', overflow: 'hidden', marginBottom: '2rem' }}>
+      {paginationControls}
+
+      <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: '#fff', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', borderRadius: '8px', overflow: 'hidden', marginBottom: '1rem' }}>
         <thead>
           <tr style={{ background: '#f5f5f5', textAlign: 'left' }}>
             <th style={{ padding: '1rem', borderBottom: '2px solid #ddd', width: '50px' }}></th>
@@ -216,30 +242,7 @@ export default function AdminVibesStatistics() {
         </tbody>
       </table>
 
-      {/* Pagination Controls */}
-      {totalPages > 1 && (
-        <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', marginBottom: '3rem' }}>
-          <button 
-            onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
-            disabled={currentPage === 1}
-            style={{ padding: '0.5rem 1rem', border: '1px solid #ddd', background: currentPage === 1 ? '#f5f5f5' : '#fff', color: currentPage === 1 ? '#aaa' : '#333', cursor: currentPage === 1 ? 'not-allowed' : 'pointer', borderRadius: '4px' }}
-          >
-            Previous
-          </button>
-          
-          <span style={{ padding: '0.5rem 1rem', display: 'flex', alignItems: 'center' }}>
-            Page {currentPage} of {totalPages}
-          </span>
-          
-          <button 
-            onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
-            disabled={currentPage === totalPages}
-            style={{ padding: '0.5rem 1rem', border: '1px solid #ddd', background: currentPage === totalPages ? '#f5f5f5' : '#fff', color: currentPage === totalPages ? '#aaa' : '#333', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', borderRadius: '4px' }}
-          >
-            Next
-          </button>
-        </div>
-      )}
+      {paginationControls}
     </div>
   );
 }
