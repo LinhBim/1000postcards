@@ -11,6 +11,14 @@ export default function AdminDashboard() {
   const [search, setSearch] = useState('');
   const [filterType, setFilterType] = useState('all'); // all, blog, postcard, draft, published, written
   const [sortType, setSortType] = useState('number_desc'); // updated_desc, updated_asc, created_desc, created_asc, number_desc
+  
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 50;
+
+  // Reset to page 1 when search or filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [search, filterType, sortType]);
 
   const [totalLikes, setTotalLikes] = useState(0);
   const [newLikesCount, setNewLikesCount] = useState(0);
@@ -103,6 +111,9 @@ export default function AdminDashboard() {
     return 0;
   });
 
+  const totalPages = Math.ceil(filteredPosts.length / ITEMS_PER_PAGE);
+  const paginatedPosts = filteredPosts.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE);
+
   if (loading) return <div>Loading...</div>;
 
   return (
@@ -187,7 +198,7 @@ export default function AdminDashboard() {
         </select>
       </div>
 
-      <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+      <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '2rem' }}>
         <thead>
           <tr style={{ background: '#f5f5f5', textAlign: 'left' }}>
             <th style={{ padding: '1rem', borderBottom: '2px solid #ddd' }}>Title</th>
@@ -200,7 +211,7 @@ export default function AdminDashboard() {
           </tr>
         </thead>
         <tbody>
-          {filteredPosts.map(post => (
+          {paginatedPosts.map(post => (
             <tr key={post.slug} style={{ borderBottom: '1px solid #eee' }}>
               <td style={{ padding: '1rem', display: 'flex', gap: '1rem', alignItems: 'center' }}>
                 {post.coverImage && (
@@ -255,6 +266,31 @@ export default function AdminDashboard() {
           )}
         </tbody>
       </table>
+
+      {/* Pagination Controls */}
+      {totalPages > 1 && (
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', marginBottom: '3rem' }}>
+          <button 
+            onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+            disabled={currentPage === 1}
+            style={{ padding: '0.5rem 1rem', border: '1px solid #ddd', background: currentPage === 1 ? '#f5f5f5' : '#fff', color: currentPage === 1 ? '#aaa' : '#333', cursor: currentPage === 1 ? 'not-allowed' : 'pointer', borderRadius: '4px' }}
+          >
+            Previous
+          </button>
+          
+          <span style={{ padding: '0.5rem 1rem', display: 'flex', alignItems: 'center' }}>
+            Page {currentPage} of {totalPages}
+          </span>
+          
+          <button 
+            onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+            disabled={currentPage === totalPages}
+            style={{ padding: '0.5rem 1rem', border: '1px solid #ddd', background: currentPage === totalPages ? '#f5f5f5' : '#fff', color: currentPage === totalPages ? '#aaa' : '#333', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', borderRadius: '4px' }}
+          >
+            Next
+          </button>
+        </div>
+      )}
     </div>
   );
 }

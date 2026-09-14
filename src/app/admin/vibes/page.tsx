@@ -10,6 +10,13 @@ export default function AdminVibesStatistics() {
   const [sortType, setSortType] = useState('count_desc');
   const [expandedVibes, setExpandedVibes] = useState<Record<string, boolean>>({});
 
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 50;
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [search, sortType]);
+
   useEffect(() => {
     fetchPosts();
   }, []);
@@ -82,6 +89,9 @@ export default function AdminVibesStatistics() {
     return 0;
   });
 
+  const totalPages = Math.ceil(vibeList.length / ITEMS_PER_PAGE);
+  const paginatedVibes = vibeList.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE);
+
   if (loading) {
     return <div>Loading vibe statistics...</div>;
   }
@@ -113,7 +123,7 @@ export default function AdminVibesStatistics() {
         </select>
       </div>
 
-      <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: '#fff', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', borderRadius: '8px', overflow: 'hidden' }}>
+      <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: '#fff', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', borderRadius: '8px', overflow: 'hidden', marginBottom: '2rem' }}>
         <thead>
           <tr style={{ background: '#f5f5f5', textAlign: 'left' }}>
             <th style={{ padding: '1rem', borderBottom: '2px solid #ddd', width: '50px' }}></th>
@@ -123,7 +133,7 @@ export default function AdminVibesStatistics() {
           </tr>
         </thead>
         <tbody>
-          {vibeList.map((vibeItem, index) => (
+          {paginatedVibes.map((vibeItem, index) => (
             <React.Fragment key={vibeItem.name}>
               <tr 
                 onClick={() => toggleVibe(vibeItem.name)} 
@@ -135,7 +145,7 @@ export default function AdminVibesStatistics() {
                   {expandedVibes[vibeItem.name] ? '▼' : '▶'}
                 </td>
                 <td style={{ padding: '1rem', color: '#888', fontWeight: 'bold' }}>
-                  {index + 1}
+                  {(currentPage - 1) * ITEMS_PER_PAGE + index + 1}
                 </td>
                 <td style={{ padding: '1rem', fontWeight: 'bold', color: 'var(--accent-color)' }}>
                   #{vibeItem.name}
@@ -205,6 +215,31 @@ export default function AdminVibesStatistics() {
           )}
         </tbody>
       </table>
+
+      {/* Pagination Controls */}
+      {totalPages > 1 && (
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', marginBottom: '3rem' }}>
+          <button 
+            onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+            disabled={currentPage === 1}
+            style={{ padding: '0.5rem 1rem', border: '1px solid #ddd', background: currentPage === 1 ? '#f5f5f5' : '#fff', color: currentPage === 1 ? '#aaa' : '#333', cursor: currentPage === 1 ? 'not-allowed' : 'pointer', borderRadius: '4px' }}
+          >
+            Previous
+          </button>
+          
+          <span style={{ padding: '0.5rem 1rem', display: 'flex', alignItems: 'center' }}>
+            Page {currentPage} of {totalPages}
+          </span>
+          
+          <button 
+            onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+            disabled={currentPage === totalPages}
+            style={{ padding: '0.5rem 1rem', border: '1px solid #ddd', background: currentPage === totalPages ? '#f5f5f5' : '#fff', color: currentPage === totalPages ? '#aaa' : '#333', cursor: currentPage === totalPages ? 'not-allowed' : 'pointer', borderRadius: '4px' }}
+          >
+            Next
+          </button>
+        </div>
+      )}
     </div>
   );
 }
