@@ -5,7 +5,7 @@ export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   // Paths that require authentication
-  const isApiProtected = pathname.startsWith('/api/posts') || 
+  const isApiProtected = (pathname.startsWith('/api/posts') && !pathname.endsWith('/like')) || 
                          pathname.startsWith('/api/upload') || 
                          pathname.startsWith('/api/about');
                          
